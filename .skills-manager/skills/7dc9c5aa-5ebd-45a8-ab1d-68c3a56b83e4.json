@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "7dc9c5aa-5ebd-45a8-ab1d-68c3a56b83e4",
+  "path": "security-review",
+  "path_key": "security-review",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "affaan-m/ecc/security-review",
+    "subpath": "skills/security-review",
+    "branch": null
+  }
+}
