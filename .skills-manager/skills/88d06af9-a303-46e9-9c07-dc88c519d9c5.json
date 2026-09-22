@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "88d06af9-a303-46e9-9c07-dc88c519d9c5",
+  "path": "requesting-code-review",
+  "path_key": "requesting-code-review",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "obra/superpowers/requesting-code-review",
+    "subpath": "skills/requesting-code-review",
+    "branch": null
+  }
+}
