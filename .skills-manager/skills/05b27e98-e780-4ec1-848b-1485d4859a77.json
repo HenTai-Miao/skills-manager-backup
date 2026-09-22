@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "05b27e98-e780-4ec1-848b-1485d4859a77",
+  "path": "vercel-react-view-transitions",
+  "path_key": "vercel-react-view-transitions",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/vercel-labs/agent-skills.git",
+    "subpath": "skills/react-view-transitions",
+    "branch": null
+  }
+}

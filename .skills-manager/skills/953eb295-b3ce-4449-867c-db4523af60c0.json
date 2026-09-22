@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "953eb295-b3ce-4449-867c-db4523af60c0",
+  "path": "planning-with-files-zht",
+  "path_key": "planning-with-files-zht",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/OthmanAdi/planning-with-files",
+    "subpath": "skills/i18n/planning-with-files-zht",
+    "branch": null
+  }
+}

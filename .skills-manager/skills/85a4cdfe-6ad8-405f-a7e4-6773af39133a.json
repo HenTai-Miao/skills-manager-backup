@@ -6,8 +6,8 @@
   "enabled": true,
   "tags": [],
   "source": {
-    "type": "skillssh",
-    "ref": "anthropics/skills/theme-factory",
+    "type": "git",
+    "ref": "https://github.com/anthropics/skills.git",
     "subpath": "skills/theme-factory",
     "branch": null
   }

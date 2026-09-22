@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "389bf6a0-7885-4f54-96e6-aadf70113896",
+  "path": "vitepress",
+  "path_key": "vitepress",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/antfu/skills.git",
+    "subpath": "skills/vitepress",
+    "branch": null
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "66fa6086-0869-431f-bbc3-e94776eb927f",
+  "path": "nitro",
+  "path_key": "nitro",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/antfu/skills.git",
+    "subpath": "skills/nitro",
+    "branch": null
+  }
+}

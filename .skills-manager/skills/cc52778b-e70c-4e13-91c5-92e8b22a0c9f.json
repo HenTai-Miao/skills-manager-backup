@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "cc52778b-e70c-4e13-91c5-92e8b22a0c9f",
+  "path": "minimax-music-playlist",
+  "path_key": "minimax-music-playlist",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/MiniMax-AI/skills.git",
+    "subpath": "skills/minimax-music-playlist",
+    "branch": null
+  }
+}

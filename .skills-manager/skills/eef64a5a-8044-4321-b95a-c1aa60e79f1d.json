@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "eef64a5a-8044-4321-b95a-c1aa60e79f1d",
+  "path": "react-native-dev",
+  "path_key": "react-native-dev",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/MiniMax-AI/skills.git",
+    "subpath": "skills/react-native-dev",
+    "branch": null
+  }
+}

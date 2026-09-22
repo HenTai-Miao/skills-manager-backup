@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "aa3dcbbd-4292-4ab3-9f94-950f7b908cbc",
+  "path": "flutter-dev",
+  "path_key": "flutter-dev",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/MiniMax-AI/skills.git",
+    "subpath": "skills/flutter-dev",
+    "branch": null
+  }
+}

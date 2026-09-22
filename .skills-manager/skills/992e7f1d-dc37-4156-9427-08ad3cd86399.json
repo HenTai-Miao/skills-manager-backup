@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "992e7f1d-dc37-4156-9427-08ad3cd86399",
+  "path": "nuxt",
+  "path_key": "nuxt",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/antfu/skills.git",
+    "subpath": "skills/nuxt",
+    "branch": null
+  }
+}

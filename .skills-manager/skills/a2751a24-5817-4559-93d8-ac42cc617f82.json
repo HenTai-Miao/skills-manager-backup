@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "a2751a24-5817-4559-93d8-ac42cc617f82",
+  "path": "gif-sticker-maker",
+  "path_key": "gif-sticker-maker",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/MiniMax-AI/skills.git",
+    "subpath": "skills/gif-sticker-maker",
+    "branch": null
+  }
+}

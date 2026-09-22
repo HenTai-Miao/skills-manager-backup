@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "26ece7de-db96-4368-9543-64d05d0bb17b",
+  "path": "planning-with-files-de",
+  "path_key": "planning-with-files-de",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/OthmanAdi/planning-with-files",
+    "subpath": "skills/i18n/planning-with-files-de",
+    "branch": null
+  }
+}

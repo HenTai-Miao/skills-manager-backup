@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "176cec13-82b6-4f8f-a8ee-f48112af0f53",
+  "path": "mmx-cli",
+  "path_key": "mmx-cli",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/MiniMax-AI/skills.git",
+    "subpath": "skills/minimax-multimodal-toolkit",
+    "branch": null
+  }
+}

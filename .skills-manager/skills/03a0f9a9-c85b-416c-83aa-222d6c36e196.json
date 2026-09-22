@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "03a0f9a9-c85b-416c-83aa-222d6c36e196",
+  "path": "pnpm",
+  "path_key": "pnpm",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/antfu/skills.git",
+    "subpath": "skills/pnpm",
+    "branch": null
+  }
+}

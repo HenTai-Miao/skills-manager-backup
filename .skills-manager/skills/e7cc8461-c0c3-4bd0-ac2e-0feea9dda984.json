@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "e7cc8461-c0c3-4bd0-ac2e-0feea9dda984",
+  "path": "turborepo",
+  "path_key": "turborepo",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/antfu/skills.git",
+    "subpath": "skills/turborepo",
+    "branch": null
+  }
+}

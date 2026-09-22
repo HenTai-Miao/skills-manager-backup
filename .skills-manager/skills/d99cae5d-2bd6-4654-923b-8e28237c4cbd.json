@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "d99cae5d-2bd6-4654-923b-8e28237c4cbd",
+  "path": "vercel-optimize",
+  "path_key": "vercel-optimize",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/vercel-labs/agent-skills.git",
+    "subpath": "skills/vercel-optimize",
+    "branch": null
+  }
+}

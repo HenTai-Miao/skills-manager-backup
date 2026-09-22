@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "980349ab-ea73-4b63-bb98-c41e6f952c8a",
+  "path": "vitest",
+  "path_key": "vitest",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/antfu/skills.git",
+    "subpath": "skills/vitest",
+    "branch": null
+  }
+}

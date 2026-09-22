@@ -6,8 +6,8 @@
   "enabled": true,
   "tags": [],
   "source": {
-    "type": "skillssh",
-    "ref": "anthropics/skills/skill-creator",
+    "type": "git",
+    "ref": "https://github.com/anthropics/skills.git",
     "subpath": "skills/skill-creator",
     "branch": null
   }

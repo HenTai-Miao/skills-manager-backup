@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "3da87030-4c84-4fa3-8591-a4181acc46a4",
+  "path": "antfu-design",
+  "path_key": "antfu-design",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/antfu/skills.git",
+    "subpath": "skills/antfu-design",
+    "branch": null
+  }
+}

@@ -6,8 +6,8 @@
   "enabled": true,
   "tags": [],
   "source": {
-    "type": "skillssh",
-    "ref": "anthropics/skills/brand-guidelines",
+    "type": "git",
+    "ref": "https://github.com/anthropics/skills.git",
     "subpath": "skills/brand-guidelines",
     "branch": null
   }

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "0d29d4c0-8c5c-44ab-a2c0-61535b614818",
+  "path": "vue-best-practices",
+  "path_key": "vue-best-practices",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/antfu/skills.git",
+    "subpath": "skills/vue-best-practices",
+    "branch": null
+  }
+}

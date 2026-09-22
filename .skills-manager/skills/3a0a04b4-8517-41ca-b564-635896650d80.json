@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "3a0a04b4-8517-41ca-b564-635896650d80",
+  "path": "pinia",
+  "path_key": "pinia",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/antfu/skills.git",
+    "subpath": "skills/pinia",
+    "branch": null
+  }
+}

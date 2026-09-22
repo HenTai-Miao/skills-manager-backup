@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "60ebecaf-6b0b-42a9-aaa4-83715b347701",
+  "path": "tsdown",
+  "path_key": "tsdown",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/antfu/skills.git",
+    "subpath": "skills/tsdown",
+    "branch": null
+  }
+}

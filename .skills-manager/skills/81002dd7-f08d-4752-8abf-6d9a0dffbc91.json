@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "81002dd7-f08d-4752-8abf-6d9a0dffbc91",
+  "path": "vercel-cli-with-tokens",
+  "path_key": "vercel-cli-with-tokens",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/vercel-labs/agent-skills.git",
+    "subpath": "skills/vercel-cli-with-tokens",
+    "branch": null
+  }
+}

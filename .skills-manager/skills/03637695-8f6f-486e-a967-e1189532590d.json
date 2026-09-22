@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "03637695-8f6f-486e-a967-e1189532590d",
+  "path": "frontend-dev",
+  "path_key": "frontend-dev",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/MiniMax-AI/skills.git",
+    "subpath": "skills/frontend-dev",
+    "branch": null
+  }
+}
