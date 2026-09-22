@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "0a393621-7bbd-40a5-869f-3bb2295f1d61",
+  "path": "kubernetes-patterns",
+  "path_key": "kubernetes-patterns",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/kubernetes-patterns",
+    "branch": null
+  }
+}

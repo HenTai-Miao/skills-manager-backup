@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "95667266-9daa-4140-88c3-1bf426fb964a",
+  "path": "compose-multiplatform-patterns",
+  "path_key": "compose-multiplatform-patterns",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/compose-multiplatform-patterns",
+    "branch": null
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "4a1b1ce4-6991-4ae0-8ccd-5773d32b847e",
+  "path": "orch-refine-code",
+  "path_key": "orch-refine-code",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/orch-refine-code",
+    "branch": null
+  }
+}

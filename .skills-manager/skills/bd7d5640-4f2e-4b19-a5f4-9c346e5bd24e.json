@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "bd7d5640-4f2e-4b19-a5f4-9c346e5bd24e",
+  "path": "enterprise-agent-ops",
+  "path_key": "enterprise-agent-ops",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/enterprise-agent-ops",
+    "branch": null
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "ca95020d-dd0c-42b5-b4a6-a44578670292",
+  "path": "mailtrap-email-integration",
+  "path_key": "mailtrap-email-integration",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/mailtrap-email-integration",
+    "branch": null
+  }
+}

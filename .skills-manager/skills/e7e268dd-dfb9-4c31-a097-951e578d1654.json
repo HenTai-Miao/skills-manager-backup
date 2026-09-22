@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "e7e268dd-dfb9-4c31-a097-951e578d1654",
+  "path": "homelab-vlan-segmentation",
+  "path_key": "homelab-vlan-segmentation",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/homelab-vlan-segmentation",
+    "branch": null
+  }
+}

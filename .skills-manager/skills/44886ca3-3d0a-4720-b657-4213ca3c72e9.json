@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "44886ca3-3d0a-4720-b657-4213ca3c72e9",
+  "path": "search-first",
+  "path_key": "search-first",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/search-first",
+    "branch": null
+  }
+}

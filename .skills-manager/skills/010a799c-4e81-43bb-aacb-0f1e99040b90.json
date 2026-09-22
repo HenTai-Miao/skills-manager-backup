@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "010a799c-4e81-43bb-aacb-0f1e99040b90",
+  "path": "perl-security",
+  "path_key": "perl-security",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/perl-security",
+    "branch": null
+  }
+}

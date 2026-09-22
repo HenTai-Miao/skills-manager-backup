@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "fff81c97-a7a8-4130-97e5-e2bfe568da54",
+  "path": "terminal-opener",
+  "path_key": "terminal-opener",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/terminal-opener",
+    "branch": null
+  }
+}

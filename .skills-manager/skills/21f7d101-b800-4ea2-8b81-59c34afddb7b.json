@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "21f7d101-b800-4ea2-8b81-59c34afddb7b",
+  "path": "automation-audit-ops",
+  "path_key": "automation-audit-ops",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/automation-audit-ops",
+    "branch": null
+  }
+}

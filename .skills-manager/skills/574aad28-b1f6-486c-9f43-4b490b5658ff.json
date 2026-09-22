@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "574aad28-b1f6-486c-9f43-4b490b5658ff",
+  "path": "jira-integration",
+  "path_key": "jira-integration",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/jira-integration",
+    "branch": null
+  }
+}

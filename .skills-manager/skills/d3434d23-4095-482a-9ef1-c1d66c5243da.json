@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "d3434d23-4095-482a-9ef1-c1d66c5243da",
+  "path": "plan-orchestrate",
+  "path_key": "plan-orchestrate",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/plan-orchestrate",
+    "branch": null
+  }
+}

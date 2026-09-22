@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "44f6ee0a-769e-455a-9e02-8a1dc7ce9018",
+  "path": "nuxt4-patterns",
+  "path_key": "nuxt4-patterns",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/nuxt4-patterns",
+    "branch": null
+  }
+}

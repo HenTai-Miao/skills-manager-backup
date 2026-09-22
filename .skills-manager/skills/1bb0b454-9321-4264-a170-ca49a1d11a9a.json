@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "1bb0b454-9321-4264-a170-ca49a1d11a9a",
+  "path": "claude-devfleet",
+  "path_key": "claude-devfleet",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/claude-devfleet",
+    "branch": null
+  }
+}

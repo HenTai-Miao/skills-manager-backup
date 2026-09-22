@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "ac8b1c63-0f50-4aa4-aa21-e28506fd8da4",
+  "path": "ml-adoption-playbook",
+  "path_key": "ml-adoption-playbook",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/ml-adoption-playbook",
+    "branch": null
+  }
+}

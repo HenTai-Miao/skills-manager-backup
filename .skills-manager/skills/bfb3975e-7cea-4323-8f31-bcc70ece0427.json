@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "bfb3975e-7cea-4323-8f31-bcc70ece0427",
+  "path": "prediction-market-oracle-research",
+  "path_key": "prediction-market-oracle-research",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/prediction-market-oracle-research",
+    "branch": null
+  }
+}

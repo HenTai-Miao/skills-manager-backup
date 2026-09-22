@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "364587a2-b780-46f2-936a-7ceb90cb873f",
+  "path": "investor-outreach",
+  "path_key": "investor-outreach",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/investor-outreach",
+    "branch": null
+  }
+}

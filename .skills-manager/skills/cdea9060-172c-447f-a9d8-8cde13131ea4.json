@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "cdea9060-172c-447f-a9d8-8cde13131ea4",
+  "path": "clickhouse-io",
+  "path_key": "clickhouse-io",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/clickhouse-io",
+    "branch": null
+  }
+}

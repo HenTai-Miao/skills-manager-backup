@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "0bcc0f87-5dbc-4633-81e3-d9a193d86099",
+  "path": "quarkus-patterns",
+  "path_key": "quarkus-patterns",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/quarkus-patterns",
+    "branch": null
+  }
+}

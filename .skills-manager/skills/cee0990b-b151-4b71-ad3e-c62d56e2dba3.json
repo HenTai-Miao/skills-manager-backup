@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "cee0990b-b151-4b71-ad3e-c62d56e2dba3",
+  "path": "frontend-patterns",
+  "path_key": "frontend-patterns",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/frontend-patterns",
+    "branch": null
+  }
+}

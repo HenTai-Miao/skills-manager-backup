@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "440cfdf0-8d03-4afa-90b3-19140cc520b3",
+  "path": "gateguard",
+  "path_key": "gateguard",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/gateguard",
+    "branch": null
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "01889f87-b012-4c25-9e9e-e646fe9ee58c",
+  "path": "golang-testing",
+  "path_key": "golang-testing",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/golang-testing",
+    "branch": null
+  }
+}

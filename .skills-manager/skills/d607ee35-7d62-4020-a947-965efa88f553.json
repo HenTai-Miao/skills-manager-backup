@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "d607ee35-7d62-4020-a947-965efa88f553",
+  "path": "mcp-server-patterns",
+  "path_key": "mcp-server-patterns",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/mcp-server-patterns",
+    "branch": null
+  }
+}

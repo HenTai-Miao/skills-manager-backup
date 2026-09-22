@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "ecc0e4ed-8930-479a-ad9d-df4e49de1e50",
+  "path": "orch-add-feature",
+  "path_key": "orch-add-feature",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/orch-add-feature",
+    "branch": null
+  }
+}

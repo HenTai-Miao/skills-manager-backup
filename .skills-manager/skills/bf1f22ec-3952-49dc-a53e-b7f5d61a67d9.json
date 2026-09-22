@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "bf1f22ec-3952-49dc-a53e-b7f5d61a67d9",
+  "path": "skill-scout",
+  "path_key": "skill-scout",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/skill-scout",
+    "branch": null
+  }
+}

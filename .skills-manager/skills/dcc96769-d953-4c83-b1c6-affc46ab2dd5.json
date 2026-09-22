@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "dcc96769-d953-4c83-b1c6-affc46ab2dd5",
+  "path": "team-builder",
+  "path_key": "team-builder",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/team-builder",
+    "branch": null
+  }
+}

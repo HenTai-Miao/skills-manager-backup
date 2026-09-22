@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "58b801af-c128-4e59-9642-86bf1d4b4e05",
+  "path": "mysql-patterns",
+  "path_key": "mysql-patterns",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/mysql-patterns",
+    "branch": null
+  }
+}

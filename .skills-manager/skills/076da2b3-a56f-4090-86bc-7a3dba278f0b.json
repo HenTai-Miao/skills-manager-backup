@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "076da2b3-a56f-4090-86bc-7a3dba278f0b",
+  "path": "loop-design-check",
+  "path_key": "loop-design-check",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/loop-design-check",
+    "branch": null
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "3a9c67cf-9a07-408d-9746-696478cffe09",
+  "path": "terminal-ops",
+  "path_key": "terminal-ops",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/terminal-ops",
+    "branch": null
+  }
+}

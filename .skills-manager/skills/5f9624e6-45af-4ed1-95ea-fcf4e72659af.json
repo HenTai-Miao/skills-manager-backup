@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "5f9624e6-45af-4ed1-95ea-fcf4e72659af",
+  "path": "operator-approval-loop",
+  "path_key": "operator-approval-loop",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/operator-approval-loop",
+    "branch": null
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "ef432465-0c32-4575-b357-647ae7b3b958",
+  "path": "contract-first",
+  "path_key": "contract-first",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/contract-first",
+    "branch": null
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "9f2686ca-0330-43b9-bb0b-2820929c16da",
+  "path": "foundation-models-on-device",
+  "path_key": "foundation-models-on-device",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/foundation-models-on-device",
+    "branch": null
+  }
+}

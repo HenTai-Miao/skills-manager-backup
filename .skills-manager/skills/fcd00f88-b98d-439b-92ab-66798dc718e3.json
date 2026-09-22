@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "fcd00f88-b98d-439b-92ab-66798dc718e3",
+  "path": "openclaw-persona-forge",
+  "path_key": "openclaw-persona-forge",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/openclaw-persona-forge",
+    "branch": null
+  }
+}

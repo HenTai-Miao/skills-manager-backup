@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "ea55470b-1444-4895-be6d-1780b805d690",
+  "path": "redis-patterns",
+  "path_key": "redis-patterns",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/redis-patterns",
+    "branch": null
+  }
+}

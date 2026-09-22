@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "45c4e6ea-7046-4a97-be8f-3aee97b55737",
+  "path": "living-docs-governance",
+  "path_key": "living-docs-governance",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/living-docs-governance",
+    "branch": null
+  }
+}

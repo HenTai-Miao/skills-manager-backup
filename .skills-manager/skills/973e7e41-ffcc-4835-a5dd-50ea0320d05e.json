@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "973e7e41-ffcc-4835-a5dd-50ea0320d05e",
+  "path": "vite-patterns",
+  "path_key": "vite-patterns",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/vite-patterns",
+    "branch": null
+  }
+}

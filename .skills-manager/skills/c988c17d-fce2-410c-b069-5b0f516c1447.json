@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "c988c17d-fce2-410c-b069-5b0f516c1447",
+  "path": "codebase-onboarding",
+  "path_key": "codebase-onboarding",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/codebase-onboarding",
+    "branch": null
+  }
+}

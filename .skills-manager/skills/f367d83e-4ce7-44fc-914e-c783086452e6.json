@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "f367d83e-4ce7-44fc-914e-c783086452e6",
+  "path": "opensource-pipeline",
+  "path_key": "opensource-pipeline",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/opensource-pipeline",
+    "branch": null
+  }
+}

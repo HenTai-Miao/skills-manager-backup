@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "af894007-38ed-4444-b14a-48597a511909",
+  "path": "kotlin-testing",
+  "path_key": "kotlin-testing",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/kotlin-testing",
+    "branch": null
+  }
+}

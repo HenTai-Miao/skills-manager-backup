@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "acd82eb1-e70e-4c84-8d9c-f7d9e6b3b60b",
+  "path": "crosspost",
+  "path_key": "crosspost",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/crosspost",
+    "branch": null
+  }
+}

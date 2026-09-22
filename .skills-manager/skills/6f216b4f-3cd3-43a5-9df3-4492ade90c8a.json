@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "6f216b4f-3cd3-43a5-9df3-4492ade90c8a",
+  "path": "laravel-plugin-discovery",
+  "path_key": "laravel-plugin-discovery",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/laravel-plugin-discovery",
+    "branch": null
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "a93fc40b-b877-4f1c-91c9-9e3b4b8434b9",
+  "path": "hookify-rules",
+  "path_key": "hookify-rules",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/hookify-rules",
+    "branch": null
+  }
+}

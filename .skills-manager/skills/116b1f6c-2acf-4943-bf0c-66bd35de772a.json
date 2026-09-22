@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "116b1f6c-2acf-4943-bf0c-66bd35de772a",
+  "path": "agent-eval",
+  "path_key": "agent-eval",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/agent-eval",
+    "branch": null
+  }
+}

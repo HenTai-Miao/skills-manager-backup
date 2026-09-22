@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "779fe9c3-5703-4f02-aff6-a165400ba751",
+  "path": "laravel-verification",
+  "path_key": "laravel-verification",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/laravel-verification",
+    "branch": null
+  }
+}

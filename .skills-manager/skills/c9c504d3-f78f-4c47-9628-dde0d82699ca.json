@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "c9c504d3-f78f-4c47-9628-dde0d82699ca",
+  "path": "agentic-engineering",
+  "path_key": "agentic-engineering",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/agentic-engineering",
+    "branch": null
+  }
+}

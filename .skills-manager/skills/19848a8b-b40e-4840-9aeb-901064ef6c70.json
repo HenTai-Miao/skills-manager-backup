@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "19848a8b-b40e-4840-9aeb-901064ef6c70",
+  "path": "seo",
+  "path_key": "seo",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/seo",
+    "branch": null
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "573fbf4d-1e86-48f7-8858-07ae3825e04b",
+  "path": "healthcare-emr-patterns",
+  "path_key": "healthcare-emr-patterns",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/healthcare-emr-patterns",
+    "branch": null
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "cff37c29-c6f9-452d-8c98-c83f6d7519cf",
+  "path": "dart-flutter-patterns",
+  "path_key": "dart-flutter-patterns",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/dart-flutter-patterns",
+    "branch": null
+  }
+}

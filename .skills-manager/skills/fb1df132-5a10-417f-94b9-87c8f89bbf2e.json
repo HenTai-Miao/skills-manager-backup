@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "fb1df132-5a10-417f-94b9-87c8f89bbf2e",
+  "path": "recsys-pipeline-architect",
+  "path_key": "recsys-pipeline-architect",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/recsys-pipeline-architect",
+    "branch": null
+  }
+}

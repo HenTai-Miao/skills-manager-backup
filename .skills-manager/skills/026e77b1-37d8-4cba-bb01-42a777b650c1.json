@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "026e77b1-37d8-4cba-bb01-42a777b650c1",
+  "path": "product-capability",
+  "path_key": "product-capability",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/product-capability",
+    "branch": null
+  }
+}

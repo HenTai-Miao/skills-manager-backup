@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "eba11cfd-040e-4b54-b764-73ce27e056d1",
+  "path": "ai-regression-testing",
+  "path_key": "ai-regression-testing",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/ai-regression-testing",
+    "branch": null
+  }
+}

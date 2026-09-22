@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "9b2986a3-f21b-4a63-a816-4abe1970cc19",
+  "path": "brand-voice",
+  "path_key": "brand-voice",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/brand-voice",
+    "branch": null
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "803cbcd8-4c12-4087-8580-094fa56033ad",
+  "path": "ito-training",
+  "path_key": "ito-training",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/ito-training",
+    "branch": null
+  }
+}

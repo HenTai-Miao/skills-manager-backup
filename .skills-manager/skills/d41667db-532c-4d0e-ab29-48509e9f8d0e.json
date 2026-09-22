@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "d41667db-532c-4d0e-ab29-48509e9f8d0e",
+  "path": "finance-billing-ops",
+  "path_key": "finance-billing-ops",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/finance-billing-ops",
+    "branch": null
+  }
+}

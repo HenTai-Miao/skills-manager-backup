@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "74b15912-156a-459c-829e-eb7d9f8a8d23",
+  "path": "unified-memory",
+  "path_key": "unified-memory",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/unified-memory",
+    "branch": null
+  }
+}

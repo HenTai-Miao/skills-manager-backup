@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "8d957ac4-ee8a-4f13-af55-c0cad3ea5357",
+  "path": "hermes-imports",
+  "path_key": "hermes-imports",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/hermes-imports",
+    "branch": null
+  }
+}

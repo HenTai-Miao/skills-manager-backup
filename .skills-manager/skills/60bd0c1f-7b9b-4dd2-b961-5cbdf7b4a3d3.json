@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "60bd0c1f-7b9b-4dd2-b961-5cbdf7b4a3d3",
+  "path": "java-coding-standards",
+  "path_key": "java-coding-standards",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/java-coding-standards",
+    "branch": null
+  }
+}

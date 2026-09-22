@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "86afb4b3-5909-45bf-b73c-b9958d87652f",
+  "path": "quarkus-tdd",
+  "path_key": "quarkus-tdd",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/quarkus-tdd",
+    "branch": null
+  }
+}

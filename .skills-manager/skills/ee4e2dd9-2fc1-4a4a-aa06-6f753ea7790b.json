@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "ee4e2dd9-2fc1-4a4a-aa06-6f753ea7790b",
+  "path": "dotnet-patterns",
+  "path_key": "dotnet-patterns",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/dotnet-patterns",
+    "branch": null
+  }
+}

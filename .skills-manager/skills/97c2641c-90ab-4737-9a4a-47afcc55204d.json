@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "97c2641c-90ab-4737-9a4a-47afcc55204d",
+  "path": "context-budget",
+  "path_key": "context-budget",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/context-budget",
+    "branch": null
+  }
+}

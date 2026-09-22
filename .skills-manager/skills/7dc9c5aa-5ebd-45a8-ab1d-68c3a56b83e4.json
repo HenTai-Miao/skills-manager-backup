@@ -6,8 +6,8 @@
   "enabled": true,
   "tags": [],
   "source": {
-    "type": "skillssh",
-    "ref": "affaan-m/ecc/security-review",
+    "type": "git",
+    "ref": "affaan-m/ecc",
     "subpath": "skills/security-review",
     "branch": null
   }

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "13f7ff99-2ab4-4755-93d8-a873497b98c8",
+  "path": "investor-materials",
+  "path_key": "investor-materials",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/investor-materials",
+    "branch": null
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "bbc96a8b-1960-43ea-839b-5cb35353e2ce",
+  "path": "energy-procurement",
+  "path_key": "energy-procurement",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/energy-procurement",
+    "branch": null
+  }
+}

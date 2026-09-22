@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "f1455144-35cc-4e3d-8464-351657b784cc",
+  "path": "prediction-market-risk-review",
+  "path_key": "prediction-market-risk-review",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/prediction-market-risk-review",
+    "branch": null
+  }
+}

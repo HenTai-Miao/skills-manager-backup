@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "5c8c8f0d-47cf-4612-957b-3c2b3ddbcf36",
+  "path": "continuous-agent-loop",
+  "path_key": "continuous-agent-loop",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/continuous-agent-loop",
+    "branch": null
+  }
+}

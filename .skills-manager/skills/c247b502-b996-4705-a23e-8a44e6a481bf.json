@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "c247b502-b996-4705-a23e-8a44e6a481bf",
+  "path": "vue-patterns",
+  "path_key": "vue-patterns",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/vue-patterns",
+    "branch": null
+  }
+}

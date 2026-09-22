@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "400642cc-b963-4366-a32b-d20a379605ab",
+  "path": "benchmark-optimization-loop",
+  "path_key": "benchmark-optimization-loop",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/benchmark-optimization-loop",
+    "branch": null
+  }
+}

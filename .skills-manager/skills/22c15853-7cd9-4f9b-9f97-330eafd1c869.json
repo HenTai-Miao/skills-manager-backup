@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "22c15853-7cd9-4f9b-9f97-330eafd1c869",
+  "path": "video-editing",
+  "path_key": "video-editing",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/video-editing",
+    "branch": null
+  }
+}

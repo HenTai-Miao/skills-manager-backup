@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "0988ca96-b7d2-41b2-af72-56ed48180f6c",
+  "path": "videodb",
+  "path_key": "videodb",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/videodb",
+    "branch": null
+  }
+}

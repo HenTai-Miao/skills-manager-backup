@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "3db2523c-74f8-4c5f-a191-ed295837e21f",
+  "path": "frontend-slides",
+  "path_key": "frontend-slides",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/frontend-slides",
+    "branch": null
+  }
+}

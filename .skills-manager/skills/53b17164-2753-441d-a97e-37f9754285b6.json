@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "53b17164-2753-441d-a97e-37f9754285b6",
+  "path": "production-scheduling",
+  "path_key": "production-scheduling",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/production-scheduling",
+    "branch": null
+  }
+}

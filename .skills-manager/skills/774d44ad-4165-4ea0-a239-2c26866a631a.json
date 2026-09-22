@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "774d44ad-4165-4ea0-a239-2c26866a631a",
+  "path": "lead-intelligence",
+  "path_key": "lead-intelligence",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/lead-intelligence",
+    "branch": null
+  }
+}

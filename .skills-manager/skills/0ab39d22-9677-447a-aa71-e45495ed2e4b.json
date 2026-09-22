@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "0ab39d22-9677-447a-aa71-e45495ed2e4b",
+  "path": "rules-distill",
+  "path_key": "rules-distill",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/rules-distill",
+    "branch": null
+  }
+}

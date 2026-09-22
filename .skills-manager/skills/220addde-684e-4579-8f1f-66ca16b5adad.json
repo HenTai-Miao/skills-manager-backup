@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "220addde-684e-4579-8f1f-66ca16b5adad",
+  "path": "quality-nonconformance",
+  "path_key": "quality-nonconformance",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/quality-nonconformance",
+    "branch": null
+  }
+}

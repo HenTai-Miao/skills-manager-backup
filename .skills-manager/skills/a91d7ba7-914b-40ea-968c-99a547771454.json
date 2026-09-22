@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "a91d7ba7-914b-40ea-968c-99a547771454",
+  "path": "content-engine",
+  "path_key": "content-engine",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/content-engine",
+    "branch": null
+  }
+}

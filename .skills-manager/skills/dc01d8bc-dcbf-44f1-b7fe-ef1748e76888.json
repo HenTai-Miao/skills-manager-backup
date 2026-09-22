@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "dc01d8bc-dcbf-44f1-b7fe-ef1748e76888",
+  "path": "tinystruct-patterns",
+  "path_key": "tinystruct-patterns",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/tinystruct-patterns",
+    "branch": null
+  }
+}

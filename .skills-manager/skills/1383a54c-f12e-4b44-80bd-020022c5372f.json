@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "1383a54c-f12e-4b44-80bd-020022c5372f",
+  "path": "fsharp-testing",
+  "path_key": "fsharp-testing",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/fsharp-testing",
+    "branch": null
+  }
+}

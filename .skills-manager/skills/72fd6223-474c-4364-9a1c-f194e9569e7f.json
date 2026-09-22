@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "72fd6223-474c-4364-9a1c-f194e9569e7f",
+  "path": "react-performance",
+  "path_key": "react-performance",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/react-performance",
+    "branch": null
+  }
+}

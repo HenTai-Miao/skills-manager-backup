@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "8f6f9d59-7fbd-431e-b919-47a6f4ed5173",
+  "path": "springboot-security",
+  "path_key": "springboot-security",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/springboot-security",
+    "branch": null
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "42d3bb04-6ace-4cc4-8d74-f50b742d7c57",
+  "path": "market-research",
+  "path_key": "market-research",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/market-research",
+    "branch": null
+  }
+}

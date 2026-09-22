@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "38af5e2e-1cfb-484b-9ccf-cc8200d2cd52",
+  "path": "llm-trading-agent-security",
+  "path_key": "llm-trading-agent-security",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/llm-trading-agent-security",
+    "branch": null
+  }
+}

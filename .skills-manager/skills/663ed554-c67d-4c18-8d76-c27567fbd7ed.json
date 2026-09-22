@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "663ed554-c67d-4c18-8d76-c27567fbd7ed",
+  "path": "laravel-tdd",
+  "path_key": "laravel-tdd",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/laravel-tdd",
+    "branch": null
+  }
+}

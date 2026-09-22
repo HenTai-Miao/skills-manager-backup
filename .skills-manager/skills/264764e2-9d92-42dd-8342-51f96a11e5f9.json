@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "264764e2-9d92-42dd-8342-51f96a11e5f9",
+  "path": "master-agreement-generator",
+  "path_key": "master-agreement-generator",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/master-agreement-generator",
+    "branch": null
+  }
+}

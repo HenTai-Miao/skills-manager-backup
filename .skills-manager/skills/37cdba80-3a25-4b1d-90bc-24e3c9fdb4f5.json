@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "37cdba80-3a25-4b1d-90bc-24e3c9fdb4f5",
+  "path": "ui-demo",
+  "path_key": "ui-demo",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/ui-demo",
+    "branch": null
+  }
+}

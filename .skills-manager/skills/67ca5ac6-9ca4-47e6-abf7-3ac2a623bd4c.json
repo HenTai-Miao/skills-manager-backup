@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "67ca5ac6-9ca4-47e6-abf7-3ac2a623bd4c",
+  "path": "healthcare-phi-compliance",
+  "path_key": "healthcare-phi-compliance",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/healthcare-phi-compliance",
+    "branch": null
+  }
+}

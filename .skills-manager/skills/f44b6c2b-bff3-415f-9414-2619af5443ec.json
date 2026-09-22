@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "f44b6c2b-bff3-415f-9414-2619af5443ec",
+  "path": "recursive-decision-ledger",
+  "path_key": "recursive-decision-ledger",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/recursive-decision-ledger",
+    "branch": null
+  }
+}

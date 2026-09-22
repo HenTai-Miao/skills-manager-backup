@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "ba09376e-251e-4670-8a93-0b537554f749",
+  "path": "perl-patterns",
+  "path_key": "perl-patterns",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/perl-patterns",
+    "branch": null
+  }
+}

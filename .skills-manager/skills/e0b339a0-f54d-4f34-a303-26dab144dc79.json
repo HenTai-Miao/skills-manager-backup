@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "e0b339a0-f54d-4f34-a303-26dab144dc79",
+  "path": "motion-patterns",
+  "path_key": "motion-patterns",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/motion-patterns",
+    "branch": null
+  }
+}

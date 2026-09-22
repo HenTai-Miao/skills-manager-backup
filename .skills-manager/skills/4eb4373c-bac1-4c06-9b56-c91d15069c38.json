@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "4eb4373c-bac1-4c06-9b56-c91d15069c38",
+  "path": "intent-driven-development",
+  "path_key": "intent-driven-development",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/intent-driven-development",
+    "branch": null
+  }
+}

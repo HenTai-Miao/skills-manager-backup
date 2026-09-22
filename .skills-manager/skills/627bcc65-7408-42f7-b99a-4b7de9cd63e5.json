@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "627bcc65-7408-42f7-b99a-4b7de9cd63e5",
+  "path": "competitive-report-structure",
+  "path_key": "competitive-report-structure",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/competitive-report-structure",
+    "branch": null
+  }
+}

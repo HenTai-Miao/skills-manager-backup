@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "a3073160-a183-4366-b8bc-d9aaf7df9067",
+  "path": "ecc-recipes",
+  "path_key": "ecc-recipes",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/ecc-recipes",
+    "branch": null
+  }
+}

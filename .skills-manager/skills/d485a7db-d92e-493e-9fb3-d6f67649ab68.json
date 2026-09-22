@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "d485a7db-d92e-493e-9fb3-d6f67649ab68",
+  "path": "kotlin-patterns",
+  "path_key": "kotlin-patterns",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/kotlin-patterns",
+    "branch": null
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "7e455a4c-2554-40b9-9477-3007c7af2100",
+  "path": "prisma-patterns",
+  "path_key": "prisma-patterns",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/prisma-patterns",
+    "branch": null
+  }
+}

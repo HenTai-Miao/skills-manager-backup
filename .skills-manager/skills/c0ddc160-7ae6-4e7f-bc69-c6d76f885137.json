@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "c0ddc160-7ae6-4e7f-bc69-c6d76f885137",
+  "path": "google-workspace-ops",
+  "path_key": "google-workspace-ops",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/google-workspace-ops",
+    "branch": null
+  }
+}

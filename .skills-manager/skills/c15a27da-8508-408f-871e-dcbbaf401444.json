@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "c15a27da-8508-408f-871e-dcbbaf401444",
+  "path": "continuous-learning",
+  "path_key": "continuous-learning",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/continuous-learning",
+    "branch": null
+  }
+}

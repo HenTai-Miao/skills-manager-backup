@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "36815611-bbfd-48de-a9ae-29774fecdbaf",
+  "path": "uspto-database",
+  "path_key": "uspto-database",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/scientific-db-uspto-database",
+    "branch": null
+  }
+}

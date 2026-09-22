@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "e907f466-7400-4de2-9724-c357660b3e37",
+  "path": "plankton-code-quality",
+  "path_key": "plankton-code-quality",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/plankton-code-quality",
+    "branch": null
+  }
+}

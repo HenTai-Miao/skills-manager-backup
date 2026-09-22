@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "7fac6190-157d-4176-9ff8-a1256d11a125",
+  "path": "github-ops",
+  "path_key": "github-ops",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/github-ops",
+    "branch": null
+  }
+}

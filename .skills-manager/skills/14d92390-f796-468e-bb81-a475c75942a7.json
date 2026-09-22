@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "14d92390-f796-468e-bb81-a475c75942a7",
+  "path": "api-design",
+  "path_key": "api-design",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/api-design",
+    "branch": null
+  }
+}

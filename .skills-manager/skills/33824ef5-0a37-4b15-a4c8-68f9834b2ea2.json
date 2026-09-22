@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "33824ef5-0a37-4b15-a4c8-68f9834b2ea2",
+  "path": "frontend-design-direction",
+  "path_key": "frontend-design-direction",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/frontend-design-direction",
+    "branch": null
+  }
+}

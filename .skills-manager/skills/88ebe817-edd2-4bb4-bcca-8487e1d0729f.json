@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "88ebe817-edd2-4bb4-bcca-8487e1d0729f",
+  "path": "product-lens",
+  "path_key": "product-lens",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/product-lens",
+    "branch": null
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "c9e5993a-d38d-41cd-9f5e-dfa12f82d1a7",
+  "path": "security-scan",
+  "path_key": "security-scan",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/security-scan",
+    "branch": null
+  }
+}

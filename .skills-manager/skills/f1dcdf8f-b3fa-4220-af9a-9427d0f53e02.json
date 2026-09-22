@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "f1dcdf8f-b3fa-4220-af9a-9427d0f53e02",
+  "path": "autonomous-agent-harness",
+  "path_key": "autonomous-agent-harness",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/autonomous-agent-harness",
+    "branch": null
+  }
+}

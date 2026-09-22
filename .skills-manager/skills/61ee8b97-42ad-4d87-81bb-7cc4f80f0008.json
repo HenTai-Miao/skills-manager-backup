@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "61ee8b97-42ad-4d87-81bb-7cc4f80f0008",
+  "path": "ito-compute",
+  "path_key": "ito-compute",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/ito-compute",
+    "branch": null
+  }
+}

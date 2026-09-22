@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "a4427f3c-2efe-4504-88c6-4d2743bed827",
+  "path": "quarkus-security",
+  "path_key": "quarkus-security",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/quarkus-security",
+    "branch": null
+  }
+}

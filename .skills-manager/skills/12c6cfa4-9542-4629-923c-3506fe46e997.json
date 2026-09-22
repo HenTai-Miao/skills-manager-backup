@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "12c6cfa4-9542-4629-923c-3506fe46e997",
+  "path": "react-testing",
+  "path_key": "react-testing",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/react-testing",
+    "branch": null
+  }
+}

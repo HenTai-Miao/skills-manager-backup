@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "41dc7af5-6ff3-48a1-b9e1-d67552cd54fd",
+  "path": "hipaa-compliance",
+  "path_key": "hipaa-compliance",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/hipaa-compliance",
+    "branch": null
+  }
+}

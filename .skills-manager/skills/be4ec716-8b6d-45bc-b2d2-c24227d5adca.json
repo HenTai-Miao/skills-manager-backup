@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "be4ec716-8b6d-45bc-b2d2-c24227d5adca",
+  "path": "workspace-surface-audit",
+  "path_key": "workspace-surface-audit",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/workspace-surface-audit",
+    "branch": null
+  }
+}

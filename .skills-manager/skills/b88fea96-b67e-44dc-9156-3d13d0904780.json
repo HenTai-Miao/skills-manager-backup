@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "b88fea96-b67e-44dc-9156-3d13d0904780",
+  "path": "springboot-tdd",
+  "path_key": "springboot-tdd",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/springboot-tdd",
+    "branch": null
+  }
+}

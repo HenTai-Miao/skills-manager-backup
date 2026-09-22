@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "8a3d89b8-0169-422c-9466-d1b21bcdad69",
+  "path": "marketing-campaign",
+  "path_key": "marketing-campaign",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/marketing-campaign",
+    "branch": null
+  }
+}

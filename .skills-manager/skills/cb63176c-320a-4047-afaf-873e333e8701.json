@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "cb63176c-320a-4047-afaf-873e333e8701",
+  "path": "manim-video",
+  "path_key": "manim-video",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/manim-video",
+    "branch": null
+  }
+}

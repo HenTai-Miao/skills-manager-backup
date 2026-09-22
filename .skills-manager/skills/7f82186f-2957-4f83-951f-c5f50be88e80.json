@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "7f82186f-2957-4f83-951f-c5f50be88e80",
+  "path": "deployment-patterns",
+  "path_key": "deployment-patterns",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/deployment-patterns",
+    "branch": null
+  }
+}

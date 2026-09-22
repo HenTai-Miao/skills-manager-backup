@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "ca1c756f-b2d4-45a1-867c-10d16a8f3c6a",
+  "path": "knowledge-ops",
+  "path_key": "knowledge-ops",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/knowledge-ops",
+    "branch": null
+  }
+}

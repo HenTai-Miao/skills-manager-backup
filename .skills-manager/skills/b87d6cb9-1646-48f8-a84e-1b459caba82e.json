@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "b87d6cb9-1646-48f8-a84e-1b459caba82e",
+  "path": "tdd-workflow",
+  "path_key": "tdd-workflow",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/tdd-workflow",
+    "branch": null
+  }
+}

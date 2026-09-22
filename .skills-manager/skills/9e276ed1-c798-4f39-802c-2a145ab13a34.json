@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "9e276ed1-c798-4f39-802c-2a145ab13a34",
+  "path": "unified-notifications-ops",
+  "path_key": "unified-notifications-ops",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/unified-notifications-ops",
+    "branch": null
+  }
+}

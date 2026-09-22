@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "a9f9f6a1-b714-4b99-a0ef-3508f60b2ec0",
+  "path": "react-patterns",
+  "path_key": "react-patterns",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/react-patterns",
+    "branch": null
+  }
+}

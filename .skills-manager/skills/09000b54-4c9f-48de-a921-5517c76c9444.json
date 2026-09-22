@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "09000b54-4c9f-48de-a921-5517c76c9444",
+  "path": "rust-patterns",
+  "path_key": "rust-patterns",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/rust-patterns",
+    "branch": null
+  }
+}

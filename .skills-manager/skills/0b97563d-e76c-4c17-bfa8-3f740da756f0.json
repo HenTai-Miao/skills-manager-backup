@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "0b97563d-e76c-4c17-bfa8-3f740da756f0",
+  "path": "gan-style-harness",
+  "path_key": "gan-style-harness",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/gan-style-harness",
+    "branch": null
+  }
+}

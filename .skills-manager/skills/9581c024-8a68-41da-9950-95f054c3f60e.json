@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "9581c024-8a68-41da-9950-95f054c3f60e",
+  "path": "counterparty-channel-discipline",
+  "path_key": "counterparty-channel-discipline",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/counterparty-channel-discipline",
+    "branch": null
+  }
+}

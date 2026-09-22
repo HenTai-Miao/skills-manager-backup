@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "08dc727c-fedd-4822-a5c2-de047de4cc3f",
+  "path": "django-patterns",
+  "path_key": "django-patterns",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/django-patterns",
+    "branch": null
+  }
+}

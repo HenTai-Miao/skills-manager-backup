@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "79ae6fb7-1488-4789-aac3-47bed852d480",
+  "path": "returns-reverse-logistics",
+  "path_key": "returns-reverse-logistics",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/returns-reverse-logistics",
+    "branch": null
+  }
+}

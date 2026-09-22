@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "53d45188-1925-4229-9238-6072beda503b",
+  "path": "windows-desktop-e2e",
+  "path_key": "windows-desktop-e2e",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/windows-desktop-e2e",
+    "branch": null
+  }
+}

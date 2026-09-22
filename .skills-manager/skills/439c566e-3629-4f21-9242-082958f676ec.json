@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "439c566e-3629-4f21-9242-082958f676ec",
+  "path": "orch-pipeline",
+  "path_key": "orch-pipeline",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/orch-pipeline",
+    "branch": null
+  }
+}

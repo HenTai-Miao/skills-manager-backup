@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "97b3b38a-2eb1-45fc-889d-d59293f2a199",
+  "path": "literature-review",
+  "path_key": "literature-review",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/scientific-thinking-literature-review",
+    "branch": null
+  }
+}

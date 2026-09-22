@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "0b2c8ff3-a7b4-497a-bb38-13323995cfe3",
+  "path": "cpp-testing",
+  "path_key": "cpp-testing",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/cpp-testing",
+    "branch": null
+  }
+}

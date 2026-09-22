@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "16f789d2-99a1-4077-a91c-7cb28c4e73d0",
+  "path": "swiftui-patterns",
+  "path_key": "swiftui-patterns",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/swiftui-patterns",
+    "branch": null
+  }
+}

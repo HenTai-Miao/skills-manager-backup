@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "2d1c5525-dcdf-4ca5-9cb9-e2bcab4024fa",
+  "path": "netmiko-ssh-automation",
+  "path_key": "netmiko-ssh-automation",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/netmiko-ssh-automation",
+    "branch": null
+  }
+}

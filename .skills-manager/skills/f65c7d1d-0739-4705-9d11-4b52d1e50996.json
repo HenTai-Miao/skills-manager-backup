@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "f65c7d1d-0739-4705-9d11-4b52d1e50996",
+  "path": "perl-testing",
+  "path_key": "perl-testing",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/perl-testing",
+    "branch": null
+  }
+}

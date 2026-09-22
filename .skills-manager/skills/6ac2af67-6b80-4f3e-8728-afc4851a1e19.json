@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "6ac2af67-6b80-4f3e-8728-afc4851a1e19",
+  "path": "strategic-compact",
+  "path_key": "strategic-compact",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/strategic-compact",
+    "branch": null
+  }
+}

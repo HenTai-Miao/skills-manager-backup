@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "f8c60a06-3e3e-4d7c-bb9a-45203056af21",
+  "path": "android-clean-architecture",
+  "path_key": "android-clean-architecture",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/android-clean-architecture",
+    "branch": null
+  }
+}

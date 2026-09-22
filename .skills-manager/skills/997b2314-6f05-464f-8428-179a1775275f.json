@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "997b2314-6f05-464f-8428-179a1775275f",
+  "path": "skill-comply",
+  "path_key": "skill-comply",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/skill-comply",
+    "branch": null
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "f423d4f6-6593-4d13-8e72-8e811773202a",
+  "path": "social-graph-ranker",
+  "path_key": "social-graph-ranker",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/social-graph-ranker",
+    "branch": null
+  }
+}

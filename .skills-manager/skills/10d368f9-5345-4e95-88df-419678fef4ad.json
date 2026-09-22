@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "10d368f9-5345-4e95-88df-419678fef4ad",
+  "path": "springboot-patterns",
+  "path_key": "springboot-patterns",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/springboot-patterns",
+    "branch": null
+  }
+}

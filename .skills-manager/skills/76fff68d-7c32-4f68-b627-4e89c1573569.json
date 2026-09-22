@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "76fff68d-7c32-4f68-b627-4e89c1573569",
+  "path": "springboot-verification",
+  "path_key": "springboot-verification",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/springboot-verification",
+    "branch": null
+  }
+}

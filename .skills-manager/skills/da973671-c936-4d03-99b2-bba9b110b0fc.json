@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "da973671-c936-4d03-99b2-bba9b110b0fc",
+  "path": "security-bounty-hunter",
+  "path_key": "security-bounty-hunter",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/security-bounty-hunter",
+    "branch": null
+  }
+}

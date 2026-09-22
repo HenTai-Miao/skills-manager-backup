@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "111dc328-7923-4030-9db4-eaa124c6d688",
+  "path": "fal-ai-media",
+  "path_key": "fal-ai-media",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/fal-ai-media",
+    "branch": null
+  }
+}

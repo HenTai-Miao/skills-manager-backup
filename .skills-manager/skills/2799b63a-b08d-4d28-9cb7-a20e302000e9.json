@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "2799b63a-b08d-4d28-9cb7-a20e302000e9",
+  "path": "email-ops",
+  "path_key": "email-ops",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/email-ops",
+    "branch": null
+  }
+}

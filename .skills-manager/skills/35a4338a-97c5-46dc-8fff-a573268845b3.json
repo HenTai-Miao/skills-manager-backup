@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "35a4338a-97c5-46dc-8fff-a573268845b3",
+  "path": "kotlin-exposed-patterns",
+  "path_key": "kotlin-exposed-patterns",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/kotlin-exposed-patterns",
+    "branch": null
+  }
+}

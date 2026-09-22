@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "c52c7fc0-c8ca-4110-8d1f-496bd91329b7",
+  "path": "nasiko-control-plane",
+  "path_key": "nasiko-control-plane",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/nasiko-control-plane",
+    "branch": null
+  }
+}

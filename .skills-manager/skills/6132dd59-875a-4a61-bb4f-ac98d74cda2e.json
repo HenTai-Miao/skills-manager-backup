@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "6132dd59-875a-4a61-bb4f-ac98d74cda2e",
+  "path": "backend-patterns",
+  "path_key": "backend-patterns",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/backend-patterns",
+    "branch": null
+  }
+}

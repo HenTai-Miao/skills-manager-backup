@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "7489b344-29b1-44a0-9619-2945e4d8b490",
+  "path": "visa-doc-translate",
+  "path_key": "visa-doc-translate",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/visa-doc-translate",
+    "branch": null
+  }
+}

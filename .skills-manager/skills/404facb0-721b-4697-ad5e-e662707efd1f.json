@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "404facb0-721b-4697-ad5e-e662707efd1f",
+  "path": "agent-payment-x402",
+  "path_key": "agent-payment-x402",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/agent-payment-x402",
+    "branch": null
+  }
+}

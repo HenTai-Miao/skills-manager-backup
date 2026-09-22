@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "6a81fa41-2d40-4179-aa36-d70cf9c8c256",
+  "path": "coding-standards",
+  "path_key": "coding-standards",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/coding-standards",
+    "branch": null
+  }
+}

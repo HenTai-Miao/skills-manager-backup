@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "f90b951b-3fa5-41c1-bce9-a2ac134db73c",
+  "path": "delivery-gate",
+  "path_key": "delivery-gate",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/delivery-gate",
+    "branch": null
+  }
+}

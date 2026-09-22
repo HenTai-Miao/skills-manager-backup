@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "9e63cf34-313c-4569-80e0-4416f9bef446",
+  "path": "python-testing",
+  "path_key": "python-testing",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/python-testing",
+    "branch": null
+  }
+}

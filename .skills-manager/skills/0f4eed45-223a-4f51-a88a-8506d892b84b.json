@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "0f4eed45-223a-4f51-a88a-8506d892b84b",
+  "path": "mle-workflow",
+  "path_key": "mle-workflow",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/mle-workflow",
+    "branch": null
+  }
+}

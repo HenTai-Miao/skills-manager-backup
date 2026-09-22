@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "29f9bf30-0b5e-42bb-82a8-c1ddd2b1ff4b",
+  "path": "remotion-video-creation",
+  "path_key": "remotion-video-creation",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/remotion-video-creation",
+    "branch": null
+  }
+}

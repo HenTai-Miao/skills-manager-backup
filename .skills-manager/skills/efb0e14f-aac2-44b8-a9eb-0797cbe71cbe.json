@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "efb0e14f-aac2-44b8-a9eb-0797cbe71cbe",
+  "path": "pubmed-database",
+  "path_key": "pubmed-database",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/scientific-db-pubmed-database",
+    "branch": null
+  }
+}

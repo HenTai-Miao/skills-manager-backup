@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "fba7ab9e-3e80-4bf4-a20e-666f34d09743",
+  "path": "design-system",
+  "path_key": "design-system",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/design-system",
+    "branch": null
+  }
+}

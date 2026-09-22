@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "5ae92807-29bd-478e-8d38-000b22825dd7",
+  "path": "skill-stocktake",
+  "path_key": "skill-stocktake",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/skill-stocktake",
+    "branch": null
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "4f1ab7d3-80fc-4c67-bf55-3d610b67739b",
+  "path": "verification-loop",
+  "path_key": "verification-loop",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/verification-loop",
+    "branch": null
+  }
+}

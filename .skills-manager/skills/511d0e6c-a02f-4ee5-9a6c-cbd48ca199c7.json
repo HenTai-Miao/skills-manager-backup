@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "511d0e6c-a02f-4ee5-9a6c-cbd48ca199c7",
+  "path": "accessibility",
+  "path_key": "accessibility",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/accessibility",
+    "branch": null
+  }
+}

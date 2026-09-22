@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "c7177a4e-56da-4d02-89da-eeab47ddefba",
+  "path": "article-writing",
+  "path_key": "article-writing",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/article-writing",
+    "branch": null
+  }
+}

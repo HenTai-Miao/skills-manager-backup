@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "3cefafac-cae5-4489-89ef-6c24cc0b202f",
+  "path": "make-interfaces-feel-better",
+  "path_key": "make-interfaces-feel-better",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/make-interfaces-feel-better",
+    "branch": null
+  }
+}

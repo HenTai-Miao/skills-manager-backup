@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "4e13d0ad-dde9-4c1a-bc80-08a1ddc6e680",
+  "path": "swift-actor-persistence",
+  "path_key": "swift-actor-persistence",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/swift-actor-persistence",
+    "branch": null
+  }
+}

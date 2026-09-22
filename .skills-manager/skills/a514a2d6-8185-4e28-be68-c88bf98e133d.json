@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "a514a2d6-8185-4e28-be68-c88bf98e133d",
+  "path": "growth-log",
+  "path_key": "growth-log",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/growth-log",
+    "branch": null
+  }
+}

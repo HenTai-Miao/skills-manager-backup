@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "afa49e3c-8e43-429f-8560-876420067ea5",
+  "path": "nestjs-patterns",
+  "path_key": "nestjs-patterns",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/nestjs-patterns",
+    "branch": null
+  }
+}

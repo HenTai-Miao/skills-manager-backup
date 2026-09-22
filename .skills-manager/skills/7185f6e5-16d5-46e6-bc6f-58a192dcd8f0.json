@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "7185f6e5-16d5-46e6-bc6f-58a192dcd8f0",
+  "path": "laravel-security",
+  "path_key": "laravel-security",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/laravel-security",
+    "branch": null
+  }
+}

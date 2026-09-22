@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "843f105d-3afe-4ac5-818c-c89336186548",
+  "path": "benchmark",
+  "path_key": "benchmark",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/benchmark",
+    "branch": null
+  }
+}

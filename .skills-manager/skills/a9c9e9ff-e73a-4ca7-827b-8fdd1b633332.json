@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "a9c9e9ff-e73a-4ca7-827b-8fdd1b633332",
+  "path": "ralphinho-rfc-pipeline",
+  "path_key": "ralphinho-rfc-pipeline",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/ralphinho-rfc-pipeline",
+    "branch": null
+  }
+}

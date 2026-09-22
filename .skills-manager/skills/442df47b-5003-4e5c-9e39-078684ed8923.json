@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "442df47b-5003-4e5c-9e39-078684ed8923",
+  "path": "network-interface-health",
+  "path_key": "network-interface-health",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/network-interface-health",
+    "branch": null
+  }
+}

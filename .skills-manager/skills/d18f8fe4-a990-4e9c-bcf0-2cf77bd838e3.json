@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "d18f8fe4-a990-4e9c-bcf0-2cf77bd838e3",
+  "path": "code-tour",
+  "path_key": "code-tour",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/code-tour",
+    "branch": null
+  }
+}

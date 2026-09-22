@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "0adbb7c4-61eb-4599-837f-158249dd9e89",
+  "path": "parallel-execution-optimizer",
+  "path_key": "parallel-execution-optimizer",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/parallel-execution-optimizer",
+    "branch": null
+  }
+}

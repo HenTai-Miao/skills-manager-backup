@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "8f31a026-999c-453b-8f25-5c849ecddd51",
+  "path": "inventory-demand-planning",
+  "path_key": "inventory-demand-planning",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/inventory-demand-planning",
+    "branch": null
+  }
+}

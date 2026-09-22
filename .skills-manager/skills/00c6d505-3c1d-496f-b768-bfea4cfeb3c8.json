@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "00c6d505-3c1d-496f-b768-bfea4cfeb3c8",
+  "path": "taste-distillation",
+  "path_key": "taste-distillation",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/taste-distillation",
+    "branch": null
+  }
+}

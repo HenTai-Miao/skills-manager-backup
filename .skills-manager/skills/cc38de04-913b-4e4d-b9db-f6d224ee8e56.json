@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "cc38de04-913b-4e4d-b9db-f6d224ee8e56",
+  "path": "documentation-lookup",
+  "path_key": "documentation-lookup",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/documentation-lookup",
+    "branch": null
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "e55fb06d-da66-4240-b852-45118f004fdf",
+  "path": "messages-ops",
+  "path_key": "messages-ops",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/messages-ops",
+    "branch": null
+  }
+}

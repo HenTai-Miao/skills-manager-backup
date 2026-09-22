@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "2e14fa48-c144-482c-aee6-e66c43e8eece",
+  "path": "hexagonal-architecture",
+  "path_key": "hexagonal-architecture",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/hexagonal-architecture",
+    "branch": null
+  }
+}

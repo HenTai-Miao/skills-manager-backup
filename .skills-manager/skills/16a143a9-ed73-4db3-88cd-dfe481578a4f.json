@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "16a143a9-ed73-4db3-88cd-dfe481578a4f",
+  "path": "ios-icon-gen",
+  "path_key": "ios-icon-gen",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/ios-icon-gen",
+    "branch": null
+  }
+}

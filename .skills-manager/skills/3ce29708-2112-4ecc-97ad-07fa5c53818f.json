@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "3ce29708-2112-4ecc-97ad-07fa5c53818f",
+  "path": "fastapi-patterns",
+  "path_key": "fastapi-patterns",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/fastapi-patterns",
+    "branch": null
+  }
+}

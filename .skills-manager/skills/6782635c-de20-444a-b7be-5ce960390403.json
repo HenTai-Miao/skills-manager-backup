@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "6782635c-de20-444a-b7be-5ce960390403",
+  "path": "taste",
+  "path_key": "taste",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/taste",
+    "branch": null
+  }
+}

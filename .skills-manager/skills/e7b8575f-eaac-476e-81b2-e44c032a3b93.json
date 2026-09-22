@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "e7b8575f-eaac-476e-81b2-e44c032a3b93",
+  "path": "tasteforge-video",
+  "path_key": "tasteforge-video",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/tasteforge-video",
+    "branch": null
+  }
+}

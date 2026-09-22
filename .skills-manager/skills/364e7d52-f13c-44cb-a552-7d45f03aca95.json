@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "364e7d52-f13c-44cb-a552-7d45f03aca95",
+  "path": "inherit-legacy-style",
+  "path_key": "inherit-legacy-style",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/inherit-legacy-style",
+    "branch": null
+  }
+}

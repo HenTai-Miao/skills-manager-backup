@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "78886ed5-d529-47ad-8a19-535a9ab65123",
+  "path": "generating-python-installer",
+  "path_key": "generating-python-installer",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/generating-python-installer",
+    "branch": null
+  }
+}

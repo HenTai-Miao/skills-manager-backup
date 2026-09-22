@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "94755224-9093-41c2-bf35-cef3ee19e91b",
+  "path": "plan-canvas",
+  "path_key": "plan-canvas",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/plan-canvas",
+    "branch": null
+  }
+}

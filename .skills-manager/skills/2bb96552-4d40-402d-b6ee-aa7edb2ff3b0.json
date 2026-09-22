@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "2bb96552-4d40-402d-b6ee-aa7edb2ff3b0",
+  "path": "healthcare-cdss-patterns",
+  "path_key": "healthcare-cdss-patterns",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/healthcare-cdss-patterns",
+    "branch": null
+  }
+}

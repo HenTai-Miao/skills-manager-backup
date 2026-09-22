@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "8d25f4d4-0d38-4b36-a24a-74f40e1f43f0",
+  "path": "orch-change-feature",
+  "path_key": "orch-change-feature",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/orch-change-feature",
+    "branch": null
+  }
+}

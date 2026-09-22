@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "3927f5c9-d2fb-496c-bcc4-4a1b8959ce3d",
+  "path": "swift-protocol-di-testing",
+  "path_key": "swift-protocol-di-testing",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/swift-protocol-di-testing",
+    "branch": null
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "fd3d8471-5db3-4965-baa1-24f00ff98202",
+  "path": "homelab-network-setup",
+  "path_key": "homelab-network-setup",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/homelab-network-setup",
+    "branch": null
+  }
+}

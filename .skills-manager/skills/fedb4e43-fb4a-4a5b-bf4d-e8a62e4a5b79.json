@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "fedb4e43-fb4a-4a5b-bf4d-e8a62e4a5b79",
+  "path": "django-celery",
+  "path_key": "django-celery",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/django-celery",
+    "branch": null
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "0dd57eb2-90f3-43e7-8fda-0a62852db13c",
+  "path": "data-throughput-accelerator",
+  "path_key": "data-throughput-accelerator",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/data-throughput-accelerator",
+    "branch": null
+  }
+}

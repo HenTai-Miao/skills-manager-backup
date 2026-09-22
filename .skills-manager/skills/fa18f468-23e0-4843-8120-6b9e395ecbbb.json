@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "fa18f468-23e0-4843-8120-6b9e395ecbbb",
+  "path": "project-flow-ops",
+  "path_key": "project-flow-ops",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/project-flow-ops",
+    "branch": null
+  }
+}

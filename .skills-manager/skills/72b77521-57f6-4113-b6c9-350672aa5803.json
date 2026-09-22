@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "72b77521-57f6-4113-b6c9-350672aa5803",
+  "path": "django-verification",
+  "path_key": "django-verification",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/django-verification",
+    "branch": null
+  }
+}

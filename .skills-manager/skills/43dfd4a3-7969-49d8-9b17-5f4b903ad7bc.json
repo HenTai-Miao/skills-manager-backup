@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "43dfd4a3-7969-49d8-9b17-5f4b903ad7bc",
+  "path": "social-publisher",
+  "path_key": "social-publisher",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/social-publisher",
+    "branch": null
+  }
+}

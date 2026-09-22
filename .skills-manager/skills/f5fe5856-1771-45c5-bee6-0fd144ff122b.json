@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "f5fe5856-1771-45c5-bee6-0fd144ff122b",
+  "path": "quarkus-verification",
+  "path_key": "quarkus-verification",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/quarkus-verification",
+    "branch": null
+  }
+}

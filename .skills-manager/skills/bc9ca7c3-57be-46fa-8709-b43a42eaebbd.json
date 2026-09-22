@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "bc9ca7c3-57be-46fa-8709-b43a42eaebbd",
+  "path": "taste-application",
+  "path_key": "taste-application",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/taste-application",
+    "branch": null
+  }
+}

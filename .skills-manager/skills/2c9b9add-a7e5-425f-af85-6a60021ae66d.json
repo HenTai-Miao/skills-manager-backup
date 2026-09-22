@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "2c9b9add-a7e5-425f-af85-6a60021ae66d",
+  "path": "orch-fix-defect",
+  "path_key": "orch-fix-defect",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/orch-fix-defect",
+    "branch": null
+  }
+}

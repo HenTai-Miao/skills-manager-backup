@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "f4f3fa6e-61f6-4c70-9cad-e6bcd77b6ee2",
+  "path": "docker-patterns",
+  "path_key": "docker-patterns",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "affaan-m/ecc",
+    "subpath": "skills/docker-patterns",
+    "branch": null
+  }
+}
