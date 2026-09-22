@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "scenario_id": "690b3acd-2955-4f68-887c-4a0dca790e71",
+  "skill_id": "466d3a2a-b0c6-458c-a64f-0f70d022004c",
+  "sort_order": 338,
+  "tools": {
+    "grok": false,
+    "hermes": false,
+    "iflow": true,
+    "junie": true
+  }
+}
