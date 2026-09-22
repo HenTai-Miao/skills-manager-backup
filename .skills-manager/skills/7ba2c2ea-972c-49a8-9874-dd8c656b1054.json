@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "7ba2c2ea-972c-49a8-9874-dd8c656b1054",
+  "path": "context-engineering-collection",
+  "path_key": "context-engineering-collection",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering.git",
+    "subpath": null,
+    "branch": null
+  }
+}

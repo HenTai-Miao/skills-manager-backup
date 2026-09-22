@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "9b85e4d1-a9f5-4bca-8bd2-d6542eb13899",
+  "path": "Confidence Check",
+  "path_key": "confidence check",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/SuperClaude-Org/SuperClaude_Framework.git",
+    "subpath": "skills/confidence-check",
+    "branch": null
+  }
+}
