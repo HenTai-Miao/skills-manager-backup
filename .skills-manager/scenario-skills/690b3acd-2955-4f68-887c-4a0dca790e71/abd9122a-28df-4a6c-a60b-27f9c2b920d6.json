@@ -4,6 +4,8 @@
   "skill_id": "abd9122a-28df-4a6c-a60b-27f9c2b920d6",
   "sort_order": 135,
   "tools": {
+    "claude_code": true,
+    "codex": true,
     "grok": true,
     "hermes": true
   }
