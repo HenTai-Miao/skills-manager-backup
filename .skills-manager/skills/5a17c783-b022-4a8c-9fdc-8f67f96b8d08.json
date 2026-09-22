@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "5a17c783-b022-4a8c-9fdc-8f67f96b8d08",
+  "path": "openclaw-persona-forge",
+  "path_key": "openclaw-persona-forge",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

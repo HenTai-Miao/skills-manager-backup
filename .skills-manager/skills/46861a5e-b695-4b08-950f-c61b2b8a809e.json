@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "46861a5e-b695-4b08-950f-c61b2b8a809e",
+  "path": "network-bgp-diagnostics",
+  "path_key": "network-bgp-diagnostics",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

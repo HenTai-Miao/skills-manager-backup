@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "0453985b-1261-4c78-8664-2179ccacd4d6",
+  "path": "error-handling",
+  "path_key": "error-handling",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

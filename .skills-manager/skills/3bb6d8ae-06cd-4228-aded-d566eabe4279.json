@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "3bb6d8ae-06cd-4228-aded-d566eabe4279",
+  "path": "cisco-ios-patterns",
+  "path_key": "cisco-ios-patterns",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

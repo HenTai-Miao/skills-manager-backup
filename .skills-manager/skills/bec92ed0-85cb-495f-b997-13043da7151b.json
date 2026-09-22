@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "bec92ed0-85cb-495f-b997-13043da7151b",
+  "path": "fal-ai-media",
+  "path_key": "fal-ai-media",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

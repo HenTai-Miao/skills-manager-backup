@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "b45614cb-5bf3-4795-9ccf-0140d323290a",
+  "path": "ml-adoption-playbook",
+  "path_key": "ml-adoption-playbook",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

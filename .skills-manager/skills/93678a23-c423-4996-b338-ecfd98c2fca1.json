@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "93678a23-c423-4996-b338-ecfd98c2fca1",
+  "path": "ecc-guide",
+  "path_key": "ecc-guide",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

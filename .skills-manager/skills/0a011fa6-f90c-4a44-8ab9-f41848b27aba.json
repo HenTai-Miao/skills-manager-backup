@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "0a011fa6-f90c-4a44-8ab9-f41848b27aba",
+  "path": "programming",
+  "path_key": "programming",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

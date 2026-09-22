@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "083ddc52-ff48-4505-9db6-da177d27b6de",
+  "path": "tdd",
+  "path_key": "tdd",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

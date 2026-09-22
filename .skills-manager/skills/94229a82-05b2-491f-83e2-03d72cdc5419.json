@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "94229a82-05b2-491f-83e2-03d72cdc5419",
+  "path": "second-opinion",
+  "path_key": "second-opinion",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "75e84535-4c2b-4a29-9e58-873269d3bd6a",
+  "path": "recsys-pipeline-architect",
+  "path_key": "recsys-pipeline-architect",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

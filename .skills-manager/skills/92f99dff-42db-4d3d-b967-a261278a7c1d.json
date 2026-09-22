@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "92f99dff-42db-4d3d-b967-a261278a7c1d",
+  "path": "differential-review",
+  "path_key": "differential-review",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

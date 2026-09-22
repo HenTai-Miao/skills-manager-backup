@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "3614bb3f-8053-45b0-8148-8e61f7f5396e",
+  "path": "product-design",
+  "path_key": "product-design",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

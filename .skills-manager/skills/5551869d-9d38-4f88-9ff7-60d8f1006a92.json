@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "5551869d-9d38-4f88-9ff7-60d8f1006a92",
+  "path": "homelab-pihole-dns",
+  "path_key": "homelab-pihole-dns",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

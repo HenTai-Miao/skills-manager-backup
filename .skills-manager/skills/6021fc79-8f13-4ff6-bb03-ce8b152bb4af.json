@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "6021fc79-8f13-4ff6-bb03-ce8b152bb4af",
+  "path": "skill-stocktake",
+  "path_key": "skill-stocktake",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

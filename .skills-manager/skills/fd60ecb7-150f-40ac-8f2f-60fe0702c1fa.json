@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "fd60ecb7-150f-40ac-8f2f-60fe0702c1fa",
+  "path": "orch-build-mvp",
+  "path_key": "orch-build-mvp",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

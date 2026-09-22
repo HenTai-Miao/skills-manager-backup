@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "098b18e8-b155-45fa-89bd-7dc6fc325a65",
+  "path": "council-multi-model",
+  "path_key": "council-multi-model",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

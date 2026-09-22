@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "2179d2db-bdb8-4031-ab12-ed7e64a65c0c",
+  "path": "verify-agent-action",
+  "path_key": "verify-agent-action",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

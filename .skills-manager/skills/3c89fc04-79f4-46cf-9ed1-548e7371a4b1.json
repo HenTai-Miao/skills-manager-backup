@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "3c89fc04-79f4-46cf-9ed1-548e7371a4b1",
+  "path": "kubernetes-patterns",
+  "path_key": "kubernetes-patterns",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

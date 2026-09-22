@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "76cb67f5-bbf2-41fc-9d32-9414ce74c40c",
+  "path": "testing-pyramid",
+  "path_key": "testing-pyramid",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

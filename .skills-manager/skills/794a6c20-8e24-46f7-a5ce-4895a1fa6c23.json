@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "794a6c20-8e24-46f7-a5ce-4895a1fa6c23",
+  "path": "carrier-relationship-management",
+  "path_key": "carrier-relationship-management",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

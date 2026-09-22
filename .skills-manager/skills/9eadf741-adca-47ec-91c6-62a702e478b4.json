@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "9eadf741-adca-47ec-91c6-62a702e478b4",
+  "path": "supply-chain-risk-auditor",
+  "path_key": "supply-chain-risk-auditor",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "e183f88c-7a05-441f-9725-a7ae9952f323",
+  "path": "brand-voice",
+  "path_key": "brand-voice",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

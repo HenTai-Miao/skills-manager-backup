@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "0d6ce607-3134-4692-8e3d-cfedcd3eae0a",
+  "path": "perl-testing",
+  "path_key": "perl-testing",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

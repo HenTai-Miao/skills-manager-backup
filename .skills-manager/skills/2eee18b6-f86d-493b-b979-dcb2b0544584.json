@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "2eee18b6-f86d-493b-b979-dcb2b0544584",
+  "path": "context7-cli",
+  "path_key": "context7-cli",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "d2a6f9a7-848d-4cc1-8973-ff741a61c8b8",
+  "path": "ralphinho-rfc-pipeline",
+  "path_key": "ralphinho-rfc-pipeline",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

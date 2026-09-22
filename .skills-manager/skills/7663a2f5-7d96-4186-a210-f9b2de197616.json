@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "7663a2f5-7d96-4186-a210-f9b2de197616",
+  "path": "motion-ui",
+  "path_key": "motion-ui",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

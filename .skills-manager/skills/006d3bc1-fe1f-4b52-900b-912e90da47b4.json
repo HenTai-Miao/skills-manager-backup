@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "006d3bc1-fe1f-4b52-900b-912e90da47b4",
+  "path": "hexagonal-architecture",
+  "path_key": "hexagonal-architecture",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

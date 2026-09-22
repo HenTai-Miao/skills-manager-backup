@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "a919f306-0854-451f-848e-55e06a534c93",
+  "path": "llm-trading-agent-security",
+  "path_key": "llm-trading-agent-security",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

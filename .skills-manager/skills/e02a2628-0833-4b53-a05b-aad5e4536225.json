@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "e02a2628-0833-4b53-a05b-aad5e4536225",
+  "path": "regex-vs-llm-structured-text",
+  "path_key": "regex-vs-llm-structured-text",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

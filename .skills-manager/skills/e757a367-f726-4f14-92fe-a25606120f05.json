@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "e757a367-f726-4f14-92fe-a25606120f05",
+  "path": "marketing-campaign",
+  "path_key": "marketing-campaign",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

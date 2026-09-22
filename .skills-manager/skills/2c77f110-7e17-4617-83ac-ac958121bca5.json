@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "2c77f110-7e17-4617-83ac-ac958121bca5",
+  "path": "api-connector-builder",
+  "path_key": "api-connector-builder",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

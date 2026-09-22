@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "a63f1eef-fc52-4f95-81a2-15cb25c57898",
+  "path": "latency-critical-systems",
+  "path_key": "latency-critical-systems",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

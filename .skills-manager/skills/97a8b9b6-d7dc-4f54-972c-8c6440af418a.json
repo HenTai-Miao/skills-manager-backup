@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "97a8b9b6-d7dc-4f54-972c-8c6440af418a",
+  "path": "react-native-patterns",
+  "path_key": "react-native-patterns",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

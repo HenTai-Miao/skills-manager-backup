@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "8c33c579-1ffd-4f8d-a591-64b24eeea1df",
+  "path": "swiftui-patterns",
+  "path_key": "swiftui-patterns",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

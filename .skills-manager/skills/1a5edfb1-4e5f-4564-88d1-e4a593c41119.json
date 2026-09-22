@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "1a5edfb1-4e5f-4564-88d1-e4a593c41119",
+  "path": "quarkus-patterns",
+  "path_key": "quarkus-patterns",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

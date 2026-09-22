@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "bf792af3-918c-458a-8bcf-2692585e4302",
+  "path": "perl-patterns",
+  "path_key": "perl-patterns",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "abd9122a-28df-4a6c-a60b-27f9c2b920d6",
+  "path": "quarkus-tdd",
+  "path_key": "quarkus-tdd",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

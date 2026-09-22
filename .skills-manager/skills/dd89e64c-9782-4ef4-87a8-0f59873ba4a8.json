@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "dd89e64c-9782-4ef4-87a8-0f59873ba4a8",
+  "path": "cost-tracking",
+  "path_key": "cost-tracking",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

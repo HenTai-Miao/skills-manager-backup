@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "88e5fcf4-ead9-4550-8983-f569687494ed",
+  "path": "remotion-video-creation",
+  "path_key": "remotion-video-creation",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

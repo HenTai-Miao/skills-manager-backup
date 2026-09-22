@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "52a0b714-d3db-45cb-a9b2-7b8f88c46ad7",
+  "path": "ito-compute",
+  "path_key": "ito-compute",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "7abb9dc6-b752-4361-be8c-c9e71da63ff2",
+  "path": "inventory-demand-planning",
+  "path_key": "inventory-demand-planning",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "91f200f3-cbcc-417e-b144-d752b6aa2c14",
+  "path": "code-tour",
+  "path_key": "code-tour",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

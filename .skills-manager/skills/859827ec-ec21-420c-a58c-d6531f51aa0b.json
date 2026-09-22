@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "859827ec-ec21-420c-a58c-d6531f51aa0b",
+  "path": "taste",
+  "path_key": "taste",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

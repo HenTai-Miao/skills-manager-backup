@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "615c7655-60ea-4ed3-835e-a0ae151f4271",
+  "path": "codehealth-mcp",
+  "path_key": "codehealth-mcp",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

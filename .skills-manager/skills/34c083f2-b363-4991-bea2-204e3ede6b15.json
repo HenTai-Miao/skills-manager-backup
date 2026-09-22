@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "34c083f2-b363-4991-bea2-204e3ede6b15",
+  "path": "terminal-opener",
+  "path_key": "terminal-opener",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

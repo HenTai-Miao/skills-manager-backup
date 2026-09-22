@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "afd712fa-a22e-4752-afed-44db55215989",
+  "path": "unified-notifications-ops",
+  "path_key": "unified-notifications-ops",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

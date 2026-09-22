@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "a8894662-95b4-40a9-a2c0-7fa66de09aed",
+  "path": "generating-python-installer",
+  "path_key": "generating-python-installer",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

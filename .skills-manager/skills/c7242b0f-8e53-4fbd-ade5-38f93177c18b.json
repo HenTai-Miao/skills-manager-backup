@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "c7242b0f-8e53-4fbd-ade5-38f93177c18b",
+  "path": "customs-trade-compliance",
+  "path_key": "customs-trade-compliance",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "37bb65e6-c819-4c10-9402-057f3de57215",
+  "path": "inherit-legacy-style",
+  "path_key": "inherit-legacy-style",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

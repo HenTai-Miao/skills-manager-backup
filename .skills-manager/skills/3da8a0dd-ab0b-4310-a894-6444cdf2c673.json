@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "3da8a0dd-ab0b-4310-a894-6444cdf2c673",
+  "path": "nasiko-control-plane",
+  "path_key": "nasiko-control-plane",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "a65dda4d-ba18-47b0-bf76-15c0221c76e8",
+  "path": "golang-patterns",
+  "path_key": "golang-patterns",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

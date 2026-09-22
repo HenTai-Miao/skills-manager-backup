@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "4ca3bcad-8aad-4d6e-8b31-f2e4d021e88d",
+  "path": "production-scheduling",
+  "path_key": "production-scheduling",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

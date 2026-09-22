@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "bc61f2d4-0dc7-4876-94d5-a280a1768f7d",
+  "path": "recursive-decision-ledger",
+  "path_key": "recursive-decision-ledger",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

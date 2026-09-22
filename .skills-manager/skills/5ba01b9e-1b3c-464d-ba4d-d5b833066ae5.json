@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "5ba01b9e-1b3c-464d-ba4d-d5b833066ae5",
+  "path": "pubmed-database",
+  "path_key": "pubmed-database",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

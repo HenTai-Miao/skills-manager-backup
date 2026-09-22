@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "466d3a2a-b0c6-458c-a64f-0f70d022004c",
+  "path": "django-celery",
+  "path_key": "django-celery",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

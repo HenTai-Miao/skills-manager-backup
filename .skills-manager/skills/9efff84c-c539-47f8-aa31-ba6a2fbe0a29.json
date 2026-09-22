@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "9efff84c-c539-47f8-aa31-ba6a2fbe0a29",
+  "path": "prediction-market-risk-review",
+  "path_key": "prediction-market-risk-review",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

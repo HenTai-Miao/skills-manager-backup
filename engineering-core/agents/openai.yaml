@@ -1,0 +1,4 @@
+interface:
+  display_name: "Engineering Core"
+  short_description: "Cross-cutting engineering quality guidance"
+  default_prompt: "Apply the repository's core engineering guidance to this task."

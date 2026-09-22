@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "a1f9c4c6-20d4-408a-9711-e278e7d9656f",
+  "path": "benchmark-methodology",
+  "path_key": "benchmark-methodology",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

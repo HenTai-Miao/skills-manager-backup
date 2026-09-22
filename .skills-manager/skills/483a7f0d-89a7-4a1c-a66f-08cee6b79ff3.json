@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "483a7f0d-89a7-4a1c-a66f-08cee6b79ff3",
+  "path": "homelab-vlan-segmentation",
+  "path_key": "homelab-vlan-segmentation",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

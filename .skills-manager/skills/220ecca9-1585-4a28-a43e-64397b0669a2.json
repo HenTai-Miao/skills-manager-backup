@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "220ecca9-1585-4a28-a43e-64397b0669a2",
+  "path": "windows-desktop-e2e",
+  "path_key": "windows-desktop-e2e",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

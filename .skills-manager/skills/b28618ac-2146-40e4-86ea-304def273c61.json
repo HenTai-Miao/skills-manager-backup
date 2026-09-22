@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "b28618ac-2146-40e4-86ea-304def273c61",
+  "path": "gateguard",
+  "path_key": "gateguard",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

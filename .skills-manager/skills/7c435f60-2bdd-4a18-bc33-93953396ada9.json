@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "7c435f60-2bdd-4a18-bc33-93953396ada9",
+  "path": "network-config-validation",
+  "path_key": "network-config-validation",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

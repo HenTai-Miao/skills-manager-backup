@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "82774939-18c2-4955-b87f-b4780d47e98b",
+  "path": "quarkus-verification",
+  "path_key": "quarkus-verification",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

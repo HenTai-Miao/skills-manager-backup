@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "56894602-0633-4054-9b2c-cc971a9c84e2",
+  "path": "quality-nonconformance",
+  "path_key": "quality-nonconformance",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

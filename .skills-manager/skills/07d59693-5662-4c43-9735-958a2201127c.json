@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "07d59693-5662-4c43-9735-958a2201127c",
+  "path": "iterative-retrieval",
+  "path_key": "iterative-retrieval",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

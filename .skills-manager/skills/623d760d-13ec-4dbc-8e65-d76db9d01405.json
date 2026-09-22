@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "623d760d-13ec-4dbc-8e65-d76db9d01405",
+  "path": "data-throughput-accelerator",
+  "path_key": "data-throughput-accelerator",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "71ce7834-9bf1-46da-b6c2-f9f819e19d48",
+  "path": "intent-driven-development",
+  "path_key": "intent-driven-development",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "d3c7b878-a6ba-4c3f-a989-20949ebf5d09",
+  "path": "skill-scout",
+  "path_key": "skill-scout",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

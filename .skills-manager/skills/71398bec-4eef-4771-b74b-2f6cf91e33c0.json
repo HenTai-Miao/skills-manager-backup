@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "71398bec-4eef-4771-b74b-2f6cf91e33c0",
+  "path": "network-interface-health",
+  "path_key": "network-interface-health",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

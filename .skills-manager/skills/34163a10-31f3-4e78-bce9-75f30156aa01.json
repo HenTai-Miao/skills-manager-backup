@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "34163a10-31f3-4e78-bce9-75f30156aa01",
+  "path": "competitive-report-structure",
+  "path_key": "competitive-report-structure",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}
