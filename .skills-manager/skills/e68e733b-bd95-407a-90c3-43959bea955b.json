@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "e68e733b-bd95-407a-90c3-43959bea955b",
+  "path": "academy-guide-2",
+  "path_key": "academy-guide-2",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "anthropics/skills/academy-guide",
+    "subpath": "skills/academy-guide",
+    "branch": null
+  }
+}
