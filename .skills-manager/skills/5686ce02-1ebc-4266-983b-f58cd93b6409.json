@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "5686ce02-1ebc-4266-983b-f58cd93b6409",
+  "path": "loop-me",
+  "path_key": "loop-me",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/mattpocock/skills.git",
+    "subpath": "skills/in-progress/loop-me",
+    "branch": null
+  }
+}

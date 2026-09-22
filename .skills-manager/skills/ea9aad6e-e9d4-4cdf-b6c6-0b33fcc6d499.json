@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "ea9aad6e-e9d4-4cdf-b6c6-0b33fcc6d499",
+  "path": "codebase-design",
+  "path_key": "codebase-design",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/mattpocock/skills.git",
+    "subpath": "skills/engineering/codebase-design",
+    "branch": null
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "75996ebd-adfa-4499-8b0e-ebb3dc73463c",
+  "path": "code-review",
+  "path_key": "code-review",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/mattpocock/skills.git",
+    "subpath": "skills/engineering/code-review",
+    "branch": null
+  }
+}
