@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "5b7b3503-2765-4d64-9c78-19c8bd159cde",
+  "path": "dispatching-parallel-agents-2",
+  "path_key": "dispatching-parallel-agents-2",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "obra/superpowers/dispatching-parallel-agents",
+    "subpath": "skills/dispatching-parallel-agents",
+    "branch": null
+  }
+}
