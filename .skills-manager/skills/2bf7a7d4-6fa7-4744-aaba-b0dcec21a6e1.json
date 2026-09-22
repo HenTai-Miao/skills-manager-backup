@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "2bf7a7d4-6fa7-4744-aaba-b0dcec21a6e1",
+  "path": "docx",
+  "path_key": "docx",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "anthropics/skills/docx",
+    "subpath": "skills/docx",
+    "branch": null
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "5e8fa18a-fcdc-49fa-a7c5-853ea40db726",
+  "path": "template-skill",
+  "path_key": "template-skill",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "anthropics/skills/template-skill",
+    "subpath": "template",
+    "branch": null
+  }
+}

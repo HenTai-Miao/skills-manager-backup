@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "61409615-61ea-4462-b3c0-8e0f9f648778",
+  "path": "algorithmic-art",
+  "path_key": "algorithmic-art",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "anthropics/skills/algorithmic-art",
+    "subpath": "skills/algorithmic-art",
+    "branch": null
+  }
+}

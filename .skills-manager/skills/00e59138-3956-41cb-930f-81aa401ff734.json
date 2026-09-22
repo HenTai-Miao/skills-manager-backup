@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "00e59138-3956-41cb-930f-81aa401ff734",
+  "path": "discernment-nudge",
+  "path_key": "discernment-nudge",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "anthropics/skills/discernment-nudge",
+    "subpath": "skills/discernment-nudge",
+    "branch": null
+  }
+}

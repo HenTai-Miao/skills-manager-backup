@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "5000a374-629f-4e54-99d6-6ab8913108ae",
+  "path": "brand-guidelines",
+  "path_key": "brand-guidelines",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "anthropics/skills/brand-guidelines",
+    "subpath": "skills/brand-guidelines",
+    "branch": null
+  }
+}
