@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "22f961d2-0f5c-4e91-833a-97c52928f390",
+  "path": "python-resilience",
+  "path_key": "python-resilience",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "wshobson/agents/python-resilience",
+    "subpath": "plugins/python-development/skills/python-resilience",
+    "branch": null
+  }
+}

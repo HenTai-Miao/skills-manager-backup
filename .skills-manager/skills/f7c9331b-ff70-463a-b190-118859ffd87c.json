@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "f7c9331b-ff70-463a-b190-118859ffd87c",
+  "path": "python-configuration",
+  "path_key": "python-configuration",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "wshobson/agents/python-configuration",
+    "subpath": "plugins/python-development/skills/python-configuration",
+    "branch": null
+  }
+}

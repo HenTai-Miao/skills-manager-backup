@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "b155a674-b064-4b93-8d5b-ff64a757baa8",
+  "path": "python-anti-patterns",
+  "path_key": "python-anti-patterns",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "wshobson/agents/python-anti-patterns",
+    "subpath": "plugins/python-development/skills/python-anti-patterns",
+    "branch": null
+  }
+}

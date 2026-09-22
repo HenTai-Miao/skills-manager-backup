@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "eb326a1a-716a-48b3-b1e8-c29b2d10be00",
+  "path": "temporal-python-testing",
+  "path_key": "temporal-python-testing",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "wshobson/agents/temporal-python-testing",
+    "subpath": "plugins/backend-development/skills/temporal-python-testing",
+    "branch": null
+  }
+}

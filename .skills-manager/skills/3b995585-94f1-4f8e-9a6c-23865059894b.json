@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "3b995585-94f1-4f8e-9a6c-23865059894b",
+  "path": "python-code-style",
+  "path_key": "python-code-style",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "wshobson/agents/python-code-style",
+    "subpath": "plugins/python-development/skills/python-code-style",
+    "branch": null
+  }
+}

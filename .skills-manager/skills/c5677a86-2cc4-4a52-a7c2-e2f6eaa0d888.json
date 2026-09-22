@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "c5677a86-2cc4-4a52-a7c2-e2f6eaa0d888",
+  "path": "python-background-jobs",
+  "path_key": "python-background-jobs",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "wshobson/agents/python-background-jobs",
+    "subpath": "plugins/python-development/skills/python-background-jobs",
+    "branch": null
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "45314233-a396-4d97-9a33-fae944142a5f",
+  "path": "python-testing-patterns",
+  "path_key": "python-testing-patterns",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "wshobson/agents/python-testing-patterns",
+    "subpath": "plugins/python-development/skills/python-testing-patterns",
+    "branch": null
+  }
+}
