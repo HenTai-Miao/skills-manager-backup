@@ -8,7 +8,7 @@
     "codex": true,
     "cursor": true,
     "deepseek_harness": true,
-    "hermes": true,
+    "hermes": false,
     "openclaw": true
   }
 }
