@@ -7,8 +7,8 @@
   "tags": [],
   "source": {
     "type": "git",
-    "ref": "https://github.com/antfu/skills.git",
+    "ref": "https://github.com/vuejs-ai/skills.git",
     "subpath": "skills/vue-router-best-practices",
-    "branch": null
+    "branch": "main"
   }
 }

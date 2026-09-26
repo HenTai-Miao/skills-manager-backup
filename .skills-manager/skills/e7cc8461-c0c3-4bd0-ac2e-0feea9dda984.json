@@ -7,8 +7,8 @@
   "tags": [],
   "source": {
     "type": "git",
-    "ref": "https://github.com/antfu/skills.git",
+    "ref": "https://github.com/vercel/turborepo.git",
     "subpath": "skills/turborepo",
-    "branch": null
+    "branch": "main"
   }
 }

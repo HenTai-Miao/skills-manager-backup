@@ -7,8 +7,8 @@
   "tags": [],
   "source": {
     "type": "git",
-    "ref": "https://github.com/antfu/skills.git",
+    "ref": "https://github.com/rolldown/tsdown.git",
     "subpath": "skills/tsdown",
-    "branch": null
+    "branch": "main"
   }
 }
