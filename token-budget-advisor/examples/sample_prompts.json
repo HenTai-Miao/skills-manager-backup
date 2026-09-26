@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "prompt": "¿Qué es la inteligencia artificial?",
+    "expected": {
+      "language": "es",
+      "type": "natural",
+      "complexity": "simple"
+    },
+    "notes": "Simple definition question (Spanish)"
+  },
+  {
+    "id": 2,
+    "prompt": "Explícame en detalle cómo funciona la arquitectura Transformer, incluyendo el mecanismo de atención, las capas de encoder y decoder, y cómo se compara con las RNNs y LSTMs. Dame ejemplos prácticos de implementación.",
+    "expected": {
+      "language": "es",
+      "type": "natural",
+      "complexity": "complex"
+    },
+    "notes": "Complex technical question with multiple sub-questions"
+  },
+  {
+    "id": 3,
+    "prompt": "Write a REST API in Python with Flask that handles CRUD operations for a user management system with authentication",
+    "expected": {
+      "language": "en",
+      "type": "natural",
+      "complexity": "medium"
+    },
+    "notes": "Code request in English"
+  },
+  {
+    "id": 4,
+    "prompt": "Escribe una historia de ciencia ficción sobre robots que desarrollan emociones",
+    "expected": {
+      "language": "es",
+      "type": "natural",
+      "complexity": "creative"
+    },
+    "notes": "Creative request"
+  },
+  {
+    "id": 5,
+    "prompt": "Compare and contrast microservices architecture vs monolithic architecture, including pros and cons, use cases, and implementation examples for each approach",
+    "expected": {
+      "language": "en",
+      "type": "natural",
+      "complexity": "complex"
+    },
+    "notes": "Complex comparative analysis in English"
+  },
+  {
+    "id": 6,
+    "prompt": "¿Es Python compilado o interpretado?",
+    "expected": {
+      "language": "es",
+      "type": "natural",
+      "complexity": "simple"
+    },
+    "notes": "Simple yes/no question with nuance"
+  },
+  {
+    "id": 7,
+    "prompt": "Haz un análisis exhaustivo de las diferencias entre React, Vue y Angular, incluyendo rendimiento, curva de aprendizaje, ecosistema y casos de uso ideales para cada uno",
+    "expected": {
+      "language": "es",
+      "type": "natural",
+      "complexity": "complex"
+    },
+    "notes": "Exhaustive multi-framework analysis"
+  },
+  {
+    "id": 8,
+    "prompt": "def fibonacci(n): return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)",
+    "expected": {
+      "language": "code",
+      "type": "code",
+      "complexity": "medium"
+    },
+    "notes": "Bare code, no surrounding context"
+  }
+]

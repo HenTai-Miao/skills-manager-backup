@@ -7,8 +7,8 @@
   "tags": [],
   "source": {
     "type": "git",
-    "ref": "affaan-m/ecc",
-    "subpath": "skills/blueprint",
-    "branch": null
+    "ref": "https://github.com/antbotlab/blueprint.git",
+    "subpath": null,
+    "branch": "main"
   }
 }

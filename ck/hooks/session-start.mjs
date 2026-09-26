@@ -17,7 +17,7 @@
 import { readFileSync, writeFileSync, existsSync } from 'fs';
 import { resolve } from 'path';
 import { homedir } from 'os';
-import { spawnSync } from 'child_process';
+import { execSync } from 'child_process';
 
 const CK_HOME         = resolve(homedir(), '.claude', 'ck');
 const PROJECTS_FILE   = resolve(CK_HOME, 'projects.json');
@@ -47,14 +47,10 @@ function stalenessIcon(dateStr) {
 function gitLogSince(projectPath, sinceDate) {
   if (!sinceDate || !existsSync(resolve(projectPath, '.git'))) return null;
   try {
-    const result = spawnSync(
-      'git',
-      ['-C', projectPath, 'log', '--oneline', `--since=${sinceDate}`],
-      { timeout: 3000, stdio: 'pipe', encoding: 'utf8' },
-    );
-    if (result.status !== 0) return null;
-    const output = result.stdout.trim();
-    const commits = output.split('\n').filter(Boolean).length;
+    const result = execSync(`git -C "${projectPath}" log --oneline --since="${sinceDate}"`, {
+      timeout: 3000, stdio: 'pipe', encoding: 'utf8',
+    }).trim();
+    const commits = result.split('\n').filter(Boolean).length;
     return commits > 0 ? `${commits} commit${commits !== 1 ? 's' : ''} since last session` : null;
   } catch { return null; }
 }
@@ -130,7 +126,7 @@ function main() {
         // Check if previous session ID exists in sessions array
         const alreadySaved = context.sessions?.some(s => s.id === prevSession.sessionId);
         if (!alreadySaved) {
-          summaryLines.push(`WARNING Last session wasn't saved — run /ck:save to capture it`);
+          summaryLines.push(`⚠  Last session wasn't saved — run /ck:save to capture it`);
         }
       }
 
@@ -142,7 +138,7 @@ function main() {
       const claudeMdGoal = extractClaudeMdGoal(cwd);
       if (claudeMdGoal && context.goal &&
           claudeMdGoal.toLowerCase().trim() !== context.goal.toLowerCase().trim()) {
-        summaryLines.push(`WARNING Goal mismatch — ck: "${context.goal.slice(0, 40)}" · CLAUDE.md: "${claudeMdGoal.slice(0, 40)}"`);
+        summaryLines.push(`⚠  Goal mismatch — ck: "${context.goal.slice(0, 40)}" · CLAUDE.md: "${claudeMdGoal.slice(0, 40)}"`);
         summaryLines.push(`   Run /ck:save with updated goal to sync`);
       }
 
@@ -165,7 +161,7 @@ function main() {
         '```',
         ``,
         `After the block, add one line: "Ready — what are we working on?"`,
-        `If you see WARNING lines above, mention them briefly after the block.`,
+        `If you see ⚠ warnings above, mention them briefly after the block.`,
       ].join('\n'));
 
       return parts;

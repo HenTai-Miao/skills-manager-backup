@@ -7,8 +7,8 @@
   "tags": [],
   "source": {
     "type": "git",
-    "ref": "affaan-m/ecc",
-    "subpath": "skills/ck",
-    "branch": null
+    "ref": "https://github.com/sreedhargs89/context-keeper.git",
+    "subpath": null,
+    "branch": "main"
   }
 }

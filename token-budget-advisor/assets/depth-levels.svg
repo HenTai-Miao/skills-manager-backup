@@ -1,0 +1,171 @@
+<svg width="1280" height="500" viewBox="0 0 1280 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="dbg" x1="0" y1="0" x2="1280" y2="500" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#080c14"/>
+      <stop offset="100%" stop-color="#0e1826"/>
+    </linearGradient>
+    <!-- Level colors -->
+    <linearGradient id="dg1" x1="0" y1="0" x2="320" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#22c55e" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#16a34a" stop-opacity="0.6"/>
+    </linearGradient>
+    <linearGradient id="dg2" x1="320" y1="0" x2="640" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#eab308" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#ca8a04" stop-opacity="0.6"/>
+    </linearGradient>
+    <linearGradient id="dg3" x1="640" y1="0" x2="960" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#f97316" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#ea580c" stop-opacity="0.6"/>
+    </linearGradient>
+    <linearGradient id="dg4" x1="960" y1="0" x2="1280" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#ef4444" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#dc2626" stop-opacity="0.6"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1280" height="500" fill="url(#dbg)" rx="14"/>
+  <rect width="1280" height="500" fill="none" stroke="#1a2535" stroke-width="1" rx="14"/>
+
+  <!-- Column dividers -->
+  <line x1="320"  y1="0" x2="320"  y2="500" stroke="#1a2535" stroke-width="1"/>
+  <line x1="640"  y1="0" x2="640"  y2="500" stroke="#1a2535" stroke-width="1"/>
+  <line x1="960"  y1="0" x2="960"  y2="500" stroke="#1a2535" stroke-width="1"/>
+
+  <!-- ── TOP STRIPES ──────────────────────────────────────────── -->
+  <rect x="0"   y="0" width="320" height="6" fill="url(#dg1)" rx="14"/>
+  <rect x="320" y="0" width="320" height="6" fill="url(#dg2)"/>
+  <rect x="640" y="0" width="320" height="6" fill="url(#dg3)"/>
+  <rect x="960" y="0" width="320" height="6" fill="url(#dg4)" rx="14"/>
+
+  <!-- ── % BADGE CIRCLES ─────────────────────────────────────── -->
+  <!-- col centers: 160, 480, 800, 1120 -->
+  <circle cx="160"  cy="48" r="28" fill="#0d1f15" stroke="#22c55e" stroke-width="1.5"/>
+  <text x="160"  y="54" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="14" font-weight="900" fill="#22c55e">25%</text>
+
+  <circle cx="480"  cy="48" r="28" fill="#1a1800" stroke="#eab308" stroke-width="1.5"/>
+  <text x="480"  y="54" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="14" font-weight="900" fill="#eab308">50%</text>
+
+  <circle cx="800"  cy="48" r="28" fill="#1a0f00" stroke="#f97316" stroke-width="1.5"/>
+  <text x="800"  y="54" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="14" font-weight="900" fill="#f97316">75%</text>
+
+  <circle cx="1120" cy="48" r="28" fill="#1a0505" stroke="#ef4444" stroke-width="1.5"/>
+  <text x="1120" y="54" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="14" font-weight="900" fill="#ef4444">100%</text>
+
+  <!-- ── LEVEL NAMES ─────────────────────────────────────────── -->
+  <text x="160"  y="94" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" font-weight="700" fill="#22c55e" letter-spacing="2">ESSENTIAL</text>
+  <text x="480"  y="94" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" font-weight="700" fill="#eab308" letter-spacing="2">MODERATE</text>
+  <text x="800"  y="94" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" font-weight="700" fill="#f97316" letter-spacing="2">DETAILED</text>
+  <text x="1120" y="94" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" font-weight="700" fill="#ef4444" letter-spacing="2">EXHAUSTIVE</text>
+
+  <!-- Separator -->
+  <line x1="16" y1="108" x2="304" y2="108" stroke="#0f2218" stroke-width="1"/>
+  <line x1="336" y1="108" x2="624" y2="108" stroke="#1a1700" stroke-width="1"/>
+  <line x1="656" y1="108" x2="944" y2="108" stroke="#1a0e00" stroke-width="1"/>
+  <line x1="976" y1="108" x2="1264" y2="108" stroke="#1a0505" stroke-width="1"/>
+
+  <!-- ── RESPONSE PREVIEW (simulated content lines) ──────────── -->
+  <!-- Line helper: text= h=6 rect, code=h=5 rect slightly darker  -->
+  <!-- Line colors per column: green ~#0d2a17, yellow ~#1e1c00, orange ~#1e0e00, red ~#1e0505 -->
+  <!-- Brighter variant: #133620, #28250a, #271200, #270808 -->
+
+  <!-- col 1: x=18..302 (content area), 25% = 3 short lines only -->
+  <rect x="18"  y="122" width="260" height="6" rx="3" fill="#133620"/>
+  <rect x="18"  y="134" width="220" height="6" rx="3" fill="#0d2a17"/>
+  <rect x="18"  y="146" width="160" height="6" rx="3" fill="#0d2a17" opacity="0.7"/>
+  <!-- nothing more — shows minimal response -->
+  <!-- token estimate bar at bottom -->
+  <rect x="18" y="440" width="72" height="8" rx="4" fill="#22c55e" opacity="0.5"/>
+  <text x="18" y="460" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="11" fill="#22c55e" opacity="0.8">~430 tokens</text>
+
+  <!-- col 2: 50% = paragraph + code block + follow-up  x=338..622 -->
+  <rect x="338" y="122" width="260" height="6" rx="3" fill="#28250a"/>
+  <rect x="338" y="134" width="240" height="6" rx="3" fill="#1e1c00"/>
+  <rect x="338" y="146" width="200" height="6" rx="3" fill="#1e1c00" opacity="0.8"/>
+  <rect x="338" y="158" width="170" height="6" rx="3" fill="#1e1c00" opacity="0.6"/>
+  <!-- code block -->
+  <rect x="338" y="174" width="284" height="70" rx="5" fill="#060c12"/>
+  <rect x="350" y="184" width="200" height="5" rx="2" fill="#1e2d00" opacity="0.9"/>
+  <rect x="350" y="195" width="240" height="5" rx="2" fill="#1e2d00" opacity="0.8"/>
+  <rect x="350" y="206" width="180" height="5" rx="2" fill="#1e2d00" opacity="0.7"/>
+  <rect x="350" y="217" width="220" height="5" rx="2" fill="#1e2d00" opacity="0.6"/>
+  <!-- after code -->
+  <rect x="338" y="254" width="230" height="6" rx="3" fill="#1e1c00" opacity="0.7"/>
+  <rect x="338" y="266" width="180" height="6" rx="3" fill="#1e1c00" opacity="0.5"/>
+  <!-- token estimate -->
+  <rect x="338" y="440" width="145" height="8" rx="4" fill="#eab308" opacity="0.5"/>
+  <text x="338" y="460" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="11" fill="#eab308" opacity="0.8">~600 tokens</text>
+
+  <!-- col 3: 75% = heading + paragraph + bullets + code + more  x=658..942 -->
+  <!-- heading line (shorter, brighter) -->
+  <rect x="658" y="122" width="160" height="7" rx="3" fill="#3d1e00"/>
+  <!-- paragraph -->
+  <rect x="658" y="136" width="260" height="6" rx="3" fill="#271200"/>
+  <rect x="658" y="148" width="245" height="6" rx="3" fill="#1e0e00" opacity="0.9"/>
+  <rect x="658" y="160" width="210" height="6" rx="3" fill="#1e0e00" opacity="0.8"/>
+  <!-- bullets (indented) -->
+  <rect x="672" y="175" width="220" height="5" rx="2" fill="#1e0e00" opacity="0.75"/>
+  <rect x="672" y="186" width="200" height="5" rx="2" fill="#1e0e00" opacity="0.65"/>
+  <rect x="672" y="197" width="185" height="5" rx="2" fill="#1e0e00" opacity="0.55"/>
+  <!-- code block -->
+  <rect x="658" y="213" width="284" height="85" rx="5" fill="#060c12"/>
+  <rect x="670" y="222" width="230" height="5" rx="2" fill="#2d1a00" opacity="0.9"/>
+  <rect x="670" y="233" width="200" height="5" rx="2" fill="#2d1a00" opacity="0.8"/>
+  <rect x="670" y="244" width="250" height="5" rx="2" fill="#2d1a00" opacity="0.7"/>
+  <rect x="670" y="255" width="190" height="5" rx="2" fill="#2d1a00" opacity="0.6"/>
+  <rect x="670" y="266" width="220" height="5" rx="2" fill="#2d1a00" opacity="0.5"/>
+  <rect x="670" y="277" width="160" height="5" rx="2" fill="#2d1a00" opacity="0.4"/>
+  <!-- trailing paragraph -->
+  <rect x="658" y="308" width="255" height="6" rx="3" fill="#1e0e00" opacity="0.7"/>
+  <rect x="658" y="320" width="220" height="6" rx="3" fill="#1e0e00" opacity="0.55"/>
+  <!-- more bullets -->
+  <rect x="672" y="334" width="195" height="5" rx="2" fill="#1e0e00" opacity="0.5"/>
+  <rect x="672" y="345" width="175" height="5" rx="2" fill="#1e0e00" opacity="0.4"/>
+  <!-- token estimate -->
+  <rect x="658" y="440" width="218" height="8" rx="4" fill="#f97316" opacity="0.5"/>
+  <text x="658" y="460" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="11" fill="#f97316" opacity="0.8">~775 tokens</text>
+
+  <!-- col 4: 100% = dense, everything  x=978..1262 -->
+  <!-- heading 1 -->
+  <rect x="978" y="122" width="155" height="7" rx="3" fill="#380f0f"/>
+  <!-- paragraph 1 -->
+  <rect x="978" y="136" width="262" height="6" rx="3" fill="#270808"/>
+  <rect x="978" y="148" width="245" height="6" rx="3" fill="#1e0505" opacity="0.9"/>
+  <rect x="978" y="160" width="220" height="6" rx="3" fill="#1e0505" opacity="0.8"/>
+  <!-- code block 1 -->
+  <rect x="978" y="175" width="284" height="68" rx="5" fill="#060c12"/>
+  <rect x="990" y="184" width="240" height="5" rx="2" fill="#380808" opacity="0.9"/>
+  <rect x="990" y="195" width="220" height="5" rx="2" fill="#380808" opacity="0.8"/>
+  <rect x="990" y="206" width="255" height="5" rx="2" fill="#380808" opacity="0.7"/>
+  <rect x="990" y="217" width="200" height="5" rx="2" fill="#380808" opacity="0.6"/>
+  <rect x="990" y="228" width="230" height="5" rx="2" fill="#380808" opacity="0.5"/>
+  <!-- heading 2 -->
+  <rect x="978" y="254" width="140" height="7" rx="3" fill="#380f0f"/>
+  <!-- paragraph 2 -->
+  <rect x="978" y="268" width="260" height="6" rx="3" fill="#1e0505" opacity="0.85"/>
+  <rect x="978" y="280" width="230" height="6" rx="3" fill="#1e0505" opacity="0.75"/>
+  <!-- bullets -->
+  <rect x="992" y="294" width="230" height="5" rx="2" fill="#1e0505" opacity="0.65"/>
+  <rect x="992" y="305" width="210" height="5" rx="2" fill="#1e0505" opacity="0.55"/>
+  <rect x="992" y="316" width="245" height="5" rx="2" fill="#1e0505" opacity="0.45"/>
+  <!-- code block 2 -->
+  <rect x="978" y="330" width="284" height="82" rx="5" fill="#060c12"/>
+  <rect x="990" y="340" width="250" height="5" rx="2" fill="#380808" opacity="0.85"/>
+  <rect x="990" y="351" width="220" height="5" rx="2" fill="#380808" opacity="0.75"/>
+  <rect x="990" y="362" width="240" height="5" rx="2" fill="#380808" opacity="0.65"/>
+  <rect x="990" y="373" width="195" height="5" rx="2" fill="#380808" opacity="0.55"/>
+  <rect x="990" y="384" width="230" height="5" rx="2" fill="#380808" opacity="0.45"/>
+  <rect x="990" y="395" width="210" height="5" rx="2" fill="#380808" opacity="0.35"/>
+  <!-- token estimate -->
+  <rect x="978" y="440" width="284" height="8" rx="4" fill="#ef4444" opacity="0.5"/>
+  <text x="978" y="460" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="11" fill="#ef4444" opacity="0.8">~920 tokens  ·  no limits</text>
+
+  <!-- ── INCLUDES (bottom text labels) ──────────────────────── -->
+  <text x="160"  y="420" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="11" fill="#22c55e" opacity="0.7">Direct answer only</text>
+  <text x="480"  y="420" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="11" fill="#eab308" opacity="0.7">Answer + context + 1 example</text>
+  <text x="800"  y="420" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="11" fill="#f97316" opacity="0.7">Full answer + examples + pros/cons</text>
+  <text x="1120" y="420" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="11" fill="#ef4444" opacity="0.7">Everything — all code, all perspectives</text>
+
+  <!-- bottom separator -->
+  <line x1="0" y1="430" x2="1280" y2="430" stroke="#1a2535" stroke-width="1"/>
+</svg>

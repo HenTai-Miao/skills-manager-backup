@@ -5,10 +5,10 @@
  * No external dependencies. Node.js stdlib only.
  */
 
-import { readFileSync, writeFileSync, existsSync, mkdirSync } from 'fs';
-import { resolve } from 'path';
+import { readFileSync, writeFileSync, existsSync, mkdirSync, readdirSync } from 'fs';
+import { resolve, basename } from 'path';
 import { homedir } from 'os';
-import { spawnSync } from 'child_process';
+import { execSync } from 'child_process';
 import { randomBytes } from 'crypto';
 
 // ─── Paths ────────────────────────────────────────────────────────────────────
@@ -144,13 +144,11 @@ export function shortId() {
 
 function runGit(args, cwd) {
   try {
-    const result = spawnSync('git', ['-C', cwd, ...args], {
+    return execSync(`git -C "${cwd}" ${args}`, {
       timeout: 3000,
       stdio: 'pipe',
       encoding: 'utf8',
-    });
-    if (result.status !== 0) return null;
-    return result.stdout.trim();
+    }).trim();
   } catch {
     return null;
   }
@@ -158,7 +156,7 @@ function runGit(args, cwd) {
 
 export function gitLogSince(projectPath, sinceDate) {
   if (!sinceDate) return null;
-  return runGit(['log', '--oneline', `--since=${sinceDate}`], projectPath);
+  return runGit(`log --oneline --since="${sinceDate}"`, projectPath);
 }
 
 export function gitSummary(projectPath, sinceDate) {
@@ -168,9 +166,9 @@ export function gitSummary(projectPath, sinceDate) {
   if (commits === 0) return null;
 
   // Count unique files changed: use a separate runGit call to avoid nested shell substitution
-  const countStr = runGit(['rev-list', '--count', 'HEAD', `--since=${sinceDate}`], projectPath);
+  const countStr = runGit(`rev-list --count HEAD --since="${sinceDate}"`, projectPath);
   const revCount = countStr ? parseInt(countStr, 10) : commits;
-  const diff = runGit(['diff', '--shortstat', `HEAD~${Math.min(revCount, 50)}..HEAD`], projectPath);
+  const diff = runGit(`diff --shortstat HEAD~${Math.min(revCount, 50)}..HEAD`, projectPath);
 
   if (diff) {
     const filesMatch = diff.match(/(\d+) file/);
@@ -270,7 +268,7 @@ export function renderContextMd(ctx) {
 }
 
 /** Render the bordered briefing box used by /ck:resume */
-export function renderBriefingBox(ctx, _meta = {}) {
+export function renderBriefingBox(ctx, meta = {}) {
   const latest = ctx.sessions?.[ctx.sessions.length - 1] || {};
   const W = 57;
   const pad = (str, w) => {
@@ -344,7 +342,7 @@ export function renderInfoBlock(ctx) {
 }
 
 /** Render ASCII list table used by /ck:list */
-export function renderListTable(entries, cwd, _todayStr) {
+export function renderListTable(entries, cwd, todayStr) {
   // entries: [{name, contextDir, path, context, lastUpdated}]
   // Sorted alphabetically by contextDir before calling
   const rows = entries.map((e, i) => {

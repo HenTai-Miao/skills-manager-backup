@@ -7,8 +7,8 @@
   "tags": [],
   "source": {
     "type": "git",
-    "ref": "affaan-m/ecc",
-    "subpath": "skills/flox-environments",
-    "branch": null
+    "ref": "https://github.com/flox/flox-agentic.git",
+    "subpath": "flox-plugin/skills/flox-environments",
+    "branch": "main"
   }
 }

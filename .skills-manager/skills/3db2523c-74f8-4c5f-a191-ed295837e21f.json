@@ -7,8 +7,8 @@
   "tags": [],
   "source": {
     "type": "git",
-    "ref": "affaan-m/ecc",
-    "subpath": "skills/frontend-slides",
-    "branch": null
+    "ref": "https://github.com/zarazhangrui/frontend-slides.git",
+    "subpath": "plugins/frontend-slides/skills/frontend-slides",
+    "branch": "main"
   }
 }

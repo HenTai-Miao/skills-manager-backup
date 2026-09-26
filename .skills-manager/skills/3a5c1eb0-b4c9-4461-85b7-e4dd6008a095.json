@@ -7,8 +7,8 @@
   "tags": [],
   "source": {
     "type": "git",
-    "ref": "affaan-m/ecc",
-    "subpath": "skills/token-budget-advisor",
-    "branch": null
+    "ref": "https://github.com/Xabilimon1/TBA-Token-Budget-Advisor-Claude-Code.git",
+    "subpath": null,
+    "branch": "main"
   }
 }

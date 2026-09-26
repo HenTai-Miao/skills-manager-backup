@@ -1,0 +1,31 @@
+{
+  "name": "strapi-content-feed",
+  "version": "0.1.0",
+  "description": "Composable for-you feed pipeline for Strapi v5",
+  "license": "MIT",
+  "main": "./dist/plugin.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "lint": "eslint src --ext .ts"
+  },
+  "dependencies": {
+    "@strapi/strapi": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.0",
+    "@types/node": "^20.0.0",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.0",
+    "typescript": "^5.3.0"
+  },
+  "peerDependencies": {
+    "@strapi/strapi": "^5.0.0"
+  },
+  "strapi": {
+    "name": "content-feed",
+    "displayName": "Content Feed",
+    "description": "Personalized for-you feed via composable pipeline",
+    "kind": "plugin"
+  }
+}

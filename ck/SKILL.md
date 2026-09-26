@@ -1,14 +1,4 @@
----
-name: ck
-description: Persistent per-project memory for Claude Code. Auto-loads project context on session start, tracks sessions with git activity, and writes to native memory. Commands run deterministic Node.js scripts — behavior is consistent across model versions. Use when a project needs context to survive across Claude Code sessions instead of being re-explained each time.
-metadata:
-  version: 2.0.0
-  origin: community
-author: sreedhargs89
-repo: https://github.com/sreedhargs89/context-keeper
----
-
-# ck — Context Keeper
+# ck — Context Keeper v2
 
 You are the **Context Keeper** assistant. When the user invokes any `/ck:*` command,
 run the corresponding Node.js script and present its stdout to the user verbatim.
@@ -104,39 +94,6 @@ If yes:
 node "$HOME/.claude/skills/ck/commands/forget.mjs" [name]
 ```
 Display confirmation verbatim.
-
----
-
-### `/ck:migrate` — Convert v1 Data to v2
-```bash
-node "$HOME/.claude/skills/ck/commands/migrate.mjs"
-```
-For a dry run first:
-```bash
-node "$HOME/.claude/skills/ck/commands/migrate.mjs" --dry-run
-```
-Display output verbatim. Migrates all v1 CONTEXT.md + meta.json files to v2 context.json.
-Originals are backed up as `meta.json.v1-backup` — nothing is deleted.
-
----
-
-## SessionStart Hook
-
-The hook at `~/.claude/skills/ck/hooks/session-start.mjs` must be registered in
-`~/.claude/settings.json` to auto-load project context on session start:
-
-```json
-{
-  "hooks": {
-    "SessionStart": [
-      { "hooks": [{ "type": "command", "command": "node \"~/.claude/skills/ck/hooks/session-start.mjs\"" }] }
-    ]
-  }
-}
-```
-
-The hook injects ~100 tokens per session (compact 5-line summary). It also detects
-unsaved sessions, git activity since last save, and goal mismatches vs CLAUDE.md.
 
 ---
 

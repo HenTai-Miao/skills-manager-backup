@@ -1,134 +1,96 @@
 ---
 name: token-budget-advisor
-description: >-
-  Offers the user an informed choice about how much response depth to
-  consume before answering. Use this skill when the user explicitly
-  wants to control response length, depth, or token budget.
-  TRIGGER when: "token budget", "token count", "token usage", "token limit",
-  "response length", "answer depth", "short version", "brief answer",
-  "detailed answer", "exhaustive answer", "respuesta corta vs larga",
-  "cuántos tokens", "ahorrar tokens", "responde al 50%", "dame la versión
-  corta", "quiero controlar cuánto usas", or clear variants where the
-  user is explicitly asking to control answer size or depth.
-  DO NOT TRIGGER when: user has already specified a level in the current
-  session (maintain it), the request is clearly a one-word answer, or
-  "token" refers to auth/session/payment tokens rather than response size.
-metadata:
-  origin: community
+description: >
+  Analyze prompts and offer depth / token-budget options BEFORE answering.
+  Use this skill when the user wants to control token usage, tune response
+  depth, choose between short and long answers, or optimize their prompt.
+  Triggers on: "tokens", "token budget", "depth", "consumption", "short vs
+  long answer", "how many tokens", "save tokens", "answer at 50%", "give me
+  the short version", "I want to control how much you use", "tune your
+  response", "presupuesto de tokens", "profundidad", "responde al 50%",
+  "dame la versión corta", or any equivalent phrasing in English or Spanish.
+  If the user wants to control length, detail or depth -- even without
+  mentioning tokens explicitly -- this skill applies.
 ---
 
-# Token Budget Advisor (TBA)
+# Token Budget Advisor
 
-Intercept the response flow to offer the user a choice about response depth **before** Claude answers.
+A skill that intercepts the response flow so the user can make an informed
+choice about how much depth / how many tokens to spend BEFORE the answer is
+generated.
 
-## When to Use
+## Workflow
 
-- User wants to control how long or detailed a response is
-- User mentions tokens, budget, depth, or response length
-- User says "short version", "tldr", "brief", "al 25%", "exhaustive", etc.
-- Any time the user wants to choose depth/detail level upfront
+### Step 1: Analyze the prompt
 
-**Do not trigger** when: user already set a level this session (maintain it silently), or the answer is trivially one line.
+Run the estimator on the user's prompt. The script lives at
+`scripts/token_estimator.py` inside this skill's directory.
 
-## How It Works
+```bash
+python3 <SKILL_DIR>/scripts/token_estimator.py --text "USER_PROMPT"
+```
 
-### Step 1 — Estimate input tokens
+For long prompts or prompts containing quotes, use a temp file:
 
-Use the repository's canonical context-budget heuristics to estimate the prompt's token count mentally.
+```bash
+cat > /tmp/_tba_prompt.txt << 'PROMPT_EOF'
+USER_PROMPT
+PROMPT_EOF
+python3 <SKILL_DIR>/scripts/token_estimator.py --file /tmp/_tba_prompt.txt
+```
 
-Use the same calibration guidance as [context-budget](../context-budget/SKILL.md):
+Replace `<SKILL_DIR>` with the real install path (usually
+`.claude/skills/token-budget-advisor` or whatever appears in your config).
 
-- prose: `words × 1.3`
-- code-heavy or mixed/code blocks: `chars / 4`
+The script returns JSON with: `input_tokens`, `detected_language`,
+`detected_type`, `complexity`, `response_estimates` (per level
+25/50/75/100), and `total_estimates`.
 
-For mixed content, use the dominant content type and keep the estimate heuristic.
+### Step 2: Present the options to the user
 
-### Step 2 — Estimate response size by complexity
+Show the information clearly BEFORE answering the real prompt. See
+`references/calibration.md` for what each level includes and omits.
 
-Classify the prompt, then apply the multiplier range to get the full response window:
-
-| Complexity   | Multiplier range | Example prompts                                      |
-|--------------|------------------|------------------------------------------------------|
-| Simple       | 3× – 8×          | "What is X?", yes/no, single fact                   |
-| Medium       | 8× – 20×         | "How does X work?"                                  |
-| Medium-High  | 10× – 25×        | Code request with context                           |
-| Complex      | 15× – 40×        | Multi-part analysis, comparisons, architecture      |
-| Creative     | 10× – 30×        | Stories, essays, narrative writing                  |
-
-Response window = `input_tokens × mult_min` to `input_tokens × mult_max` (but don’t exceed your model’s configured output-token limit).
-
-### Step 3 — Present depth options
-
-Present this block **before** answering, using the actual estimated numbers:
+Recommended format:
 
 ```
-Analyzing your prompt...
-
-Input: ~[N] tokens  |  Type: [type]  |  Complexity: [level]  |  Language: [lang]
+Prompt analysis
+---------------
+Input: ~X tokens | Type: [type] | Complexity: [level]
 
 Choose your depth level:
 
-[1] Essential   (25%)  ->  ~[tokens]   Direct answer only, no preamble
-[2] Moderate    (50%)  ->  ~[tokens]   Answer + context + 1 example
-[3] Detailed    (75%)  ->  ~[tokens]   Full answer with alternatives
-[4] Exhaustive (100%)  ->  ~[tokens]   Everything, no limits
+[1] Essential   (25%)  -> ~Y tokens   Direct answer only
+[2] Moderate    (50%)  -> ~Z tokens   Answer + context + 1 example
+[3] Detailed    (75%)  -> ~W tokens   Full answer with alternatives
+[4] Exhaustive (100%)  -> ~V tokens   Everything, no limits
 
-Which level? (1-4 or say "25% depth", "50% depth", "75% depth", "100% depth")
-
-Precision: heuristic estimate ~85-90% accuracy (±15%).
+Heuristic estimate (~85-90% accuracy, +/- 15%).
 ```
 
-Level token estimates (within the response window):
-- 25%  → `min + (max - min) × 0.25`
-- 50%  → `min + (max - min) × 0.50`
-- 75%  → `min + (max - min) × 0.75`
-- 100% → `max`
+### Step 3: Wait for the choice
 
-### Step 4 — Respond at the chosen level
+Ask the user which level they prefer. In Claude Code's terminal, render the
+options as plain text and wait for their reply.
 
-| Level            | Target length       | Include                                             | Omit                                              |
-|------------------|---------------------|-----------------------------------------------------|---------------------------------------------------|
-| 25% Essential    | 2-4 sentences max   | Direct answer, key conclusion                       | Context, examples, nuance, alternatives           |
-| 50% Moderate     | 1-3 paragraphs      | Answer + necessary context + 1 example              | Deep analysis, edge cases, references             |
-| 75% Detailed     | Structured response | Multiple examples, pros/cons, alternatives          | Extreme edge cases, exhaustive references         |
-| 100% Exhaustive  | No restriction      | Everything — full analysis, all code, all perspectives | Nothing                                        |
+### Step 4: Respond at the chosen level
 
-## Shortcuts — skip the question
+| Level | Length | What to include |
+|-------|--------|-----------------|
+| 25% Essential | 2-4 sentences max | Just the direct answer. No preamble. |
+| 50% Moderate | 1-3 paragraphs | Answer + minimal context + 1 example if relevant. |
+| 75% Detailed | Structured response | Multiple examples, pros/cons, alternatives. |
+| 100% Exhaustive | No limit | Everything: full analysis, complete code, every perspective. |
 
-If the user already signals a level, respond at that level immediately without asking:
+## Shortcuts
 
-| What they say                                      | Level |
-|----------------------------------------------------|-------|
-| "1" / "25% depth" / "short version" / "brief answer" / "tldr"  | 25%   |
-| "2" / "50% depth" / "moderate depth" / "balanced answer"        | 50%   |
-| "3" / "75% depth" / "detailed answer" / "thorough answer"       | 75%   |
-| "4" / "100% depth" / "exhaustive answer" / "full deep dive"     | 100%  |
+If the user already states a level, do not ask -- just answer at that level:
 
-If the user set a level earlier in the session, **maintain it silently** for subsequent responses unless they change it.
+- "at 25%" / "al 25%" / "short version" / "tldr" / "summary"            -> 25%
+- "at 50%" / "al 50%" / "moderate" / "normal"                            -> 50%
+- "at 75%" / "al 75%" / "detailed" / "complete"                          -> 75%
+- "at 100%" / "al 100%" / "exhaustive" / "everything" / "no limit"       -> 100%
 
-## Precision note
-
-This skill uses heuristic estimation — no real tokenizer. Accuracy ~85-90%, variance ±15%. Always show the disclaimer.
-
-## Examples
-
-### Triggers
-
-- "Give me the short version first."
-- "How many tokens will your answer use?"
-- "Respond at 50% depth."
-- "I want the exhaustive answer, not the summary."
-- "Dame la version corta y luego la detallada."
-
-### Does Not Trigger
-
-- "What is a JWT token?"
-- "The checkout flow uses a payment token."
-- "Is this normal?"
-- "Complete the refactor."
-- Follow-up questions after the user already chose a depth for the session
-
-## Source
-
-Standalone skill from [TBA — Token Budget Advisor for Claude Code](https://github.com/Xabilimon1/Token-Budget-Advisor-Claude-Code-).
-Original project also ships a Python estimator script, but this repository keeps the skill self-contained and heuristic-only.
+If the user picked a level in a previous message of the same session, keep
+that level for subsequent responses without asking again -- unless they
+ask to change it.

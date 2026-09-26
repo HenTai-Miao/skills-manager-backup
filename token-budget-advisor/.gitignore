@@ -1,0 +1,23 @@
+# macOS
+.DS_Store
+**/.DS_Store
+
+# JetBrains IDEs
+.idea/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.coverage
+htmlcov/
+*.egg-info/
+
+# Temp files
+/tmp/
+*.tmp
+_tba_*.txt
+
+# Brace-expansion accidents
+{scripts,references,examples}/

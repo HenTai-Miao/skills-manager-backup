@@ -1,0 +1,137 @@
+<svg width="1280" height="320" viewBox="0 0 1280 320" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="fbg" x1="0" y1="0" x2="1280" y2="320" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#080c14"/>
+      <stop offset="100%" stop-color="#0e1826"/>
+    </linearGradient>
+    <linearGradient id="facc" x1="0" y1="0" x2="1280" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#f97316"/>
+      <stop offset="50%"  stop-color="#fbbf24"/>
+      <stop offset="100%" stop-color="#f97316" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="ftba" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#f97316"/>
+      <stop offset="100%" stop-color="#fbbf24"/>
+    </linearGradient>
+    <linearGradient id="fb1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#4ade80"/>  <stop offset="100%" stop-color="#15803d" stop-opacity="0.7"/>
+    </linearGradient>
+    <linearGradient id="fb2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#facc15"/>  <stop offset="100%" stop-color="#a16207" stop-opacity="0.7"/>
+    </linearGradient>
+    <linearGradient id="fb3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fb923c"/>  <stop offset="100%" stop-color="#c2410c" stop-opacity="0.7"/>
+    </linearGradient>
+    <linearGradient id="fb4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f87171"/>  <stop offset="100%" stop-color="#b91c1c" stop-opacity="0.7"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1280" height="320" fill="url(#fbg)" rx="14"/>
+  <!-- Top accent line -->
+  <rect x="0" y="0" width="1280" height="3" fill="url(#facc)" rx="14"/>
+  <!-- Outer border -->
+  <rect width="1280" height="320" fill="none" stroke="#1a2535" stroke-width="1" rx="14"/>
+
+  <!-- ── BOXES ──────────────────────────────────────────────────
+       w=215  h=192  gap=(1280-4*215)/5=84
+       x: 84, 383, 682, 981
+       top=64  bottom=256  cy=160
+  ─────────────────────────────────────────────────────────────── -->
+
+  <!-- Box 1 -->
+  <rect x="84"  y="64" width="215" height="192" rx="12" fill="#0b1120" stroke="#1e293b" stroke-width="1"/>
+  <!-- Box 2 -->
+  <rect x="383" y="64" width="215" height="192" rx="12" fill="#0b1120" stroke="#1e293b" stroke-width="1"/>
+  <!-- Box 3 -->
+  <rect x="682" y="64" width="215" height="192" rx="12" fill="#0b1120" stroke="#1e293b" stroke-width="1"/>
+  <!-- Box 4 -->
+  <rect x="981" y="64" width="215" height="192" rx="12" fill="#0b1120" stroke="#1e293b" stroke-width="1"/>
+
+  <!-- Step circles  cy=64+36=100  r=22 -->
+  <!-- Step 1: orange -->
+  <circle cx="191" cy="100" r="22" fill="#1c1800" stroke="#f97316" stroke-width="1.5"/>
+  <text x="191" y="106" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="15" font-weight="800" fill="#f97316">1</text>
+  <!-- Step 2 -->
+  <circle cx="490" cy="100" r="22" fill="#1c1800" stroke="#fbbf24" stroke-width="1.5"/>
+  <text x="490" y="106" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="15" font-weight="800" fill="#fbbf24">2</text>
+  <!-- Step 3 -->
+  <circle cx="789" cy="100" r="22" fill="#1c1800" stroke="#f97316" stroke-width="1.5"/>
+  <text x="789" y="106" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="15" font-weight="800" fill="#f97316">3</text>
+  <!-- Step 4 -->
+  <circle cx="1088" cy="100" r="22" fill="#1c1800" stroke="#fbbf24" stroke-width="1.5"/>
+  <text x="1088" y="106" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="15" font-weight="800" fill="#fbbf24">4</text>
+
+  <!-- ── ICONS (y~130–155) ────────────────────────────────────── -->
+
+  <!-- Box 1 icon: 3 text lines (simulating a prompt) -->
+  <rect x="141" y="130" width="100" height="6" rx="3" fill="#1e3552" opacity="0.9"/>
+  <rect x="141" y="141" width="80"  height="6" rx="3" fill="#1e3552" opacity="0.7"/>
+  <rect x="141" y="152" width="55"  height="6" rx="3" fill="#1e3552" opacity="0.5"/>
+  <!-- cursor blink -->
+  <rect x="200" y="152" width="4" height="6" rx="1" fill="#f97316" opacity="0.8"/>
+
+  <!-- Box 2 icon: 4 mini ascending bars (TBA motif) -->
+  <!-- bars bottom=155, w=9, gap=5, total=4*9+3*5=51, start=490-25=465 -->
+  <rect x="465" y="143" width="9" height="12" rx="2" fill="url(#fb1)" opacity="0.85"/>
+  <rect x="479" y="133" width="9" height="22" rx="2" fill="url(#fb2)" opacity="0.85"/>
+  <rect x="493" y="122" width="9" height="33" rx="2" fill="url(#fb3)" opacity="0.85"/>
+  <rect x="507" y="109" width="9" height="46" rx="2" fill="url(#fb4)" opacity="0.85"/>
+  <rect x="460" y="156" width="60" height="1" fill="#1e293b"/>
+
+  <!-- Box 3 icon: 4 colored option squares [1][2][3][4] -->
+  <!-- 4 squares w=18 h=18, gap=5, total=87, start=789-43=746 -->
+  <rect x="746" y="132" width="18" height="18" rx="4" fill="#166534" stroke="#22c55e" stroke-width="1"/>
+  <text x="755" y="145" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="10" font-weight="700" fill="#4ade80">1</text>
+  <rect x="769" y="132" width="18" height="18" rx="4" fill="#713f12" stroke="#eab308" stroke-width="1"/>
+  <text x="778" y="145" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="10" font-weight="700" fill="#facc15">2</text>
+  <rect x="792" y="132" width="18" height="18" rx="4" fill="#7c2d12" stroke="#f97316" stroke-width="1"/>
+  <text x="801" y="145" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="10" font-weight="700" fill="#fb923c">3</text>
+  <rect x="815" y="132" width="18" height="18" rx="4" fill="#7f1d1d" stroke="#ef4444" stroke-width="1"/>
+  <text x="824" y="145" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="10" font-weight="700" fill="#f87171">4</text>
+
+  <!-- Box 4 icon: a focused single response line with a checkmark -->
+  <rect x="1038" y="136" width="100" height="6" rx="3" fill="#1e3552" opacity="0.9"/>
+  <rect x="1038" y="147" width="75"  height="6" rx="3" fill="#1e3552" opacity="0.6"/>
+  <!-- check circle -->
+  <circle cx="1108" cy="130" r="9" fill="#14532d" stroke="#22c55e" stroke-width="1.2"/>
+  <text x="1108" y="134" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="9" font-weight="800" fill="#4ade80">✓</text>
+
+  <!-- ── TITLES (y=177) ─────────────────────────────────────────── -->
+  <text x="191"  y="183" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="14" font-weight="700" fill="#e2e8f0">Your Prompt</text>
+  <text x="490"  y="183" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="14" font-weight="700" fill="#e2e8f0">TBA Analyzes</text>
+  <text x="789"  y="183" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="14" font-weight="700" fill="#e2e8f0">You Choose</text>
+  <text x="1088" y="183" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="14" font-weight="700" fill="#e2e8f0">Claude Responds</text>
+
+  <!-- ── DESCRIPTIONS (y=202, 218) ─────────────────────────────── -->
+  <text x="191"  y="202" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="12" fill="#64748b">Ask Claude</text>
+  <text x="191"  y="218" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="12" fill="#64748b">anything as usual</text>
+
+  <text x="490"  y="202" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="12" fill="#64748b">Estimates tokens</text>
+  <text x="490"  y="218" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="12" fill="#64748b">&amp; complexity</text>
+
+  <text x="789"  y="202" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="12" fill="#64748b">25% · 50% · 75%</text>
+  <text x="789"  y="218" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="12" fill="#64748b">or 100% depth</text>
+
+  <text x="1088" y="202" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="12" fill="#64748b">Exactly at your</text>
+  <text x="1088" y="218" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="12" fill="#64748b">chosen depth</text>
+
+  <!-- ── ARROWS (y=160) ────────────────────────────────────────── -->
+  <!-- Arrow 1: box1 right(299) → box2 left(383) -->
+  <line x1="305" y1="160" x2="374" y2="160" stroke="#f97316" stroke-width="1.8" opacity="0.7"/>
+  <polygon points="383,160 372,154 372,166" fill="#f97316" opacity="0.7"/>
+
+  <!-- Arrow 2: box2 right(598) → box3 left(682) -->
+  <line x1="604" y1="160" x2="673" y2="160" stroke="#f97316" stroke-width="1.8" opacity="0.7"/>
+  <polygon points="682,160 671,154 671,166" fill="#f97316" opacity="0.7"/>
+
+  <!-- Arrow 3: box3 right(897) → box4 left(981) -->
+  <line x1="903" y1="160" x2="972" y2="160" stroke="#f97316" stroke-width="1.8" opacity="0.7"/>
+  <polygon points="981,160 970,154 970,166" fill="#f97316" opacity="0.7"/>
+
+  <!-- Step labels under arrows -->
+  <text x="341" y="176" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="9" fill="#334155">intercepts</text>
+  <text x="640" y="176" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="9" fill="#334155">presents</text>
+  <text x="939" y="176" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="9" fill="#334155">responds at</text>
+</svg>

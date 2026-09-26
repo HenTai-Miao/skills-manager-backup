@@ -11,7 +11,7 @@
  * exit 0: success  exit 1: error
  */
 
-import { readFileSync, existsSync, renameSync } from 'fs';
+import { readFileSync, writeFileSync, existsSync, renameSync } from 'fs';
 import { resolve } from 'path';
 import { readProjects, writeProjects, saveContext, today, shortId, CONTEXTS_DIR } from './shared.mjs';
 
@@ -112,11 +112,7 @@ for (const [projectPath, info] of Object.entries(projects)) {
     const contextMd = existsSync(contextMdPath) ? readFileSync(contextMdPath, 'utf8') : '';
     let meta = {};
     if (existsSync(metaPath)) {
-      try {
-        meta = JSON.parse(readFileSync(metaPath, 'utf8'));
-      } catch (e) {
-        console.warn(`  ! ${contextDir}: invalid meta.json, continuing with defaults (${e.message})`);
-      }
+      try { meta = JSON.parse(readFileSync(metaPath, 'utf8')); } catch {}
     }
 
     // Extract fields from CONTEXT.md

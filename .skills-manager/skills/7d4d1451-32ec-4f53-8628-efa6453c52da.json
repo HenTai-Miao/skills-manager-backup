@@ -7,8 +7,8 @@
   "tags": [],
   "source": {
     "type": "git",
-    "ref": "affaan-m/ecc",
-    "subpath": "skills/repo-scan",
-    "branch": null
+    "ref": "https://github.com/haibindev/repo-scan.git",
+    "subpath": null,
+    "branch": "master"
   }
 }
