@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "bd3be94b-eed6-40cd-bffb-e61f8dae0751",
+  "path": "phone-ui-demos",
+  "path_key": "phone-ui-demos",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/Unclecheng-li/AI_Animation",
+    "subpath": "skills/phone-ui-demos",
+    "branch": null
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "12288db6-6a06-4b89-8182-1753da8e7025",
+  "path": "video-shot-demos",
+  "path_key": "video-shot-demos",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/Unclecheng-li/AI_Animation",
+    "subpath": "skills/video-shot-demos",
+    "branch": null
+  }
+}

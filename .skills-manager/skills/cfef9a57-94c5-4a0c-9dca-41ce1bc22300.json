@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "cfef9a57-94c5-4a0c-9dca-41ce1bc22300",
+  "path": "dynamic-archify",
+  "path_key": "dynamic-archify",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/Unclecheng-li/AI_Animation",
+    "subpath": "skills/dynamic-archify",
+    "branch": null
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "b862bcb6-25a2-4ff3-99a5-ea2373ed48af",
+  "path": "stacked-data-cards",
+  "path_key": "stacked-data-cards",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/Unclecheng-li/AI_Animation",
+    "subpath": "skills/stacked-data-cards",
+    "branch": null
+  }
+}

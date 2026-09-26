@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "a0b413b5-2ca4-4b1c-b112-89b69f0ce811",
+  "path": "card-theater",
+  "path_key": "card-theater",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/Unclecheng-li/AI_Animation",
+    "subpath": "skills/card-theater",
+    "branch": null
+  }
+}

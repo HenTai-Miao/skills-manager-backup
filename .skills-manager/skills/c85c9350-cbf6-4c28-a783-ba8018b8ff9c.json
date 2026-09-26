@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "c85c9350-cbf6-4c28-a783-ba8018b8ff9c",
+  "path": "flowchart",
+  "path_key": "flowchart",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/Unclecheng-li/AI_Animation",
+    "subpath": "skills/flowchart",
+    "branch": null
+  }
+}

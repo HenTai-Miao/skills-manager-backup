@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "816e2e2a-baa3-4a0d-8ed4-2ffa078e7a4e",
+  "path": "network-protocol-viz",
+  "path_key": "network-protocol-viz",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/Unclecheng-li/AI_Animation",
+    "subpath": "skills/network-protocol-viz",
+    "branch": null
+  }
+}
