@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "015dc52c-ddca-499d-b9b8-4e242575af9f",
+  "path": "wayfinder",
+  "path_key": "wayfinder",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "mattpocock/skills/wayfinder",
+    "subpath": "skills/engineering/wayfinder",
+    "branch": null
+  }
+}

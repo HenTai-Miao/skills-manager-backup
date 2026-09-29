@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "e07188a5-4ab9-439a-813d-a1d97b2a4b5b",
+  "path": "retro",
+  "path_key": "retro",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "mattpocock/skills/retro",
+    "subpath": "skills/engineering/retro",
+    "branch": null
+  }
+}
