@@ -8,7 +8,7 @@
   "source": {
     "type": "git",
     "ref": "https://github.com/mattpocock/skills.git",
-    "subpath": "skills/in-progress/retro",
-    "branch": null
+    "subpath": "skills/engineering/retro",
+    "branch": "main"
   }
 }

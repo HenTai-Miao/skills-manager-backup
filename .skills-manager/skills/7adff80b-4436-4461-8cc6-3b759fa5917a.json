@@ -9,6 +9,6 @@
     "type": "git",
     "ref": "https://github.com/mattpocock/skills.git",
     "subpath": "skills/engineering/domain-modeling",
-    "branch": null
+    "branch": "main"
   }
 }
