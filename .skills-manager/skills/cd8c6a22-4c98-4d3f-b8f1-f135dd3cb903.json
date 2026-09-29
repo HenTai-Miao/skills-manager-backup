@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "cd8c6a22-4c98-4d3f-b8f1-f135dd3cb903",
+  "path": "canvas-design-2",
+  "path_key": "canvas-design-2",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "anthropics/skills/canvas-design",
+    "subpath": "skills/canvas-design",
+    "branch": null
+  }
+}

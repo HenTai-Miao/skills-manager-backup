@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "c8e4f94b-6abe-4439-9168-9056ce2cd205",
+  "path": "internal-comms-2",
+  "path_key": "internal-comms-2",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "anthropics/skills/internal-comms",
+    "subpath": "skills/internal-comms",
+    "branch": null
+  }
+}
