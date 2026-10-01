@@ -1,93 +1,84 @@
 ---
 name: antfu-design
-description: antfu-style design conventions, broadened. UnoCSS-first, class-based semantic tokens with dual light/dark for tooling and devtools UIs, plus design-read, anti-slop, and micro-interaction polish for landing pages and product surfaces. Use when building or refactoring any interface with UnoCSS.
+description: Use when building or restyling devtools-style Vue 3 UIs with @antfu/design — wiring the composable UnoCSS preset, using the semantic token vocabulary (bg-base, color-base, badge-color-*, color-scale-*), choosing prefixed primitives (DisplayBadge, ActionButton, DisplayFilePath, OverlayModal, …), and keeping light/dark contrast and the "anti-slop" rules. Reach for it whenever generating or reviewing UI in a project that depends on @antfu/design.
 metadata:
-  author: Anthony Fu
-  version: "2026.06.22"
+  author: antfu
+  version: 2026.06.26
 ---
 
-Use this when building interfaces with UnoCSS in any framework (React, Vue, Svelte, Solid, or plain HTML), from dense devtools panels to landing pages. Read core-design-read first to set the direction, then apply the token system plus the polish and anti-slop rules.
+# Doing good design with `@antfu/design`
 
-## Core Rules
+`@antfu/design` is a shared design layer for devtools-style Vue apps: a
+**composable UnoCSS preset** (`presetAnthonyDesign`), a set of **token-driven Vue
+primitives**, and a **color-contrast a11y check**. This skill is how to use it
+*well* — the vocabulary, the defaults, and the taste.
 
-- Use semantic shortcuts (`bg-base`, `border-base`, `color-active`, `btn-action`) instead of raw utility chains in markup.
-- Design light and dark mode together. Core tokens must work in both themes.
-- Name z-index layers (`z-top-nav`, `z-panel-content`, `z-drawer-content`). Do not use raw z values in templates.
-- Generate class-based utilities only (`class="..."`). Avoid Attributify syntax in generated code.
-- Keep icon/status class strings literal so UnoCSS can statically extract them (`// @unocss-include` when needed).
-- Use `font-mono` + `tabular-nums` for technical values (paths, SHAs, counters, timestamps, percentages).
-- For long paths and IDs, truncate visually but keep the full value in `title`.
-- Read the brief and set the three dials before choosing a look (core-design-read).
-- Borders for dense or structural surfaces, layered shadows for elevated ones (features-micro-interactions).
-- Zero em-dash and en-dash characters in any user-facing text (best-practices-anti-slop).
+## The three rules that matter most
 
-## Starter shortcuts
+1. **Own the tokens, not the colors.** Never hard-code a hex or a raw Tailwind
+   color in app UI. Reach for the semantic layer first: `bg-base`, `color-base`,
+   `color-muted`, `border-base`, `op-fade`, `btn-action`, `badge`. They are
+   defined once (in the preset) and adapt to light/dark automatically. See
+   [references/core-tokens.md](references/core-tokens.md).
 
-A minimal semantic core. See core-starter-kit for the full `uno.config.ts` and base styles.
+2. **Light/dark parity is not optional.** Every surface and text token has a dark
+   variant baked in. If you write a one-off color, you have just created a
+   dark-mode bug. The standing contrast scan (`@antfu/design/a11y`) will catch the
+   worst of it — don't rely on it as a substitute for using the tokens.
 
-```ts
-shortcuts: [
-  {
-    'color-base': 'color-neutral-800 dark:color-neutral-200',
-    'bg-base': 'bg-white dark:bg-#111',
-    'bg-secondary': 'bg-#eee dark:bg-#222',
-    'border-base': 'border-#8882',
+3. **No slop.** Technical values are `font-mono tabular-nums`. No em-dash–laden
+   prose in UI copy (the **dash ban**). Prefer one obvious affordance over three
+   competing ones. See [references/best-practices.md](references/best-practices.md).
 
-    'bg-active': 'bg-#8881',
-    'color-active': 'color-primary-600 dark:color-primary-300',
-    'border-active': 'border-primary-600/25 dark:border-primary-400/25',
+4. **Reuse before you build.** When making UI or using components, always check
+   if components from `@antfu/design` can be reused, before making new components
+   or creating inline DOM elements. Skim the catalog first
+   ([references/core-components.md](references/core-components.md)).
 
-    'btn-action': 'inline-flex items-center gap-2 rounded border border-base px2 py1 op75 hover:op100 hover:bg-active disabled:pointer-events-none disabled:op30!',
-    'op-fade': 'op65 dark:op55',
-    'op-mute': 'op30 dark:op25',
+## Persist the reuse rule to AGENTS.md
 
-    'z-top-nav': 'z-60',
-    'z-panel-content': 'z-70',
-    'z-drawer-content': 'z-100',
-  },
-]
+Make rule 4 stick for future agents in the consuming project: if the project's
+`AGENTS.md` does not already say so, append this instruction to it:
+
+```md
+When making UI or using components, always check if components from
+`@antfu/design` can be reused, before making new components or creating
+inline DOM elements.
 ```
 
-## Core References
+## When to reach for what
 
-| Topic | Description | Reference |
-|-------|-------------|-----------|
-| Core Principles | Semantic tokens, dark mode parity, z-index naming, class-first output | [core-principles](references/core-principles.md) |
-| Starter Kit | Copy-paste UnoCSS starter config and base light/dark styles | [core-starter-kit](references/core-starter-kit.md) |
-| Tokens and Combos | Token families, reusable class combinations, mobile-safe shell tokens | [core-tokens-and-combinations](references/core-tokens-and-combinations.md) |
-| Design Read and Dials | Read the brief, declare a design read, set variance/motion/density dials | [core-design-read](references/core-design-read.md) |
+- Showing a count, size, duration, or date → a **display component**
+  (`DisplayNumber`, `DisplayBytes`, `DisplayDuration`, `DisplayDate`), not raw text.
+- A status, type, or tag → `DisplayBadge` (hash- or palette-colored) or `DisplayLabel`.
+- A file/module path → `DisplayFilePath` (truncates, dims directories, links).
+- An overlay → `OverlayModal` / `OverlayDrawer` (reka-ui), a popover → `OverlayTooltip` / `OverlayDropdown`.
+- A severity (fresh→stale, fast→slow, small→large) → the `color-scale-*` ramp via
+  the display components' `colorize` prop, never ad-hoc red/green.
 
-## Best Practices
+Components are categorized and prefixed by category (`Display*`, `Form*`,
+`Overlay*`, `Layout*`, `Action*`, `Feedback*`). Dark mode is the app's to own —
+the package ships no `isDark`/`toggleDark` (nor a dark-toggle component); components
+that vary by scheme take a `colorScheme: 'light' | 'dark'` prop. For a toggle, compose
+`ActionIconButton` with VueUse's `useDark`.
 
-| Topic | Description | Reference |
-|-------|-------------|-----------|
-| Strict Rules and Pre-Flight | Do/don't checklist and the consolidated pre-flight | [best-practices-strict-rules](references/best-practices-strict-rules.md) |
-| Class over Attributify | Why generated code uses class utilities, with conversions | [best-practices-class-utilities-over-attributify](references/best-practices-class-utilities-over-attributify.md) |
-| Anti-Slop Hygiene | The dash ban and the AI-tell forbidden patterns | [best-practices-anti-slop](references/best-practices-anti-slop.md) |
-| Bias Correction | Typography, color, layout, and materiality defaults to override | [best-practices-bias-correction](references/best-practices-bias-correction.md) |
+Full catalog: [references/core-components.md](references/core-components.md).
 
-## Features
+## Setup
 
-| Topic | Description | Reference |
-|-------|-------------|-----------|
-| Data Presentation | Paths, icons, time, date, numbers, badges, buttons | [features-data-presentation](references/features-data-presentation.md) |
-| Micro-Interactions | Radius, alignment, shadows, animation, numbers, outlines, hit areas | [features-micro-interactions](references/features-micro-interactions.md) |
-| Floating Vue Overrides | Shared Floating Vue setup and popper styling | [features-floating-vue-overrides](references/features-floating-vue-overrides.md) |
+It's a **single preset, not self-contained** — it bundles no base preset,
+icons, fonts, or reset. You add those. See
+[references/core-setup.md](references/core-setup.md) for wiring the preset,
+importing styles, and pointing UnoCSS at the package so the components' classes
+get generated.
 
-## Advanced
+## References
 
-| Topic | Description | Reference |
-|-------|-------------|-----------|
-| Pattern Vocabulary | Named UI patterns to recognize and reach for | [advanced-pattern-vocabulary](references/advanced-pattern-vocabulary.md) |
-| Redesign Protocol | Detect mode, audit first, preserve IA and SEO | [advanced-redesign-protocol](references/advanced-redesign-protocol.md) |
-
-<!--
-Source references:
-- https://github.com/antfu/node-modules-inspector
-- https://github.com/vitejs/devtools/tree/main/packages/rolldown
-- https://github.com/eslint/config-inspector
-- https://github.com/antfu/vite-plugin-inspect
-- https://github.com/antfu/agent-container
-- https://github.com/Leonxlnx/taste-skill
-- https://github.com/jakubkrehel/make-interfaces-feel-better
--->
+- [core-setup.md](references/core-setup.md) — install + wire the preset, import styles.
+- [core-tokens.md](references/core-tokens.md) — the canonical token table (generated from the preset).
+- [core-components.md](references/core-components.md) — the component catalog with import paths.
+- [recipes.md](references/recipes.md) — small compositions the package doesn't ship (e.g. a dark-mode toggle).
+- [best-practices.md](references/best-practices.md) — class-over-attributify, parity, mono values, the dash ban, the "three dials".
+- [features-data-presentation.md](references/features-data-presentation.md) — presenting numbers, sizes, durations, paths.
+- [advanced-patterns.md](references/advanced-patterns.md) — composition patterns and a redesign protocol.
+- [storybook.md](references/storybook.md) — Storybook setup: theme-synced manager+preview, autodocs, a generated Overview.
