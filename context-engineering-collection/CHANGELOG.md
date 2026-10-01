@@ -2,6 +2,33 @@
 
 All notable changes to this project are documented here. Versions follow semantic versioning where practical, with skill content treated as data.
 
+## [2.6.0] - 2026-10-01
+
+### Added
+
+#### New skill: self-managed-context
+
+- `skills/self-managed-context/SKILL.md`: eighteenth skill, covering agents that control their own live context window instead of following a harness-scheduled compaction policy. Core technique is context as an editable file: the editable region (every turn after the pinned system prompt and task) is mirrored to a file with turn headers, the model rewrites it with general code tools, and the harness re-parses it into a legal message list each turn. Covers the harness invariants that make this safe (pinned prefix, role folding, fit or shrink edit gate, receipts, free edit turns), edit-position cost under prefix caching and Suffix Cache Reuse, deterministic budget readouts with tiered nudges, adaptive urgent bands, and rollback-and-retry, and steering, skill evolution, and success-gated efficiency RL for context-editing strategy. Anchored on Shao et al., "Context Language Models" (arXiv 2609.37725) and its released code (`facebookresearch/context-language-models`, commit `18dc111`), with the safety section cross-checked against the OpenAI Alignment report on self-generated prompt injections in compaction summaries.
+- Two reference files: `harness-protocol.md` (mirror format, parse-back rules, gate and receipt semantics, budget-controller defaults, nudge classes and note contract, skill-evolution gate, RL advantage, SCR configuration and memory cost) and `evidence.md` (dated per-benchmark numbers with setups, baselines, caveats, and release scope).
+- Explicit boundaries: `context-compression` keeps replacement-note content and fixed-threshold summarization, `context-optimization` keeps cache-stable layout under harness control, `filesystem-context` keeps offloading, and `self-improvement-loops` keeps loop governance. Each adjacent skill gained a reciprocal routing line; `context-optimization` also notes that the prefix-invalidation rule prices edits to earlier history.
+
+#### Corpus wiring
+
+- 4 new mechanisms in `researcher/mechanisms/registry.jsonl`: `editable-live-context-file`, `edit-position-cost-discipline`, `context-budget-readout-nudges`, `success-gated-efficiency-signal` (26 total), each with an accepted-ledger `promotion` event carrying durable source provenance.
+- 14 new provenance-tracked claims in `researcher/claims/index.jsonl` (40 total).
+- 3 new activation cases (26 total), including an inverse case that routes summary-schema design to `context-compression` and rejects `self-managed-context`.
+- 3 new router-benchmark prompts (p057-p059); the next paid router sweep should publish the delta per the benchmark policy.
+- Manifests bumped to 2.6.0; README, root SKILL.md, CLAUDE.md, and AGENTS.md updated for 18 skills.
+- Regenerated `researcher/corpus/inventory.json`, `researcher/generated/corpus-summary.md`, and schema evidence under `researcher/schemas/generated/`.
+
+### Changed
+
+- CI router dry-run cap raised from `--max-runs 112` to `--max-runs 118`. The cap equals router prompts times two attempts, so it must move with every router-prompt addition; the 2 USD budget gate is unchanged.
+
+### Known issues
+
+- `research_loop.py promote-mechanisms` writes `run_dir` pointers into gitignored run directories, which the inventory reports as dangling ledger runs on a clean checkout. This release records ledger events with `source_commit` and `source_path` directly instead; the command should be updated to emit that shape.
+
 ## [2.5.0] - 2026-07-11
 
 ### Added

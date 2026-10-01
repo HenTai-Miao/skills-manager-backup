@@ -1,7 +1,7 @@
 {
   "artifacts": {
     "activation_cases": {
-      "count": 23,
+      "count": 26,
       "owner": "researcher/fixtures/activation-cases.jsonl",
       "records": [
         {
@@ -9,6 +9,12 @@
           "expected_primary_skill": "bdi-mental-states",
           "id": "activation-bdi-vs-memory",
           "line": 15
+        },
+        {
+          "digest": "sha256:e41f7ac28af4e25a06f9f21cf33b1d5bb394e3c28f861826c77e3f044c83b3c2",
+          "expected_primary_skill": "context-compression",
+          "id": "activation-compression-summary-vs-self-managed",
+          "line": 26
         },
         {
           "digest": "sha256:ac5786d2d1b2866d903f2df56be2d2458e979f8fe5e67f1d8021b092654649f3",
@@ -123,6 +129,18 @@
           "expected_primary_skill": "self-improvement-loops",
           "id": "activation-self-improvement-vs-harness",
           "line": 20
+        },
+        {
+          "digest": "sha256:968892d704e1384de5f672b64ed9d16551ce7d8a268d2254212345143daf59fd",
+          "expected_primary_skill": "self-managed-context",
+          "id": "activation-self-managed-context-edit-cost-budget",
+          "line": 25
+        },
+        {
+          "digest": "sha256:65adcb6b1db6a9739c3eaf1b0d058a9ba74f6c9e616582c495864b2655895b5b",
+          "expected_primary_skill": "self-managed-context",
+          "id": "activation-self-managed-context-editable-file",
+          "line": 24
         },
         {
           "digest": "sha256:569c70d63ac3f53acb93400db87bc099bfb1521a86df16d1bf72f155bb42cf29",
@@ -287,7 +305,7 @@
       }
     },
     "claims": {
-      "count": 26,
+      "count": 40,
       "owner": "researcher/claims/index.jsonl",
       "records": [
         {
@@ -466,6 +484,104 @@
           "volatility": "medium"
         },
         {
+          "digest": "sha256:9dd41be7cae274efe65725541d22d28c2755cb72822d42311511e14c76041a66",
+          "id": "claim-self-managed-context-capability-gap",
+          "line": 37,
+          "owning_skill": "self-managed-context",
+          "volatility": "high"
+        },
+        {
+          "digest": "sha256:672d429ec05ca96655addce68b445b3e9e813c2a4214a559b54a9c2d66ae153b",
+          "id": "claim-self-managed-context-contextbench-pilot",
+          "line": 29,
+          "owning_skill": "self-managed-context",
+          "volatility": "medium"
+        },
+        {
+          "digest": "sha256:5f89ddaf9f590429a4b7a91a672377e3e7e7bcba4eda99ed27e72318291b2244",
+          "id": "claim-self-managed-context-edit-cost",
+          "line": 30,
+          "owning_skill": "self-managed-context",
+          "volatility": "low"
+        },
+        {
+          "digest": "sha256:6b8b161f3374597dafadb31b6199c83c13fdfd80b6889fb11b68d7bc9790643f",
+          "id": "claim-self-managed-context-emergent-behaviors",
+          "line": 39,
+          "owning_skill": "self-managed-context",
+          "volatility": "medium"
+        },
+        {
+          "digest": "sha256:247dcdb24b6fe67694e83e39d99feab6226bd57570c798b91f8356d842089c50",
+          "id": "claim-self-managed-context-harness-defaults",
+          "line": 33,
+          "owning_skill": "self-managed-context",
+          "volatility": "high"
+        },
+        {
+          "digest": "sha256:e61dc11164d32e4615d4d315432472fa09175d341c37d8f1311c307c05937db0",
+          "id": "claim-self-managed-context-length-awareness",
+          "line": 32,
+          "owning_skill": "self-managed-context",
+          "volatility": "high"
+        },
+        {
+          "digest": "sha256:d91b75c983f00dff8fe7f02a59b0a18d6ecd7b2d63861240452514f0bfaa411c",
+          "id": "claim-self-managed-context-long-horizon-results",
+          "line": 28,
+          "owning_skill": "self-managed-context",
+          "volatility": "high"
+        },
+        {
+          "digest": "sha256:87b591d8b15b9f3acf05584af9ad3223682285a52e4016259e24f24626d6cc1b",
+          "id": "claim-self-managed-context-release-scope",
+          "line": 40,
+          "owning_skill": "self-managed-context",
+          "volatility": "high"
+        },
+        {
+          "digest": "sha256:1450e8429ef2ae580d7347549b89f5b17e2301f4bda41dba1898a1b544731aed",
+          "id": "claim-self-managed-context-rl",
+          "line": 36,
+          "owning_skill": "self-managed-context",
+          "volatility": "high"
+        },
+        {
+          "digest": "sha256:8e7073bf7a6b58923f3eb543e7e8845b1deabaa0cc73b2ebf4fef1a9b2b6b132",
+          "id": "claim-self-managed-context-scr-savings",
+          "line": 31,
+          "owning_skill": "self-managed-context",
+          "volatility": "high"
+        },
+        {
+          "digest": "sha256:834c8e85af212decb0ae746f074136822432fdb2cf9e6041bde78078124babc2",
+          "id": "claim-self-managed-context-self-injection",
+          "line": 38,
+          "owning_skill": "self-managed-context",
+          "volatility": "medium"
+        },
+        {
+          "digest": "sha256:35fafe7cb5c136226d030f967ce52f485c3b8145748ed114cf5d54593d7909e1",
+          "id": "claim-self-managed-context-skill-evolution",
+          "line": 35,
+          "owning_skill": "self-managed-context",
+          "volatility": "high"
+        },
+        {
+          "digest": "sha256:85bb8e4c270bd7033ead05e6d02cd0cc6008fcf041827c5c58e987e75e35dce9",
+          "id": "claim-self-managed-context-steering",
+          "line": 34,
+          "owning_skill": "self-managed-context",
+          "volatility": "medium"
+        },
+        {
+          "digest": "sha256:c981d6e34bccd3e85af6a967a42e08f4660a8f03deff79496b85fcdf52a5744b",
+          "id": "claim-self-managed-context-zero-shot-results",
+          "line": 27,
+          "owning_skill": "self-managed-context",
+          "volatility": "high"
+        },
+        {
           "digest": "sha256:b0d241ff2a59a20926b682111619d39cc73f7a588af0d089efe2c75b93657de3",
           "id": "claim-tool-design-vercel-d0-reduction",
           "line": 10,
@@ -475,7 +591,7 @@
       ]
     },
     "corpus_index": {
-      "count": 17,
+      "count": 18,
       "owner": "researcher/corpus/index.json",
       "records": [
         {
@@ -805,6 +921,56 @@
         },
         {
           "activation_scenarios": [
+            "model-controlled live context editing",
+            "context-as-a-file protocol",
+            "self-editing harness invariants",
+            "mid-context edit cache cost",
+            "context budget readouts and nudges",
+            "steering or training context-editing strategy"
+          ],
+          "claim_ids": [
+            "claim-self-managed-context-capability-gap",
+            "claim-self-managed-context-contextbench-pilot",
+            "claim-self-managed-context-edit-cost",
+            "claim-self-managed-context-emergent-behaviors",
+            "claim-self-managed-context-harness-defaults",
+            "claim-self-managed-context-length-awareness",
+            "claim-self-managed-context-long-horizon-results",
+            "claim-self-managed-context-release-scope",
+            "claim-self-managed-context-rl",
+            "claim-self-managed-context-scr-savings",
+            "claim-self-managed-context-self-injection",
+            "claim-self-managed-context-skill-evolution",
+            "claim-self-managed-context-steering",
+            "claim-self-managed-context-zero-shot-results"
+          ],
+          "explicit_body_claim_ids": [
+            "claim-self-managed-context-capability-gap",
+            "claim-self-managed-context-contextbench-pilot",
+            "claim-self-managed-context-edit-cost",
+            "claim-self-managed-context-emergent-behaviors",
+            "claim-self-managed-context-harness-defaults",
+            "claim-self-managed-context-length-awareness",
+            "claim-self-managed-context-long-horizon-results",
+            "claim-self-managed-context-release-scope",
+            "claim-self-managed-context-rl",
+            "claim-self-managed-context-scr-savings",
+            "claim-self-managed-context-self-injection",
+            "claim-self-managed-context-skill-evolution",
+            "claim-self-managed-context-steering",
+            "claim-self-managed-context-zero-shot-results"
+          ],
+          "id": "self-managed-context",
+          "mechanism_ids": [
+            "context-budget-readout-nudges",
+            "edit-position-cost-discipline",
+            "editable-live-context-file",
+            "success-gated-efficiency-signal"
+          ],
+          "path": "skills/self-managed-context/SKILL.md"
+        },
+        {
+          "activation_scenarios": [
             "agent-tool contracts",
             "tool schema design",
             "tool consolidation",
@@ -936,18 +1102,18 @@
         {
           "id": "claude-marketplace",
           "path": ".claude-plugin/marketplace.json",
-          "version": "2.5.0"
+          "version": "2.6.0"
         },
         {
           "id": "open-plugin",
           "path": ".plugin/plugin.json",
-          "version": "2.5.0"
+          "version": "2.6.0"
         },
         {
-          "digest": "sha256:fcec9d7318d6004a972fd4b3ad82e25bc9fcf41ac2c14cf6fb6cc74547f8710b",
+          "digest": "sha256:b3a3ae63ea430ce38edd4030ec2942df968e4a5174ee3f42ecf729d19a105f65",
           "id": "collection-skill",
           "path": "SKILL.md",
-          "version": "2.5.0"
+          "version": "2.6.0"
         }
       ],
       "skill_sets": {
@@ -968,6 +1134,7 @@
           "multi-agent-patterns",
           "project-development",
           "self-improvement-loops",
+          "self-managed-context",
           "tool-design"
         ],
         "published": [
@@ -987,19 +1154,20 @@
           "multi-agent-patterns",
           "project-development",
           "self-improvement-loops",
+          "self-managed-context",
           "tool-design"
         ]
       },
       "versions": {
-        "collection_skill": "2.5.0",
-        "marketplace": "2.5.0",
-        "open_plugin": "2.5.0"
+        "collection_skill": "2.6.0",
+        "marketplace": "2.6.0",
+        "open_plugin": "2.6.0"
       }
     },
     "mechanism_ledgers": {
-      "accepted_event_count": 28,
-      "accepted_mechanism_count": 22,
-      "count": 29,
+      "accepted_event_count": 32,
+      "accepted_mechanism_count": 26,
+      "count": 33,
       "owner": "researcher/mechanisms/ledgers/*.jsonl",
       "records": [
         {
@@ -1227,6 +1395,38 @@
           "mechanism_id": "independent-portfolio-approach-registry"
         },
         {
+          "digest": "sha256:2fee96b5a42ae7a78dd9669a0427e9949e05affbc423770665f5dd0a2019c61b",
+          "event_id": "promote-editable-live-context-file",
+          "event_type": "promotion",
+          "ledger": "accepted",
+          "line": 29,
+          "mechanism_id": "editable-live-context-file"
+        },
+        {
+          "digest": "sha256:d253e7aff785e61d98c2388f3cf2a195fcbd1ca930fc349cc7ad5c3a30ba5428",
+          "event_id": "promote-edit-position-cost-discipline",
+          "event_type": "promotion",
+          "ledger": "accepted",
+          "line": 30,
+          "mechanism_id": "edit-position-cost-discipline"
+        },
+        {
+          "digest": "sha256:ff102df3ca7e4ff4dd111a07f501c6e75cbd363ad77967e58dff938a53c54e9b",
+          "event_id": "promote-context-budget-readout-nudges",
+          "event_type": "promotion",
+          "ledger": "accepted",
+          "line": 31,
+          "mechanism_id": "context-budget-readout-nudges"
+        },
+        {
+          "digest": "sha256:91153dbc590a5054db09464d1f6d8210772bbb62950f37dab56aca50c7df4a6e",
+          "event_id": "promote-success-gated-efficiency-signal",
+          "event_type": "promotion",
+          "ledger": "accepted",
+          "line": 32,
+          "mechanism_id": "success-gated-efficiency-signal"
+        },
+        {
           "digest": "sha256:aae0055e5aa409e789d5701dd1e8fd13ea21bdd3082994dc660786520090324c",
           "event_id": null,
           "event_type": "legacy",
@@ -1238,7 +1438,7 @@
       "rejected_event_count": 1
     },
     "mechanisms": {
-      "count": 22,
+      "count": 26,
       "owner": "researcher/mechanisms/registry.jsonl",
       "records": [
         {
@@ -1253,6 +1453,13 @@
           "id": "audit-gated-return-condition",
           "line": 21,
           "owning_skill": "long-horizon-prompting",
+          "status": "accepted"
+        },
+        {
+          "digest": "sha256:b8f553f73c65744ad95cdc854af9d98c70b377bba3a03b61e4d1fa1845c59fb8",
+          "id": "context-budget-readout-nudges",
+          "line": 25,
+          "owning_skill": "self-managed-context",
           "status": "accepted"
         },
         {
@@ -1281,6 +1488,20 @@
           "id": "durable-research-thread",
           "line": 2,
           "owning_skill": "filesystem-context",
+          "status": "accepted"
+        },
+        {
+          "digest": "sha256:a439d44955934d37695fb4952d42263f06259b3881750d09f558492dd222c409",
+          "id": "edit-position-cost-discipline",
+          "line": 24,
+          "owning_skill": "self-managed-context",
+          "status": "accepted"
+        },
+        {
+          "digest": "sha256:d6041d06e0b62b6736a635cac11b72c507bac5b9881b6919c0335f35dbf00a57",
+          "id": "editable-live-context-file",
+          "line": 23,
+          "owning_skill": "self-managed-context",
           "status": "accepted"
         },
         {
@@ -1368,6 +1589,13 @@
           "status": "accepted"
         },
         {
+          "digest": "sha256:095bb4b3a616b42d860a5bf6a14a20dd9ca2bd334f3be9344d11875fa2ad1826",
+          "id": "success-gated-efficiency-signal",
+          "line": 26,
+          "owning_skill": "self-managed-context",
+          "status": "accepted"
+        },
+        {
           "digest": "sha256:618e4da9ec4e3e87f110ea193140bfe9e8c949edce73cba6d3897e6f475eb0d8",
           "id": "task-guided-kv-cache-compaction",
           "line": 12,
@@ -1398,7 +1626,7 @@
       ]
     },
     "router_prompts": {
-      "count": 56,
+      "count": 59,
       "owner": "researcher/benchmarks/router/prompts.jsonl",
       "records": [
         {
@@ -1736,6 +1964,24 @@
           "expected_primary_skill": "long-horizon-prompting",
           "id": "p056",
           "line": 56
+        },
+        {
+          "digest": "sha256:eb156846f3c7b3c72fc55bbada28940f33e38e5337d4401b4abbea1301af9693",
+          "expected_primary_skill": "self-managed-context",
+          "id": "p057",
+          "line": 57
+        },
+        {
+          "digest": "sha256:9f41bf1b640a0f1c000b0f2a5f67872f94d7bcd02b1be68aa7b394a47e2c9c27",
+          "expected_primary_skill": "self-managed-context",
+          "id": "p058",
+          "line": 58
+        },
+        {
+          "digest": "sha256:2d0ea14d1ca28bf6f7997b496a85112c9c0231cfe6ea6a58a85a80cf589db7fa",
+          "expected_primary_skill": "self-managed-context",
+          "id": "p059",
+          "line": 59
         }
       ]
     },
@@ -1980,7 +2226,7 @@
       ]
     },
     "skills": {
-      "count": 17,
+      "count": 18,
       "owner": "skills/*/SKILL.md",
       "records": [
         {
@@ -1994,7 +2240,7 @@
           "path": "skills/bdi-mental-states/SKILL.md"
         },
         {
-          "digest": "sha256:c4111db0514e24f69dbcc8f3fe434a057f69cdb8e8d13994791fa8a26aecf9f2",
+          "digest": "sha256:ab4fd1e1046db339d83ead5089d4cb9d9c487232945d4ff6be90e08a03f6cfea",
           "id": "context-compression",
           "path": "skills/context-compression/SKILL.md"
         },
@@ -2009,7 +2255,7 @@
           "path": "skills/context-fundamentals/SKILL.md"
         },
         {
-          "digest": "sha256:8cecc30872ec76752aadd7b6dceb40033e3b3efbc5dd2ee52c5d09bb4229b706",
+          "digest": "sha256:96fbd47c16d163857b92d477ba5c7ec3ae947127772e327b8236d05d64d5b123",
           "id": "context-optimization",
           "path": "skills/context-optimization/SKILL.md"
         },
@@ -2019,7 +2265,7 @@
           "path": "skills/evaluation/SKILL.md"
         },
         {
-          "digest": "sha256:bbde98d3481f1f51394e9fa84bbfff6807d9cce1f91dcf9161280fef17ae7f94",
+          "digest": "sha256:91cd7f071e38dbeee15dbebd9dd549c9116affae939702f05409ed1952355f50",
           "id": "filesystem-context",
           "path": "skills/filesystem-context/SKILL.md"
         },
@@ -2059,9 +2305,14 @@
           "path": "skills/project-development/SKILL.md"
         },
         {
-          "digest": "sha256:6999267207013a8daee32d43f7428944e3666cb879c797217f27ebd5e89a9d6e",
+          "digest": "sha256:de088dd42e92de999da54c6d1a17bed7daf3404688888482735deaa4f482d846",
           "id": "self-improvement-loops",
           "path": "skills/self-improvement-loops/SKILL.md"
+        },
+        {
+          "digest": "sha256:0b077da6d7725af414a42a627321a11ce9ffc90b4c3e583a1ae126968a8bbd26",
+          "id": "self-managed-context",
+          "path": "skills/self-managed-context/SKILL.md"
         },
         {
           "digest": "sha256:14f5a12b69113bc6450da69c5b4d408fe91601832ab1055ae25311339c84a06b",
@@ -2190,6 +2441,7 @@
         "multi-agent-patterns",
         "project-development",
         "self-improvement-loops",
+        "self-managed-context",
         "tool-design"
       ],
       "published": [
@@ -2209,13 +2461,14 @@
         "multi-agent-patterns",
         "project-development",
         "self-improvement-loops",
+        "self-managed-context",
         "tool-design"
       ]
     },
     "plugin_versions": {
-      "collection_skill": "2.5.0",
-      "marketplace": "2.5.0",
-      "open_plugin": "2.5.0"
+      "collection_skill": "2.6.0",
+      "marketplace": "2.6.0",
+      "open_plugin": "2.6.0"
     }
   },
   "relationships": {
@@ -2227,6 +2480,10 @@
       {
         "case_id": "activation-bdi-vs-memory",
         "skill_id": "bdi-mental-states"
+      },
+      {
+        "case_id": "activation-compression-summary-vs-self-managed",
+        "skill_id": "context-compression"
       },
       {
         "case_id": "activation-compression-vs-optimization",
@@ -2303,6 +2560,14 @@
       {
         "case_id": "activation-self-improvement-vs-harness",
         "skill_id": "self-improvement-loops"
+      },
+      {
+        "case_id": "activation-self-managed-context-edit-cost-budget",
+        "skill_id": "self-managed-context"
+      },
+      {
+        "case_id": "activation-self-managed-context-editable-file",
+        "skill_id": "self-managed-context"
       },
       {
         "case_id": "activation-tool-consolidation",
@@ -2455,6 +2720,76 @@
         "skill_id": "self-improvement-loops"
       },
       {
+        "claim_id": "claim-self-managed-context-capability-gap",
+        "relationship": "owned",
+        "skill_id": "self-managed-context"
+      },
+      {
+        "claim_id": "claim-self-managed-context-contextbench-pilot",
+        "relationship": "owned",
+        "skill_id": "self-managed-context"
+      },
+      {
+        "claim_id": "claim-self-managed-context-edit-cost",
+        "relationship": "owned",
+        "skill_id": "self-managed-context"
+      },
+      {
+        "claim_id": "claim-self-managed-context-emergent-behaviors",
+        "relationship": "owned",
+        "skill_id": "self-managed-context"
+      },
+      {
+        "claim_id": "claim-self-managed-context-harness-defaults",
+        "relationship": "owned",
+        "skill_id": "self-managed-context"
+      },
+      {
+        "claim_id": "claim-self-managed-context-length-awareness",
+        "relationship": "owned",
+        "skill_id": "self-managed-context"
+      },
+      {
+        "claim_id": "claim-self-managed-context-long-horizon-results",
+        "relationship": "owned",
+        "skill_id": "self-managed-context"
+      },
+      {
+        "claim_id": "claim-self-managed-context-release-scope",
+        "relationship": "owned",
+        "skill_id": "self-managed-context"
+      },
+      {
+        "claim_id": "claim-self-managed-context-rl",
+        "relationship": "owned",
+        "skill_id": "self-managed-context"
+      },
+      {
+        "claim_id": "claim-self-managed-context-scr-savings",
+        "relationship": "owned",
+        "skill_id": "self-managed-context"
+      },
+      {
+        "claim_id": "claim-self-managed-context-self-injection",
+        "relationship": "owned",
+        "skill_id": "self-managed-context"
+      },
+      {
+        "claim_id": "claim-self-managed-context-skill-evolution",
+        "relationship": "owned",
+        "skill_id": "self-managed-context"
+      },
+      {
+        "claim_id": "claim-self-managed-context-steering",
+        "relationship": "owned",
+        "skill_id": "self-managed-context"
+      },
+      {
+        "claim_id": "claim-self-managed-context-zero-shot-results",
+        "relationship": "owned",
+        "skill_id": "self-managed-context"
+      },
+      {
         "claim_id": "claim-tool-design-vercel-d0-reduction",
         "relationship": "owned",
         "skill_id": "tool-design"
@@ -2546,33 +2881,49 @@
         "skill_id": "self-improvement-loops"
       },
       {
+        "mechanism_id": "context-budget-readout-nudges",
+        "skill_id": "self-managed-context"
+      },
+      {
+        "mechanism_id": "edit-position-cost-discipline",
+        "skill_id": "self-managed-context"
+      },
+      {
+        "mechanism_id": "editable-live-context-file",
+        "skill_id": "self-managed-context"
+      },
+      {
+        "mechanism_id": "success-gated-efficiency-signal",
+        "skill_id": "self-managed-context"
+      },
+      {
         "mechanism_id": "tool-contract-description",
         "skill_id": "tool-design"
       }
     ]
   },
   "repository_revision": {
-    "digest": "sha256:cdd6e53336fa690cfaf9ee97ba4da08225611477c0addf2e2d4c392b5ed5c49d",
+    "digest": "sha256:dcbac67436e1252ff10fcdcc5ad1649c77ff0669837f42b04d1abea9c471d36c",
     "git_commit_excluded_to_avoid_self_reference": true,
     "kind": "canonical_source_tree"
   },
   "schema_version": "1.0.0",
-  "source_tree_digest": "sha256:cdd6e53336fa690cfaf9ee97ba4da08225611477c0addf2e2d4c392b5ed5c49d",
+  "source_tree_digest": "sha256:dcbac67436e1252ff10fcdcc5ad1649c77ff0669837f42b04d1abea9c471d36c",
   "sources": [
     {
-      "digest": "sha256:2aebace36e5bbdd8ad93bc9c7563a0c673787838eb0f4f62a5376132d43ce616",
+      "digest": "sha256:f924467d535c67ddc43c747d6b3361469414ca8c5d15c2e8b406d4bbb7c7ca1e",
       "path": ".claude-plugin/marketplace.json",
-      "size_bytes": 1911
+      "size_bytes": 2014
     },
     {
-      "digest": "sha256:d4827b154512a79ca4635f716d9d0a7d93f3c0b0f29355f67de9e004d968dc9c",
+      "digest": "sha256:e9a029bd6f3e8c16a2e55c536bf1ba4a0a9fb3ecd84da41056b51465f05c8018",
       "path": ".plugin/plugin.json",
-      "size_bytes": 767
+      "size_bytes": 829
     },
     {
-      "digest": "sha256:fcec9d7318d6004a972fd4b3ad82e25bc9fcf41ac2c14cf6fb6cc74547f8710b",
+      "digest": "sha256:b3a3ae63ea430ce38edd4030ec2942df968e4a5174ee3f42ecf729d19a105f65",
       "path": "SKILL.md",
-      "size_bytes": 10436
+      "size_bytes": 11082
     },
     {
       "digest": "sha256:e80dc5fe7391c3a5745c574814a1502d24ba9acea91fcbb5dc7ec7d38eb43545",
@@ -2655,9 +3006,9 @@
       "size_bytes": 591
     },
     {
-      "digest": "sha256:489d9670c58b3b84c63577e14ad434adf23d8d54da1d72c9d92d1b891da0f7a5",
+      "digest": "sha256:3bdabae8a9fe76a4f8beca686f43923637e26881e928dc60f2033ec11e7bc503",
       "path": "researcher/benchmarks/router/prompts.jsonl",
-      "size_bytes": 22506
+      "size_bytes": 24542
     },
     {
       "digest": "sha256:aed93585626ea824524bd555cc459d95604b541ea8862f1e7e31a9d822b29a85",
@@ -2695,14 +3046,14 @@
       "size_bytes": 611
     },
     {
-      "digest": "sha256:9bd449e2e2b61599976fb31cf07e10fef3b9ca4e4bd7c31653c49c7a8a990db9",
+      "digest": "sha256:f91d0d9e5a677f3eec1611bfa9eeb290605af4d2e70d45d7d60a7f3403ae18be",
       "path": "researcher/claims/index.jsonl",
-      "size_bytes": 14452
+      "size_bytes": 24429
     },
     {
-      "digest": "sha256:29851b898570f76950cb62ec9abc804369de78ba68f5a997c55ec149b6a1363f",
+      "digest": "sha256:75e67fca545bef8fa13d7cf5a20af6053901c0bc35e41cba330c78f6816b1795",
       "path": "researcher/corpus/index.json",
-      "size_bytes": 7371
+      "size_bytes": 8533
     },
     {
       "digest": "sha256:a8a2d73c1d22f496702737d572dedadfc63298fd4e658d9a5574d58690fba0e5",
@@ -2725,9 +3076,9 @@
       "size_bytes": 7258
     },
     {
-      "digest": "sha256:a6f79df5cbfe39617aa6ce349548821d59d9b7cee363edbbc4d8640a90d88b0a",
+      "digest": "sha256:cf909215854992409e46ef90dba130c4f3b4a16e42a968a62ecc82467d396ca4",
       "path": "researcher/fixtures/activation-cases.jsonl",
-      "size_bytes": 11684
+      "size_bytes": 13587
     },
     {
       "digest": "sha256:6a0ee2e312f7798802bbc159120c8b621edc3cb0b52d17c9f337a8f61bfbf33b",
@@ -2740,9 +3091,9 @@
       "size_bytes": 553
     },
     {
-      "digest": "sha256:e658564d470a184b5062a17bde5e265096458922b2405870c6394498427bffbf",
+      "digest": "sha256:8581a052f8f79a715ee9b264ba9dc295c951a27135fd32587e0559e012adb283",
       "path": "researcher/mechanisms/ledgers/accepted.jsonl",
-      "size_bytes": 12802
+      "size_bytes": 15186
     },
     {
       "digest": "sha256:1dba51f3178d0497b69d9b25dd0bfecc894552b56056d33281e981eeb45db8c5",
@@ -2750,9 +3101,9 @@
       "size_bytes": 302
     },
     {
-      "digest": "sha256:4fdfcfd93ee023ed6085e1b99ec3438b68bc46c6de5200dab4e6cfbdef76305e",
+      "digest": "sha256:ee77e17658cc682db2b6f3b0394df5a20d77994e42b4941be087f2520bde3144",
       "path": "researcher/mechanisms/registry.jsonl",
-      "size_bytes": 14630
+      "size_bytes": 20318
     },
     {
       "digest": "sha256:0ac5456af9a440308082b4f730cb69f5a4bbfc9cb32928db1f8d4c656243e7ba",
@@ -2890,14 +3241,14 @@
       "size_bytes": 2240
     },
     {
-      "digest": "sha256:ce9fdcde1467aa6e346349a0edcbcff5c86464a504c392f3fb7f2c3421792eca",
+      "digest": "sha256:d748cbb2a1aa79a9db733f9590614d627459558345a139ebbc12682a1474bfd3",
       "path": "researcher/schemas/generated/current-artifacts-report.json",
       "size_bytes": 603
     },
     {
-      "digest": "sha256:08f0b0bbb9401d9a41cced21fcf92e5e81c8aacebf00ce666584d2fcaa81a351",
+      "digest": "sha256:c8624218525c2297dcfaf733bc90ceb0cea2f31f20b3d9f0f7536bc0e1849557",
       "path": "researcher/schemas/generated/migration-dry-run.json",
-      "size_bytes": 27833
+      "size_bytes": 37723
     },
     {
       "digest": "sha256:38983589a7cb0d6763831d6c842b5c97d5b519393637e620ed3b454cc4d86d69",
@@ -3120,9 +3471,9 @@
       "size_bytes": 17738
     },
     {
-      "digest": "sha256:c4111db0514e24f69dbcc8f3fe434a057f69cdb8e8d13994791fa8a26aecf9f2",
+      "digest": "sha256:ab4fd1e1046db339d83ead5089d4cb9d9c487232945d4ff6be90e08a03f6cfea",
       "path": "skills/context-compression/SKILL.md",
-      "size_bytes": 18214
+      "size_bytes": 18507
     },
     {
       "digest": "sha256:4e1896f641ddc99cc9cb14322606c6133b9fd520c84d3af0541e64f553c7f928",
@@ -3135,9 +3486,9 @@
       "size_bytes": 17013
     },
     {
-      "digest": "sha256:8cecc30872ec76752aadd7b6dceb40033e3b3efbc5dd2ee52c5d09bb4229b706",
+      "digest": "sha256:96fbd47c16d163857b92d477ba5c7ec3ae947127772e327b8236d05d64d5b123",
       "path": "skills/context-optimization/SKILL.md",
-      "size_bytes": 15667
+      "size_bytes": 16052
     },
     {
       "digest": "sha256:1f31cda0910dfd48d928e1485b303b739608ceeb0babca0e9a6f821cbf4320ff",
@@ -3145,9 +3496,9 @@
       "size_bytes": 16829
     },
     {
-      "digest": "sha256:bbde98d3481f1f51394e9fa84bbfff6807d9cce1f91dcf9161280fef17ae7f94",
+      "digest": "sha256:91cd7f071e38dbeee15dbebd9dd549c9116affae939702f05409ed1952355f50",
       "path": "skills/filesystem-context/SKILL.md",
-      "size_bytes": 15919
+      "size_bytes": 16138
     },
     {
       "digest": "sha256:dde3d8f46d4d09dbab41358baa3e8310d7fdfcd2fbefa127153ac4f6b5ef7b16",
@@ -3185,9 +3536,14 @@
       "size_bytes": 18960
     },
     {
-      "digest": "sha256:6999267207013a8daee32d43f7428944e3666cb879c797217f27ebd5e89a9d6e",
+      "digest": "sha256:de088dd42e92de999da54c6d1a17bed7daf3404688888482735deaa4f482d846",
       "path": "skills/self-improvement-loops/SKILL.md",
-      "size_bytes": 22244
+      "size_bytes": 22494
+    },
+    {
+      "digest": "sha256:0b077da6d7725af414a42a627321a11ce9ffc90b4c3e583a1ae126968a8bbd26",
+      "path": "skills/self-managed-context/SKILL.md",
+      "size_bytes": 24111
     },
     {
       "digest": "sha256:14f5a12b69113bc6450da69c5b4d408fe91601832ab1055ae25311339c84a06b",

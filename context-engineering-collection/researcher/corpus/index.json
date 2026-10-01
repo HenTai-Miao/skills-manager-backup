@@ -1,7 +1,7 @@
 {
   "schema_version": "0.1.0",
   "generated_by": "manual-breakthrough-roadmap-seed",
-  "updated_at": "2026-07-11",
+  "updated_at": "2026-10-01",
   "purpose": "Canonical machine-readable map for skills, mechanisms, claims, and activation scenarios.",
   "skills": [
     {
@@ -115,6 +115,13 @@
       "activation_scenarios": ["recursive self-improvement loops", "meta-harness search", "failure-driven harness self-edits", "evolutionary scaffold search", "acceptance gates for self-modification", "context mechanism evolution"],
       "mechanism_ids": ["two-split-no-regression-acceptance", "filesystem-experience-archive", "runtime-enforced-loop-constraints"],
       "claim_ids": ["claim-self-improvement-two-split-acceptance", "claim-self-improvement-capability-threshold", "claim-self-improvement-raw-trace-ablation", "claim-self-improvement-visible-evaluator-hacking", "claim-self-improvement-scorer-visibility", "claim-self-improvement-context-collapse"]
+    },
+    {
+      "name": "self-managed-context",
+      "path": "skills/self-managed-context/SKILL.md",
+      "activation_scenarios": ["model-controlled live context editing", "context-as-a-file protocol", "self-editing harness invariants", "mid-context edit cache cost", "context budget readouts and nudges", "steering or training context-editing strategy"],
+      "mechanism_ids": ["editable-live-context-file", "edit-position-cost-discipline", "context-budget-readout-nudges", "success-gated-efficiency-signal"],
+      "claim_ids": ["claim-self-managed-context-zero-shot-results", "claim-self-managed-context-long-horizon-results", "claim-self-managed-context-contextbench-pilot", "claim-self-managed-context-edit-cost", "claim-self-managed-context-scr-savings", "claim-self-managed-context-length-awareness", "claim-self-managed-context-harness-defaults", "claim-self-managed-context-steering", "claim-self-managed-context-skill-evolution", "claim-self-managed-context-rl", "claim-self-managed-context-capability-gap", "claim-self-managed-context-self-injection", "claim-self-managed-context-emergent-behaviors", "claim-self-managed-context-release-scope"]
     },
     {
       "name": "tool-design",
