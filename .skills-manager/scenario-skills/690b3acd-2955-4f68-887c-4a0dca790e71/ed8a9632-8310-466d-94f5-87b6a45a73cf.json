@@ -5,6 +5,7 @@
   "sort_order": 51,
   "tools": {
     "codex": true,
+    "deepseek_harness": true,
     "hermes": true
   }
 }
