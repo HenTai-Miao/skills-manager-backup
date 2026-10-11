@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "9b07918d-71b9-40bf-a4d4-2541eaf37439",
+  "path": "smokinggun",
+  "path_key": "smokinggun",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "morluto/smokinggun/smokinggun",
+    "subpath": "skills/smokinggun",
+    "branch": null
+  }
+}

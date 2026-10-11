@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "524d21aa-a403-47eb-963e-2d964a8f9bc7",
+  "path": "optimize-accuracy-first",
+  "path_key": "optimize-accuracy-first",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "morluto/leantoken/optimize-accuracy-first",
+    "subpath": ".agents/skills/optimize-accuracy-first",
+    "branch": null
+  }
+}

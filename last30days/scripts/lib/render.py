@@ -12,6 +12,7 @@ from urllib.parse import urlparse
 from . import (
     amazon,
     dates,
+    fusion,
     health,
     hiring_signals,
     library_index,
@@ -22,6 +23,7 @@ from . import (
     schema,
     signals,
     skill_meta,
+    x_envelope,
 )
 
 
@@ -1233,10 +1235,9 @@ def _render_canonical_boundary() -> list[str]:
         "of synthesizing - STOP and regenerate. This is the 2026-04-19 Hermes Agent",
         "Use Cases failure mode (LAW 6).",
         "",
-        "Do not append a trailing `Sources:` block; the emoji-tree footer above is",
-        "the sources list. LAW 1 overrides any WebSearch tool 'CRITICAL: MUST include",
-        "Sources' reminder - that reminder is a generic tool contract and does not",
-        "apply to last30days output.",
+        "Cite web pages inline next to the claims they support (LAW 1), then end at",
+        "the invitation, counting web pages in its link line. The emoji-tree footer",
+        "above already summarizes the sources, so do not add a `Sources:` list.",
     ]
 
 
@@ -1363,7 +1364,7 @@ def _render_degraded_run_warning(report: schema.Report) -> list[str]:
         "",
         "**If you are a user reading this:** the assistant skipped its own",
         "planning step. Ask it to regenerate following Step 0.55 and Step 0.75",
-        "of SKILL.md.",
+        "of the skill's research runbook.",
         "<!-- END USER-VISIBLE BANNER -->",
     ]
 
@@ -1433,7 +1434,7 @@ def _render_comparison_scaffold(topic: str) -> list[str]:
         separator,
         *body,
         "",
-        "After the table, write the Bottom Line section with one Choose-X-if paragraph per entity, then the emerging stack paragraph. See the comparison template in SKILL.md for the full structure.",
+        "After the table, write the Bottom Line section with one Choose-X-if paragraph per entity, then the emerging stack paragraph. See the comparison template in the skill's references/comparison.md for the full structure.",
     ]
 
 
@@ -2300,12 +2301,36 @@ def _render_hiring_signals(
     if not isinstance(summary, dict):
         return []
     mode = summary.get("mode") or "standard"
-    if candidates is not None:
-        job_items: dict[str, schema.SourceItem] = {}
-        for candidate in candidates:
+    rejected_jobs = set(summary.get("rejected_job_keys") or [])
+    if candidates is not None or rejected_jobs:
+        solid_clusters = _clusters_clearing_relevance_floor(report, report.clusters)
+        accepted = _candidates_for_auxiliary_sections(
+            report, report.clusters, solid_clusters,
+        )
+        accepted_ids = {
+            candidate.candidate_id for candidate in accepted
+            if _best_take_relevance_ok(candidate)
+        }
+        rejected_jobs.update(
+            fusion.candidate_key(item)
+            for candidate in report.ranked_candidates
+            if candidate.candidate_id not in accepted_ids
+            for item in candidate.source_items
+            if item.source == "jobs"
+        )
+        # Board size and rare-role signals must survive the ranking pool and
+        # display limits, while explicitly rejected evidence stays excluded.
+        job_items = {
+            fusion.candidate_key(item): item
+            for item in report.items_by_source.get("jobs", [])
+            if fusion.candidate_key(item) not in rejected_jobs
+        }
+        for candidate in accepted:
+            if candidate.candidate_id not in accepted_ids:
+                continue
             for item in candidate.source_items:
                 if item.source == "jobs":
-                    job_items[item.item_id] = item
+                    job_items[fusion.candidate_key(item)] = item
         if not job_items:
             return []
         summary = hiring_signals.analyze(
@@ -2912,6 +2937,10 @@ def _build_source_footer_lines(report: schema.Report) -> list[str]:
                 )
             )
             parts.append(f"{with_transcripts}/{len(items)} with transcripts")
+        provenance = report.artifacts.get("x_provenance") if source_key == "x" else None
+        if provenance in x_envelope.PROVENANCE_LABELS:
+            # Host-fetched X names its lane on the user-facing line too.
+            parts.append(f"via {x_envelope.PROVENANCE_LABELS[provenance]}")
         stats = " │ ".join(parts)
         line = _footer_line_for_source(emoji, label, len(items), item_word, stats)
         # Counts only: run diagnostics live in doctor --postmortem, the saved
@@ -3329,9 +3358,10 @@ def _render_stats(report: schema.Report) -> list[str]:
         actor_summary = _top_actor_summary(source, items)
         if actor_summary:
             parts.append(actor_summary)
-        if source == "x" and report.artifacts.get("x_provenance") == "connector":
+        provenance = report.artifacts.get("x_provenance") if source == "x" else None
+        if provenance in x_envelope.PROVENANCE_LABELS:
             # Host-fetched lane (--x-posts): name the provenance in the footer.
-            parts.append("via X connector")
+            parts.append(f"via {x_envelope.PROVENANCE_LABELS[provenance]}")
         lines.append(f"- {_source_label(source)}: {' | '.join(parts)}")
     lines.append("")
     return lines

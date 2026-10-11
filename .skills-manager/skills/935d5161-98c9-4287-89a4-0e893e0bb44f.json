@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "935d5161-98c9-4287-89a4-0e893e0bb44f",
+  "path": "internalcot",
+  "path_key": "internalcot",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "morluto/internalcot/internalcot",
+    "subpath": "skills/internalcot",
+    "branch": null
+  }
+}

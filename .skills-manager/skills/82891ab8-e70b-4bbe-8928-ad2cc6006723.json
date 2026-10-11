@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "82891ab8-e70b-4bbe-8928-ad2cc6006723",
+  "path": "rea-tool-design",
+  "path_key": "rea-tool-design",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "morluto/rea/rea-tool-design",
+    "subpath": ".agents/skills/rea-tool-design",
+    "branch": null
+  }
+}
