@@ -1,7 +1,7 @@
 {
   "schema_version": "0.1.0",
   "generated_by": "manual-breakthrough-roadmap-seed",
-  "updated_at": "2026-10-01",
+  "updated_at": "2026-10-11",
   "purpose": "Canonical machine-readable map for skills, mechanisms, claims, and activation scenarios.",
   "skills": [
     {
@@ -84,9 +84,9 @@
     {
       "name": "long-horizon-prompting",
       "path": "skills/long-horizon-prompting/SKILL.md",
-      "activation_scenarios": ["pseudo-formal task briefs", "long-running agent launch prompts", "parallel portfolio orchestration prompts", "persistence and stop-condition design", "pre-launch prompt evaluation"],
-      "mechanism_ids": ["pseudo-formal-task-specification", "audit-gated-return-condition", "independent-portfolio-approach-registry"],
-      "claim_ids": ["claim-long-horizon-cdc-run", "claim-long-horizon-persistence-hacking", "claim-long-horizon-verification-gap", "claim-long-horizon-state-ledger", "claim-long-horizon-give-up-drift", "claim-long-horizon-diversity-collapse", "claim-long-horizon-evidence-audit", "claim-long-horizon-lean-prompt"]
+      "activation_scenarios": ["pseudo-formal task briefs", "long-running agent launch prompts", "parallel portfolio orchestration prompts", "persistence and stop-condition design", "pre-launch prompt evaluation", "per-worker handoff contracts", "blocking rules for review-gated returns"],
+      "mechanism_ids": ["pseudo-formal-task-specification", "audit-gated-return-condition", "independent-portfolio-approach-registry", "handoff-output-contracts", "evidenced-blocking-review"],
+      "claim_ids": ["claim-long-horizon-cdc-run", "claim-long-horizon-persistence-hacking", "claim-long-horizon-verification-gap", "claim-long-horizon-state-ledger", "claim-long-horizon-give-up-drift", "claim-long-horizon-diversity-collapse", "claim-long-horizon-evidence-audit", "claim-long-horizon-lean-prompt", "claim-long-horizon-contract-information-shift", "claim-long-horizon-reviser-bottleneck", "claim-long-horizon-run-variance"]
     },
     {
       "name": "memory-systems",

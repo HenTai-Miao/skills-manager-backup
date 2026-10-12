@@ -37,7 +37,7 @@ These skills cover the patterns and structures for building effective agent syst
 | Skill | Description |
 |-------|-------------|
 | [multi-agent-patterns](skills/multi-agent-patterns/) | Master orchestrator, peer-to-peer, and hierarchical multi-agent architectures |
-| [long-horizon-prompting](skills/long-horizon-prompting/) | **NEW** Write pseudo-formal task briefs for long-running autonomous agents and parallel orchestrations: exact success predicates, non-counting outcomes, audit-gated return conditions, effort floors, and diversity policies, modeled on the published GPT-5.6 Sol Ultra Cycle Double Cover prompt |
+| [long-horizon-prompting](skills/long-horizon-prompting/) | **NEW** Write pseudo-formal task briefs for long-running autonomous agents and parallel orchestrations: exact success predicates, non-counting outcomes, audit-gated return conditions, per-worker handoff contracts, effort floors, and diversity policies, modeled on the published GPT-5.6 Sol Ultra Cycle Double Cover prompt and Sakana AI's MASS workflow contracts |
 | [memory-systems](skills/memory-systems/) | Design short-term, long-term, and graph-based memory architectures |
 | [tool-design](skills/tool-design/) | Build tools that agents can use effectively |
 | [filesystem-context](skills/filesystem-context/) | Use filesystems for dynamic context discovery, tool output offloading, and plan persistence |
@@ -130,7 +130,7 @@ This installs all published skills in a single plugin. Skills are activated auto
 | `self-managed-context` | Letting the model decide what stays in its live context: context-as-a-file editing, self-editing harness invariants, mid-context edit cost under prefix caching, budget readouts and nudges, and steering or training context-editing strategy |
 | `latent-briefing` | Sharing orchestrator trajectory with workers via task-guided KV cache compaction when the worker runtime is controllable and the models are compatible |
 | `multi-agent-patterns` | Choosing coordination patterns, isolating context across agents, designing handoffs, or evaluating whether parallel agents are justified |
-| `long-horizon-prompting` | Writing or evaluating the launch prompt for a long-running autonomous agent or parallel orchestration: success predicates, non-counting outcomes, persistence and stop rules, adversarial audit gates, and portfolio diversity policies |
+| `long-horizon-prompting` | Writing or evaluating the launch prompt for a long-running autonomous agent or parallel orchestration: success predicates, non-counting outcomes, persistence and stop rules, adversarial audit gates, per-worker output contracts, and portfolio diversity policies |
 | `memory-systems` | Persisting cross-session knowledge, tracking entities over time, choosing memory frameworks, or designing retrieval and update semantics |
 | `tool-design` | Defining agent-tool contracts, consolidating tool surfaces, improving descriptions, or making tool errors actionable |
 | `filesystem-context` | Moving large or durable context into files, creating scratchpads, supporting just-in-time discovery, or coordinating agents through shared artifacts |

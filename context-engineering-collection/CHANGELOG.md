@@ -2,6 +2,25 @@
 
 All notable changes to this project are documented here. Versions follow semantic versioning where practical, with skill content treated as data.
 
+## [Unreleased]
+
+### Changed
+
+#### long-horizon-prompting 1.1.0: handoff contracts and evidenced blocking review
+
+- `skills/long-horizon-prompting/SKILL.md`: new Handoff Contracts section covering per-worker output contracts with named, typed checks, degenerate-value rejection, gated handoffs, recall with acceptance criteria and a retry cap, and a rule that simulating a delegated role in the orchestrator's own turn does not count. The Verification Bottleneck gains a blocking rule (only an evidenced violation of a named check blocks the return) and reviser investment. Pre-launch evaluation now treats a single run as an anecdote. Also adds a CONTRACTS block to the skeleton example, a role-prompt-to-contract example, guidelines 15 to 18, and gotchas 11 to 14 (review slot machine, simulated delegation, strong auditor with weak reviser, single-run validation). Workflow is now nine steps, ending in a bounded red-team pass.
+- Anchored on Sakana AI and UC Berkeley, "Recursive Self-Improvement through Multi-Agent Self-Supervision" (MASS, arXiv 2610.12176, October 2026): shift of task knowledge into contracts and hops across iterations, the evaluator-only versus evaluator-plus-optimizer ablation, divergence of byte-identical-prompt runs, shared blind spots in homogeneous loops, evolved gates and RECALL instructions, and the authors' execution directive. Preprint caveats recorded, including score per output token slightly below the base model on Terminal-Bench 2.0 and SWE-bench Verified.
+- New reference `references/mass-handoff-contracts.md` (provenance, annotated finance contract, evolved orchestrator excerpts, the three findings with caveats, and an explicit "does not claim" section). `references/research-evidence.md` gains a handoff-contract section and four mapping rows. `references/task-brief-template.md` gains a CONTRACTS block, blocking and recall rules in VERIFICATION, four filling notes, orchestrated-run checks, and a red-team pass with a stopping rule; the 10-dimension rubric is unchanged, so the prompt lab data is unaffected.
+- Skill description unchanged, so router benchmark prompts and the CI router dry-run cap are unaffected.
+
+#### Corpus wiring
+
+- 2 new mechanisms in `researcher/mechanisms/registry.jsonl`: `handoff-output-contracts` and `evidenced-blocking-review` (28 total), each with an accepted-ledger `promotion` event carrying `source_commit` and `source_path`.
+- 3 new provenance-tracked claims in `researcher/claims/index.jsonl` (43 total).
+- 1 new activation case (27 total) routing per-worker contract and blocking-rule work to `long-horizon-prompting` with `multi-agent-patterns` as acceptable secondary.
+- README and root SKILL.md summaries mention per-worker handoff contracts.
+- Regenerated `researcher/corpus/inventory.json`, `researcher/generated/corpus-summary.md`, and schema evidence under `researcher/schemas/generated/`.
+
 ## [2.6.0] - 2026-10-01
 
 ### Added
