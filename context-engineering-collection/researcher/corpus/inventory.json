@@ -1,7 +1,7 @@
 {
   "artifacts": {
     "activation_cases": {
-      "count": 26,
+      "count": 27,
       "owner": "researcher/fixtures/activation-cases.jsonl",
       "records": [
         {
@@ -81,6 +81,12 @@
           "expected_primary_skill": "latent-briefing",
           "id": "activation-latent-briefing-vs-memory",
           "line": 18
+        },
+        {
+          "digest": "sha256:650bd8520a8a6abf4c67f49f38a824e4a0a17c85327960068df28aec2b0a2c98",
+          "expected_primary_skill": "long-horizon-prompting",
+          "id": "activation-long-horizon-handoff-contracts",
+          "line": 27
         },
         {
           "digest": "sha256:9cb5207bd3f823630e62dc632b1ebd4bc5bfa3fb90968ad71dc29c8f3dee63ee",
@@ -305,7 +311,7 @@
       }
     },
     "claims": {
-      "count": 40,
+      "count": 43,
       "owner": "researcher/claims/index.jsonl",
       "records": [
         {
@@ -372,6 +378,13 @@
           "volatility": "high"
         },
         {
+          "digest": "sha256:e3db8819652cd81f790310d475473c2cc0e22f3465b0b333d379bff2647affa5",
+          "id": "claim-long-horizon-contract-information-shift",
+          "line": 41,
+          "owning_skill": "long-horizon-prompting",
+          "volatility": "medium"
+        },
+        {
           "digest": "sha256:473133f006e4c231e8f4de39f7677de4bc9a63e5325fe85c24f85204f47f0929",
           "id": "claim-long-horizon-diversity-collapse",
           "line": 24,
@@ -405,6 +418,20 @@
           "line": 20,
           "owning_skill": "long-horizon-prompting",
           "volatility": "high"
+        },
+        {
+          "digest": "sha256:83e22b1692b62c0466f837aed1f0e9a4ad6bf31608d1fea079a7b625908cb881",
+          "id": "claim-long-horizon-reviser-bottleneck",
+          "line": 42,
+          "owning_skill": "long-horizon-prompting",
+          "volatility": "medium"
+        },
+        {
+          "digest": "sha256:ef31d61e928ca97161f9bec5be4ea38ae96fd9441d685d599c8f3104dec9273c",
+          "id": "claim-long-horizon-run-variance",
+          "line": 43,
+          "owning_skill": "long-horizon-prompting",
+          "volatility": "medium"
         },
         {
           "digest": "sha256:75794c8135ef3ef0305af54987ad20a72fd431491e7fbd26e7e72ba0fbc288d2",
@@ -797,31 +824,41 @@
             "long-running agent launch prompts",
             "parallel portfolio orchestration prompts",
             "persistence and stop-condition design",
-            "pre-launch prompt evaluation"
+            "pre-launch prompt evaluation",
+            "per-worker handoff contracts",
+            "blocking rules for review-gated returns"
           ],
           "claim_ids": [
             "claim-long-horizon-cdc-run",
+            "claim-long-horizon-contract-information-shift",
             "claim-long-horizon-diversity-collapse",
             "claim-long-horizon-evidence-audit",
             "claim-long-horizon-give-up-drift",
             "claim-long-horizon-lean-prompt",
             "claim-long-horizon-persistence-hacking",
+            "claim-long-horizon-reviser-bottleneck",
+            "claim-long-horizon-run-variance",
             "claim-long-horizon-state-ledger",
             "claim-long-horizon-verification-gap"
           ],
           "explicit_body_claim_ids": [
             "claim-long-horizon-cdc-run",
+            "claim-long-horizon-contract-information-shift",
             "claim-long-horizon-diversity-collapse",
             "claim-long-horizon-evidence-audit",
             "claim-long-horizon-give-up-drift",
             "claim-long-horizon-lean-prompt",
             "claim-long-horizon-persistence-hacking",
+            "claim-long-horizon-reviser-bottleneck",
+            "claim-long-horizon-run-variance",
             "claim-long-horizon-state-ledger",
             "claim-long-horizon-verification-gap"
           ],
           "id": "long-horizon-prompting",
           "mechanism_ids": [
             "audit-gated-return-condition",
+            "evidenced-blocking-review",
+            "handoff-output-contracts",
             "independent-portfolio-approach-registry",
             "pseudo-formal-task-specification"
           ],
@@ -1110,7 +1147,7 @@
           "version": "2.6.0"
         },
         {
-          "digest": "sha256:b3a3ae63ea430ce38edd4030ec2942df968e4a5174ee3f42ecf729d19a105f65",
+          "digest": "sha256:edce54caa04c3718fd210e0fbce225a6038bc5363af7b8961fef6e391a6e4c6f",
           "id": "collection-skill",
           "path": "SKILL.md",
           "version": "2.6.0"
@@ -1165,9 +1202,9 @@
       }
     },
     "mechanism_ledgers": {
-      "accepted_event_count": 32,
-      "accepted_mechanism_count": 26,
-      "count": 33,
+      "accepted_event_count": 34,
+      "accepted_mechanism_count": 28,
+      "count": 35,
       "owner": "researcher/mechanisms/ledgers/*.jsonl",
       "records": [
         {
@@ -1427,6 +1464,22 @@
           "mechanism_id": "success-gated-efficiency-signal"
         },
         {
+          "digest": "sha256:f9e5bd521f19cac0ba8ba7d421ea9a8b816551c6c83c981dac109361b1d31a88",
+          "event_id": "promote-handoff-output-contracts",
+          "event_type": "promotion",
+          "ledger": "accepted",
+          "line": 33,
+          "mechanism_id": "handoff-output-contracts"
+        },
+        {
+          "digest": "sha256:25b74b6a39ff04ee4c4f9d652f325b8fe3f60fc790b4ff575a2ef3142ffb445e",
+          "event_id": "promote-evidenced-blocking-review",
+          "event_type": "promotion",
+          "ledger": "accepted",
+          "line": 34,
+          "mechanism_id": "evidenced-blocking-review"
+        },
+        {
           "digest": "sha256:aae0055e5aa409e789d5701dd1e8fd13ea21bdd3082994dc660786520090324c",
           "event_id": null,
           "event_type": "legacy",
@@ -1438,7 +1491,7 @@
       "rejected_event_count": 1
     },
     "mechanisms": {
-      "count": 26,
+      "count": 28,
       "owner": "researcher/mechanisms/registry.jsonl",
       "records": [
         {
@@ -1505,6 +1558,13 @@
           "status": "accepted"
         },
         {
+          "digest": "sha256:84d7e6107955653dcfa7e5ece2673602aa3c5c1aea044cf2a210597dfdc8bcbb",
+          "id": "evidenced-blocking-review",
+          "line": 28,
+          "owning_skill": "long-horizon-prompting",
+          "status": "accepted"
+        },
+        {
           "digest": "sha256:a3f9f7eb7dcdcba34e5a78a267dbc00f94db1cfe4b795479d154efa0f05fdfe3",
           "id": "filesystem-experience-archive",
           "line": 18,
@@ -1516,6 +1576,13 @@
           "id": "filesystem-state-machine-pipeline",
           "line": 15,
           "owning_skill": "project-development",
+          "status": "accepted"
+        },
+        {
+          "digest": "sha256:620adc8a5b513ab46ba1705d3a526b326f366d5e79cf92b503f582a3b6377f4d",
+          "id": "handoff-output-contracts",
+          "line": 27,
+          "owning_skill": "long-horizon-prompting",
           "status": "accepted"
         },
         {
@@ -2285,7 +2352,7 @@
           "path": "skills/latent-briefing/SKILL.md"
         },
         {
-          "digest": "sha256:75f8c53453fb526a4b4dc6f3c7d8870af87d68aeba12a7c3e77f19c44f27ad82",
+          "digest": "sha256:63c5a2a26b007399a0c83916e228bd0b5596db978da1211c0270dfd811e08b59",
           "id": "long-horizon-prompting",
           "path": "skills/long-horizon-prompting/SKILL.md"
         },
@@ -2530,6 +2597,10 @@
         "skill_id": "latent-briefing"
       },
       {
+        "case_id": "activation-long-horizon-handoff-contracts",
+        "skill_id": "long-horizon-prompting"
+      },
+      {
         "case_id": "activation-long-horizon-orchestrator-brief",
         "skill_id": "long-horizon-prompting"
       },
@@ -2635,6 +2706,11 @@
         "skill_id": "long-horizon-prompting"
       },
       {
+        "claim_id": "claim-long-horizon-contract-information-shift",
+        "relationship": "owned",
+        "skill_id": "long-horizon-prompting"
+      },
+      {
         "claim_id": "claim-long-horizon-diversity-collapse",
         "relationship": "owned",
         "skill_id": "long-horizon-prompting"
@@ -2656,6 +2732,16 @@
       },
       {
         "claim_id": "claim-long-horizon-persistence-hacking",
+        "relationship": "owned",
+        "skill_id": "long-horizon-prompting"
+      },
+      {
+        "claim_id": "claim-long-horizon-reviser-bottleneck",
+        "relationship": "owned",
+        "skill_id": "long-horizon-prompting"
+      },
+      {
+        "claim_id": "claim-long-horizon-run-variance",
         "relationship": "owned",
         "skill_id": "long-horizon-prompting"
       },
@@ -2849,6 +2935,14 @@
         "skill_id": "long-horizon-prompting"
       },
       {
+        "mechanism_id": "evidenced-blocking-review",
+        "skill_id": "long-horizon-prompting"
+      },
+      {
+        "mechanism_id": "handoff-output-contracts",
+        "skill_id": "long-horizon-prompting"
+      },
+      {
         "mechanism_id": "independent-portfolio-approach-registry",
         "skill_id": "long-horizon-prompting"
       },
@@ -2903,12 +2997,12 @@
     ]
   },
   "repository_revision": {
-    "digest": "sha256:dcbac67436e1252ff10fcdcc5ad1649c77ff0669837f42b04d1abea9c471d36c",
+    "digest": "sha256:1379b49b6e384b8302fae9a463d26233cc9b1566fa17213d71a5084d264260be",
     "git_commit_excluded_to_avoid_self_reference": true,
     "kind": "canonical_source_tree"
   },
   "schema_version": "1.0.0",
-  "source_tree_digest": "sha256:dcbac67436e1252ff10fcdcc5ad1649c77ff0669837f42b04d1abea9c471d36c",
+  "source_tree_digest": "sha256:1379b49b6e384b8302fae9a463d26233cc9b1566fa17213d71a5084d264260be",
   "sources": [
     {
       "digest": "sha256:f924467d535c67ddc43c747d6b3361469414ca8c5d15c2e8b406d4bbb7c7ca1e",
@@ -2921,9 +3015,9 @@
       "size_bytes": 829
     },
     {
-      "digest": "sha256:b3a3ae63ea430ce38edd4030ec2942df968e4a5174ee3f42ecf729d19a105f65",
+      "digest": "sha256:edce54caa04c3718fd210e0fbce225a6038bc5363af7b8961fef6e391a6e4c6f",
       "path": "SKILL.md",
-      "size_bytes": 11082
+      "size_bytes": 11210
     },
     {
       "digest": "sha256:e80dc5fe7391c3a5745c574814a1502d24ba9acea91fcbb5dc7ec7d38eb43545",
@@ -3046,14 +3140,14 @@
       "size_bytes": 611
     },
     {
-      "digest": "sha256:f91d0d9e5a677f3eec1611bfa9eeb290605af4d2e70d45d7d60a7f3403ae18be",
+      "digest": "sha256:fa29eb8277526e66b70821eff4949ca659752a3860fa13640757be911f67642a",
       "path": "researcher/claims/index.jsonl",
-      "size_bytes": 24429
+      "size_bytes": 26455
     },
     {
-      "digest": "sha256:75e67fca545bef8fa13d7cf5a20af6053901c0bc35e41cba330c78f6816b1795",
+      "digest": "sha256:ab90a17b81665d53649373772bf91529002e5b92f5cadd3fe4308b57733fece7",
       "path": "researcher/corpus/index.json",
-      "size_bytes": 8533
+      "size_bytes": 8790
     },
     {
       "digest": "sha256:a8a2d73c1d22f496702737d572dedadfc63298fd4e658d9a5574d58690fba0e5",
@@ -3076,9 +3170,9 @@
       "size_bytes": 7258
     },
     {
-      "digest": "sha256:cf909215854992409e46ef90dba130c4f3b4a16e42a968a62ecc82467d396ca4",
+      "digest": "sha256:b45c63d58514e1c6f7fc52fe28e7837e14dceec81a5d976225f31f3b820fa83a",
       "path": "researcher/fixtures/activation-cases.jsonl",
-      "size_bytes": 13587
+      "size_bytes": 14447
     },
     {
       "digest": "sha256:6a0ee2e312f7798802bbc159120c8b621edc3cb0b52d17c9f337a8f61bfbf33b",
@@ -3091,9 +3185,9 @@
       "size_bytes": 553
     },
     {
-      "digest": "sha256:8581a052f8f79a715ee9b264ba9dc295c951a27135fd32587e0559e012adb283",
+      "digest": "sha256:2801c461d4dadb9470811ba4d68337a806f9d20eb86291aa9a7b41bcf7471ed8",
       "path": "researcher/mechanisms/ledgers/accepted.jsonl",
-      "size_bytes": 15186
+      "size_bytes": 16694
     },
     {
       "digest": "sha256:1dba51f3178d0497b69d9b25dd0bfecc894552b56056d33281e981eeb45db8c5",
@@ -3101,9 +3195,9 @@
       "size_bytes": 302
     },
     {
-      "digest": "sha256:ee77e17658cc682db2b6f3b0394df5a20d77994e42b4941be087f2520bde3144",
+      "digest": "sha256:e39d1d9c7d333971485a2cc161ddd3977918b7713cd7db03fa51445383c6fa32",
       "path": "researcher/mechanisms/registry.jsonl",
-      "size_bytes": 20318
+      "size_bytes": 22688
     },
     {
       "digest": "sha256:0ac5456af9a440308082b4f730cb69f5a4bbfc9cb32928db1f8d4c656243e7ba",
@@ -3241,14 +3335,14 @@
       "size_bytes": 2240
     },
     {
-      "digest": "sha256:d748cbb2a1aa79a9db733f9590614d627459558345a139ebbc12682a1474bfd3",
+      "digest": "sha256:f3d87e95d64cc1c388c2afb17425f0bfca73d94f38578b7798df59c2792f2376",
       "path": "researcher/schemas/generated/current-artifacts-report.json",
       "size_bytes": 603
     },
     {
-      "digest": "sha256:c8624218525c2297dcfaf733bc90ceb0cea2f31f20b3d9f0f7536bc0e1849557",
+      "digest": "sha256:a4f52003245956c0b4e102d85e738bfd4651fc4be85808c614acabced8aa715e",
       "path": "researcher/schemas/generated/migration-dry-run.json",
-      "size_bytes": 37723
+      "size_bytes": 40452
     },
     {
       "digest": "sha256:38983589a7cb0d6763831d6c842b5c97d5b519393637e620ed3b454cc4d86d69",
@@ -3516,9 +3610,9 @@
       "size_bytes": 13029
     },
     {
-      "digest": "sha256:75f8c53453fb526a4b4dc6f3c7d8870af87d68aeba12a7c3e77f19c44f27ad82",
+      "digest": "sha256:63c5a2a26b007399a0c83916e228bd0b5596db978da1211c0270dfd811e08b59",
       "path": "skills/long-horizon-prompting/SKILL.md",
-      "size_bytes": 25666
+      "size_bytes": 33489
     },
     {
       "digest": "sha256:9e2b38ffe9474ba19c93b3d75c80e683705d82e8a4b59af16d603d133bab8d2f",

@@ -1,7 +1,7 @@
 {
   "deduplicated": [],
   "deduplicated_count": 0,
-  "input_count": 68,
+  "input_count": 73,
   "migrated": [
     {
       "kind": "LegacyClaim",
@@ -95,6 +95,16 @@
     },
     {
       "kind": "LegacyClaim",
+      "legacy_key": "claim-long-horizon-contract-information-shift",
+      "new_digest": "sha256:0e33ab58551d943197819ceac47f8ac22fe4940460d0a2934493b8a0241655c5",
+      "new_id": "rec_0f7819d4-36ef-5abd-bbbb-ed990d13def5",
+      "rollback": "pass",
+      "source_bytes_digest": "sha256:c107bda89176ed9839b323af9bd0bbbbe0aa323113ca3cf0ee6c0d8faa5d0607",
+      "source_path": "researcher/claims/index.jsonl",
+      "source_record_digest": "sha256:e3db8819652cd81f790310d475473c2cc0e22f3465b0b333d379bff2647affa5"
+    },
+    {
+      "kind": "LegacyClaim",
       "legacy_key": "claim-long-horizon-diversity-collapse",
       "new_digest": "sha256:617d3d137a2a1ef432105885792104d526a65b54bcbc7e9bf3fc44ac75fbeaf5",
       "new_id": "rec_d2955a00-55a0-58cf-ba13-369a12035df7",
@@ -142,6 +152,26 @@
       "source_bytes_digest": "sha256:105270648268d209346f9ba3cab3d89f308d95f3de1409b48e00a5a6cd1ddb8b",
       "source_path": "researcher/claims/index.jsonl",
       "source_record_digest": "sha256:ff7403439b7dc7a99f9f47533e395e452293c8aae28d703c79e7e2508db25fd4"
+    },
+    {
+      "kind": "LegacyClaim",
+      "legacy_key": "claim-long-horizon-reviser-bottleneck",
+      "new_digest": "sha256:fdd6127bc5ca86ffb4eb21f81acf75af9b6e49e1afcc35e0483cca2f994bc143",
+      "new_id": "rec_e99c7d6c-f0e2-51ba-8ca5-e2e7b085b15c",
+      "rollback": "pass",
+      "source_bytes_digest": "sha256:1ba4c27fda9e545be6ea5acc3461f3ff5db92f0535bcd60c6acec9c04efe2829",
+      "source_path": "researcher/claims/index.jsonl",
+      "source_record_digest": "sha256:83e22b1692b62c0466f837aed1f0e9a4ad6bf31608d1fea079a7b625908cb881"
+    },
+    {
+      "kind": "LegacyClaim",
+      "legacy_key": "claim-long-horizon-run-variance",
+      "new_digest": "sha256:a6bef712b1d8941a3030f63e72553728d8df09a211e27c56323100a1aee07262",
+      "new_id": "rec_f97a46d2-565e-5441-9626-59a45b29b4eb",
+      "rollback": "pass",
+      "source_bytes_digest": "sha256:9dffc7e8a75fe6310177435e4fae4456d2a19ef923e2392987cd71d6a185fa40",
+      "source_path": "researcher/claims/index.jsonl",
+      "source_record_digest": "sha256:ef31d61e928ca97161f9bec5be4ea38ae96fd9441d685d599c8f3104dec9273c"
     },
     {
       "kind": "LegacyClaim",
@@ -495,6 +525,16 @@
     },
     {
       "kind": "LegacyMechanism",
+      "legacy_key": "evidenced-blocking-review",
+      "new_digest": "sha256:6aa15b502aa47c64d0c4bb8a0e6b28788cda0ca1bc4a347b0ceeae7c6fe4d87e",
+      "new_id": "rec_0de88785-0028-5466-82cf-f2dbe6962ddb",
+      "rollback": "pass",
+      "source_bytes_digest": "sha256:992864df2ffb53720058f43998137aafbbf8ab020cf680b4edbe074539e8b0f0",
+      "source_path": "researcher/mechanisms/registry.jsonl",
+      "source_record_digest": "sha256:84d7e6107955653dcfa7e5ece2673602aa3c5c1aea044cf2a210597dfdc8bcbb"
+    },
+    {
+      "kind": "LegacyMechanism",
       "legacy_key": "filesystem-experience-archive",
       "new_digest": "sha256:dcc6a39fec9c2cbf01c0f91b13c0d552bafc9bb53120c2374560da78fe2af4be",
       "new_id": "rec_d234356d-7611-53c6-88ec-a53c9bbdee60",
@@ -512,6 +552,16 @@
       "source_bytes_digest": "sha256:2f14de61a7c182f227c584877f39cd064945db563286ef0167c549c7066c9a4a",
       "source_path": "researcher/mechanisms/registry.jsonl",
       "source_record_digest": "sha256:a4f1a0afe13d4e86ec90dde628e257544d4c895278aa0e76e0079fd6f5db99d8"
+    },
+    {
+      "kind": "LegacyMechanism",
+      "legacy_key": "handoff-output-contracts",
+      "new_digest": "sha256:34eb85f8078a14c82ba2e092b419d33eb93b2aab9a817b84a1f1942666fc8fe7",
+      "new_id": "rec_3dca5f51-1dba-50ff-8e15-87a9eb2acd53",
+      "rollback": "pass",
+      "source_bytes_digest": "sha256:8dba3cb8cce6e725eebf7f090c1d2efbaeb453b7adb2088cc660b10a6c1ff659",
+      "source_path": "researcher/mechanisms/registry.jsonl",
+      "source_record_digest": "sha256:620adc8a5b513ab46ba1705d3a526b326f366d5e79cf92b503f582a3b6377f4d"
     },
     {
       "kind": "LegacyMechanism",
@@ -684,10 +734,10 @@
       "source_record_digest": "sha256:e8ccf12edd075a1e634708a9d11351ad89dd8aa8ac71562e705298541ee4dbc0"
     }
   ],
-  "migrated_count": 68,
+  "migrated_count": 73,
   "mode": "dry-run",
   "quarantined": [],
   "quarantined_count": 0,
-  "report_digest": "sha256:409adeebe7b2eaf62bd984d825203af68c6880662b26b0df9e796dd94ddc235d",
+  "report_digest": "sha256:bfc826feed0b8ba7214097cf807edd4922379dae4b314524a6975a41af445392",
   "schema_version": "1.0.0"
 }
