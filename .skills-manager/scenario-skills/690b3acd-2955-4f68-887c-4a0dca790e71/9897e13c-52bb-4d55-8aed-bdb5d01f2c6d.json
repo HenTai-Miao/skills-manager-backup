@@ -7,6 +7,8 @@
     "claude_code": true,
     "codex": true,
     "cursor": true,
-    "deepseek_harness": true
+    "deepseek_harness": true,
+    "hermes": true,
+    "opencode": true
   }
 }
