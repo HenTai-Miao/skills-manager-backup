@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "2dae0062-2cf3-445c-9c75-7ff6998f491d",
+  "path": "war3-save-reverse",
+  "path_key": "war3-save-reverse",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/dc114154qq/war3-save-reverse.git",
+    "subpath": null,
+    "branch": null
+  }
+}
