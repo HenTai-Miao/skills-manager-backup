@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+.venv/
+
+*.bak-*
+*.log
+*.tmp
+*.raw.bin
+
+*.w3z
+*.w3v
+*.w3n
+*.w3x
+
+*.dll
+*.exe
+*.obj
