@@ -9,6 +9,7 @@
     "cursor": true,
     "deepseek_harness": true,
     "hermes": false,
-    "openclaw": true
+    "openclaw": true,
+    "opencode": true
   }
 }
