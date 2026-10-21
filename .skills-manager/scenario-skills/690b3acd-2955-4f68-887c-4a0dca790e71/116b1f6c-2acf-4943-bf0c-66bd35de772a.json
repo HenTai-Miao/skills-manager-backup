@@ -8,8 +8,9 @@
     "codex": true,
     "cursor": true,
     "deepseek_harness": true,
-    "hermes": true,
+    "hermes": false,
     "openclaw": true,
-    "opencode": true
+    "opencode": true,
+    "pi": true
   }
 }
