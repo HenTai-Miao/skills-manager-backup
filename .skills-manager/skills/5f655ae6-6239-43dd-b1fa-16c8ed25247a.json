@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "5f655ae6-6239-43dd-b1fa-16c8ed25247a",
+  "path": "google-agents-cli-eval",
+  "path_key": "google-agents-cli-eval",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "google/agents-cli/google-agents-cli-eval",
+    "subpath": "skills\\google-agents-cli-eval",
+    "branch": null
+  }
+}

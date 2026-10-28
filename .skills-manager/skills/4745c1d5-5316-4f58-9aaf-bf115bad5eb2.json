@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "4745c1d5-5316-4f58-9aaf-bf115bad5eb2",
+  "path": "aspireify",
+  "path_key": "aspireify",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "microsoft/aspire-skills/aspireify",
+    "subpath": "skills\\aspireify",
+    "branch": null
+  }
+}

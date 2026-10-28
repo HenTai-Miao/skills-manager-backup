@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "a983a4bd-5bd1-48f5-8b7a-940362aa68ed",
+  "path": "aspire-monitoring",
+  "path_key": "aspire-monitoring",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "microsoft/aspire-skills/aspire-monitoring",
+    "subpath": "skills\\aspire-monitoring",
+    "branch": null
+  }
+}

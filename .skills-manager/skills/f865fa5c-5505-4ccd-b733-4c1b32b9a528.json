@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "f865fa5c-5505-4ccd-b733-4c1b32b9a528",
+  "path": "aspire-orchestration",
+  "path_key": "aspire-orchestration",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "microsoft/aspire-skills/aspire-orchestration",
+    "subpath": "skills\\aspire-orchestration",
+    "branch": null
+  }
+}

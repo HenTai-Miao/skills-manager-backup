@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "feaa7f40-1d8a-4f0e-b6f8-9dce4a4205cf",
+  "path": "google-agents-cli-scaffold",
+  "path_key": "google-agents-cli-scaffold",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "google/agents-cli/google-agents-cli-scaffold",
+    "subpath": "skills\\google-agents-cli-scaffold",
+    "branch": null
+  }
+}

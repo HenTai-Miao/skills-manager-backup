@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "16b32ac0-5278-4d28-a4f0-796bddec237f",
+  "path": "higgsfield-faceless-video",
+  "path_key": "higgsfield-faceless-video",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "higgsfield-ai/skills/higgsfield-faceless-video",
+    "subpath": "higgsfield-faceless-video",
+    "branch": null
+  }
+}

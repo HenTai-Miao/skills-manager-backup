@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "adc6c3ac-021d-4657-b9c5-fe137b1d01fd",
+  "path": "aspire-init",
+  "path_key": "aspire-init",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "microsoft/aspire-skills/aspire-init",
+    "subpath": "skills\\aspire-init",
+    "branch": null
+  }
+}

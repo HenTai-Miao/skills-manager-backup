@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "cd3c6573-82dd-4a3c-a7c5-b435c2e72672",
+  "path": "whobot-phonecall-skill",
+  "path_key": "whobot-phonecall-skill",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "whobot-ai/skills/whobot-phonecall-skill",
+    "subpath": "skills\\whobot-phonecall-skill",
+    "branch": null
+  }
+}
