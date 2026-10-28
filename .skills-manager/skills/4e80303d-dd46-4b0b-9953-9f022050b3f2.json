@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "4e80303d-dd46-4b0b-9953-9f022050b3f2",
+  "path": "azure-app-onboard",
+  "path_key": "azure-app-onboard",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "microsoft/azure-skills/azure-app-onboard",
+    "subpath": "skills\\azure-app-onboard",
+    "branch": null
+  }
+}

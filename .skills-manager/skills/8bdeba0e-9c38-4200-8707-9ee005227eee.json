@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "8bdeba0e-9c38-4200-8707-9ee005227eee",
+  "path": "investigate-first",
+  "path_key": "investigate-first",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "juliusbrussee/caveman/investigate-first",
+    "subpath": "skills\\investigate-first",
+    "branch": null
+  }
+}

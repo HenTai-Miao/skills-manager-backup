@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "926f8ba9-76a9-4dac-9c57-624e6c76e6f2",
+  "path": "ai-image-generation-2",
+  "path_key": "ai-image-generation-2",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "magentosh/superpowers/ai-image-generation",
+    "subpath": "tools\\image\\ai-image-generation",
+    "branch": null
+  }
+}

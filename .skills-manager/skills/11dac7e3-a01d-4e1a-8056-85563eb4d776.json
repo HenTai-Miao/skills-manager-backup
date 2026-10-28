@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "11dac7e3-a01d-4e1a-8056-85563eb4d776",
+  "path": "agent-tools-2",
+  "path_key": "agent-tools-2",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "magentosh/superpowers/agent-tools",
+    "subpath": "tools\\agent-tools",
+    "branch": null
+  }
+}

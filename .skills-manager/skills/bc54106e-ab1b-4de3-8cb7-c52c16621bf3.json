@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "bc54106e-ab1b-4de3-8cb7-c52c16621bf3",
+  "path": "lark-contact",
+  "path_key": "lark-contact",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "well-known",
+    "ref": "https://skills.sh/site/open.feishu.cn/lark-contact",
+    "subpath": null,
+    "branch": null
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "aa997cd2-6e47-4cc5-ba3b-bb94a77cb04a",
+  "path": "lark-workflow-standup-report",
+  "path_key": "lark-workflow-standup-report",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "well-known",
+    "ref": "https://skills.sh/site/open.feishu.cn/lark-workflow-standup-report",
+    "subpath": null,
+    "branch": null
+  }
+}

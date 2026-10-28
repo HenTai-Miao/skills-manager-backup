@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "28b63db0-272f-4f9f-b912-86e1b1622d4b",
+  "path": "migration",
+  "path_key": "migration",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "juliusbrussee/caveman/migration",
+    "subpath": "skills\\migration",
+    "branch": null
+  }
+}

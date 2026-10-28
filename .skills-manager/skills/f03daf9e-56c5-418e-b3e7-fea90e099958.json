@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "f03daf9e-56c5-418e-b3e7-fea90e099958",
+  "path": "remotion-upgrade",
+  "path_key": "remotion-upgrade",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "remotion-dev/skills/remotion-upgrade",
+    "subpath": "skills\\remotion-upgrade",
+    "branch": null
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "8ff9893c-e2cd-4339-8b3f-76e804ef00e4",
+  "path": "lark-workflow-meeting-summary",
+  "path_key": "lark-workflow-meeting-summary",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "well-known",
+    "ref": "https://skills.sh/site/open.feishu.cn/lark-workflow-meeting-summary",
+    "subpath": null,
+    "branch": null
+  }
+}

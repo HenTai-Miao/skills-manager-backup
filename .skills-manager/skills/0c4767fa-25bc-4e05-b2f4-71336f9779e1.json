@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "0c4767fa-25bc-4e05-b2f4-71336f9779e1",
+  "path": "remotion-multimedia",
+  "path_key": "remotion-multimedia",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "remotion-dev/skills/remotion-multimedia",
+    "subpath": "skills\\remotion-multimedia",
+    "branch": null
+  }
+}

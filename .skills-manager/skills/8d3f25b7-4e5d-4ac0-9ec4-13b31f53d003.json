@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "8d3f25b7-4e5d-4ac0-9ec4-13b31f53d003",
+  "path": "vercel-optimize-2",
+  "path_key": "vercel-optimize-2",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "vercel-labs/agent-skills/vercel-optimize",
+    "subpath": "skills\\vercel-optimize",
+    "branch": null
+  }
+}

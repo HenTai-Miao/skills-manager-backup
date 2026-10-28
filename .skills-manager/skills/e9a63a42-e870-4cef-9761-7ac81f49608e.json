@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "e9a63a42-e870-4cef-9761-7ac81f49608e",
+  "path": "ios-design",
+  "path_key": "ios-design",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "well-known",
+    "ref": "https://skills.sh/site/uizze.sh/ios-design",
+    "subpath": null,
+    "branch": null
+  }
+}

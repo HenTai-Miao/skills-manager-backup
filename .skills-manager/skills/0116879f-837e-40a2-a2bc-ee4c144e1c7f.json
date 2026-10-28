@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "0116879f-837e-40a2-a2bc-ee4c144e1c7f",
+  "path": "infsh-cli",
+  "path_key": "infsh-cli",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "101-skills/superpowers/infsh-cli",
+    "subpath": "tools\\infsh-cli",
+    "branch": null
+  }
+}

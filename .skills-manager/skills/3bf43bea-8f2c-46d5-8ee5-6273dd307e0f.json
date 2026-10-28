@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "3bf43bea-8f2c-46d5-8ee5-6273dd307e0f",
+  "path": "entra-agent-id",
+  "path_key": "entra-agent-id",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "microsoft/azure-skills/entra-agent-id",
+    "subpath": "skills\\entra-agent-id",
+    "branch": null
+  }
+}

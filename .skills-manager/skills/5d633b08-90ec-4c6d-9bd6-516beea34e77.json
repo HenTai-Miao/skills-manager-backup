@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "5d633b08-90ec-4c6d-9bd6-516beea34e77",
+  "path": "caveman-evidence-review",
+  "path_key": "caveman-evidence-review",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "juliusbrussee/caveman/caveman-evidence-review",
+    "subpath": "skills\\caveman-evidence-review",
+    "branch": null
+  }
+}

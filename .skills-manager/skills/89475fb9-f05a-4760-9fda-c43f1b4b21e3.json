@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "89475fb9-f05a-4760-9fda-c43f1b4b21e3",
+  "path": "remotion-docs",
+  "path_key": "remotion-docs",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "remotion-dev/skills/remotion-docs",
+    "subpath": "skills\\remotion-docs",
+    "branch": null
+  }
+}

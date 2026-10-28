@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "8eb82288-545d-407b-a97b-a97855e8879c",
+  "path": "agent-browser-2",
+  "path_key": "agent-browser-2",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "101-skills/superpowers/agent-browser",
+    "subpath": "tools\\utilities\\agent-browser",
+    "branch": null
+  }
+}

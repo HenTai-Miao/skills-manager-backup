@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "21b10fd9-adf7-4ea6-bc62-e982a57d6a9a",
+  "path": "lark-apps",
+  "path_key": "lark-apps",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "well-known",
+    "ref": "https://skills.sh/site/open.feishu.cn/lark-apps",
+    "subpath": null,
+    "branch": null
+  }
+}

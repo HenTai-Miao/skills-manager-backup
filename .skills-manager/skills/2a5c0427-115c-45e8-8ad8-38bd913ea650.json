@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "2a5c0427-115c-45e8-8ad8-38bd913ea650",
+  "path": "twitter-automation-3",
+  "path_key": "twitter-automation-3",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "qu-skills/superpowers/twitter-automation",
+    "subpath": "tools\\social\\twitter-automation",
+    "branch": null
+  }
+}

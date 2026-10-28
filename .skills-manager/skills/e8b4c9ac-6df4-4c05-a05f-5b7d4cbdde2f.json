@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "e8b4c9ac-6df4-4c05-a05f-5b7d4cbdde2f",
+  "path": "lark-shared",
+  "path_key": "lark-shared",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "well-known",
+    "ref": "https://skills.sh/site/open.feishu.cn/lark-shared",
+    "subpath": null,
+    "branch": null
+  }
+}

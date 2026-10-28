@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "4911bed6-a072-47c2-8564-b98f977ac752",
+  "path": "remotion-maps",
+  "path_key": "remotion-maps",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "remotion-dev/skills/remotion-maps",
+    "subpath": "skills\\remotion-maps",
+    "branch": null
+  }
+}

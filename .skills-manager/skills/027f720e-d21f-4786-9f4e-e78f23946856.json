@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "027f720e-d21f-4786-9f4e-e78f23946856",
+  "path": "lark-vc-agent",
+  "path_key": "lark-vc-agent",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "well-known",
+    "ref": "https://skills.sh/site/open.feishu.cn/lark-vc-agent",
+    "subpath": null,
+    "branch": null
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "26ee6068-c502-452e-875e-257e550ad784",
+  "path": "lark-minutes",
+  "path_key": "lark-minutes",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "well-known",
+    "ref": "https://skills.sh/site/open.feishu.cn/lark-minutes",
+    "subpath": null,
+    "branch": null
+  }
+}

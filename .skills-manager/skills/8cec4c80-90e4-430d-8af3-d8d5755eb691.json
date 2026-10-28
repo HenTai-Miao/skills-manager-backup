@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "8cec4c80-90e4-430d-8af3-d8d5755eb691",
+  "path": "cavecrew",
+  "path_key": "cavecrew",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "juliusbrussee/caveman/cavecrew",
+    "subpath": "skills\\cavecrew",
+    "branch": null
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "9ac12c36-5365-4f97-b002-26b07030a383",
+  "path": "lark-note",
+  "path_key": "lark-note",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "well-known",
+    "ref": "https://skills.sh/site/open.feishu.cn/lark-note",
+    "subpath": null,
+    "branch": null
+  }
+}

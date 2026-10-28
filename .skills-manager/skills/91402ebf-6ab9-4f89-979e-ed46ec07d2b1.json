@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "91402ebf-6ab9-4f89-979e-ed46ec07d2b1",
+  "path": "surgical-patch",
+  "path_key": "surgical-patch",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "juliusbrussee/caveman/surgical-patch",
+    "subpath": "skills\\surgical-patch",
+    "branch": null
+  }
+}

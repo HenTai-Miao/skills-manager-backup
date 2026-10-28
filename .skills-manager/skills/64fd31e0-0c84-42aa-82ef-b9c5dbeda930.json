@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "64fd31e0-0c84-42aa-82ef-b9c5dbeda930",
+  "path": "lark-okr",
+  "path_key": "lark-okr",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "well-known",
+    "ref": "https://skills.sh/site/open.feishu.cn/lark-okr",
+    "subpath": null,
+    "branch": null
+  }
+}

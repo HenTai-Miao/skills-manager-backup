@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "c6788dde-68fc-47b9-9e81-bc4e6252f1be",
+  "path": "lark-slides",
+  "path_key": "lark-slides",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "well-known",
+    "ref": "https://skills.sh/site/open.feishu.cn/lark-slides",
+    "subpath": null,
+    "branch": null
+  }
+}

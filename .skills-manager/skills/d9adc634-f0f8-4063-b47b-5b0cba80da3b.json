@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "d9adc634-f0f8-4063-b47b-5b0cba80da3b",
+  "path": "lark-skill-maker",
+  "path_key": "lark-skill-maker",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "well-known",
+    "ref": "https://skills.sh/site/open.feishu.cn/lark-skill-maker",
+    "subpath": null,
+    "branch": null
+  }
+}

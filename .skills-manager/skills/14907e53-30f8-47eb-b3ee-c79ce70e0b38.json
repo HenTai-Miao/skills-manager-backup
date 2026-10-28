@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "14907e53-30f8-47eb-b3ee-c79ce70e0b38",
+  "path": "remotion-saas",
+  "path_key": "remotion-saas",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "remotion-dev/skills/remotion-saas",
+    "subpath": "skills\\remotion-saas",
+    "branch": null
+  }
+}

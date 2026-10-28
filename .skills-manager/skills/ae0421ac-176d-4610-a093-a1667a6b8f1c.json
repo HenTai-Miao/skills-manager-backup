@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "ae0421ac-176d-4610-a093-a1667a6b8f1c",
+  "path": "lark-whiteboard",
+  "path_key": "lark-whiteboard",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "well-known",
+    "ref": "https://skills.sh/site/open.feishu.cn/lark-whiteboard",
+    "subpath": null,
+    "branch": null
+  }
+}

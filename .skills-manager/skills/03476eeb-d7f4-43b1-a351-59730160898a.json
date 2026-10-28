@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "03476eeb-d7f4-43b1-a351-59730160898a",
+  "path": "lark-calendar",
+  "path_key": "lark-calendar",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "well-known",
+    "ref": "https://skills.sh/site/open.feishu.cn/lark-calendar",
+    "subpath": null,
+    "branch": null
+  }
+}

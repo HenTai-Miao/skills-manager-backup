@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "98449531-fe05-4603-820a-8a3ef8449790",
+  "path": "remotion-create",
+  "path_key": "remotion-create",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "remotion-dev/skills/remotion-create",
+    "subpath": "skills\\remotion-create",
+    "branch": null
+  }
+}

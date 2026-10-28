@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "30f9c2b2-ca13-46dd-a27d-b1e44ce8b9e5",
+  "path": "remotion-render-2",
+  "path_key": "remotion-render-2",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "remotion-dev/skills/remotion-render",
+    "subpath": "skills\\remotion-render",
+    "branch": null
+  }
+}

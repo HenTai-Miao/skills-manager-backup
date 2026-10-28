@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "913d3e9e-c845-4604-9775-4b103af1779b",
+  "path": "agent-tools-3",
+  "path_key": "agent-tools-3",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "qu-skills/superpowers/agent-tools",
+    "subpath": "tools\\agent-tools",
+    "branch": null
+  }
+}

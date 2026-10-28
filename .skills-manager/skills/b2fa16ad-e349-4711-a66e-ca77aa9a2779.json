@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "b2fa16ad-e349-4711-a66e-ca77aa9a2779",
+  "path": "ai-avatar-video-2",
+  "path_key": "ai-avatar-video-2",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "magentosh/superpowers/ai-avatar-video",
+    "subpath": "tools\\video\\ai-avatar-video",
+    "branch": null
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "6a959189-aff7-478c-9caf-74e71d7aa9d4",
+  "path": "remotion-interactivity",
+  "path_key": "remotion-interactivity",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "remotion-dev/skills/remotion-interactivity",
+    "subpath": "skills\\remotion-interactivity",
+    "branch": null
+  }
+}

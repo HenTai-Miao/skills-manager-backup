@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "f9d87bf7-7a88-49ad-a7d1-fba472cef244",
+  "path": "remotion-studio",
+  "path_key": "remotion-studio",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "remotion-dev/skills/remotion-studio",
+    "subpath": "skills\\remotion-studio",
+    "branch": null
+  }
+}

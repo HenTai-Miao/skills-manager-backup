@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "251ae55c-1e72-4731-8c8d-70ca9cf74611",
+  "path": "lark-base",
+  "path_key": "lark-base",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "well-known",
+    "ref": "https://skills.sh/site/open.feishu.cn/lark-base",
+    "subpath": null,
+    "branch": null
+  }
+}

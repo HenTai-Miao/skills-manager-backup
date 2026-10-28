@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "7d09a7f3-e069-4113-9609-fbae6b5c297c",
+  "path": "remotion-markup",
+  "path_key": "remotion-markup",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "remotion-dev/skills/remotion-markup",
+    "subpath": "skills\\remotion-markup",
+    "branch": null
+  }
+}

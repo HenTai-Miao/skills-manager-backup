@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "bf8ef6d4-4485-4fa7-a00e-e812aa815064",
+  "path": "lark-task",
+  "path_key": "lark-task",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "well-known",
+    "ref": "https://skills.sh/site/open.feishu.cn/lark-task",
+    "subpath": null,
+    "branch": null
+  }
+}

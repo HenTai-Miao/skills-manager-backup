@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "c00497c9-e4f5-46d1-b60d-0c7bb320744f",
+  "path": "lark-doc",
+  "path_key": "lark-doc",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "well-known",
+    "ref": "https://skills.sh/site/open.feishu.cn/lark-doc",
+    "subpath": null,
+    "branch": null
+  }
+}

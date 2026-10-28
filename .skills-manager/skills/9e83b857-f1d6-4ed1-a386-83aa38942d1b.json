@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "9e83b857-f1d6-4ed1-a386-83aa38942d1b",
+  "path": "python-appservice-deploy",
+  "path_key": "python-appservice-deploy",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "microsoft/azure-skills/python-appservice-deploy",
+    "subpath": "skills\\python-appservice-deploy",
+    "branch": null
+  }
+}

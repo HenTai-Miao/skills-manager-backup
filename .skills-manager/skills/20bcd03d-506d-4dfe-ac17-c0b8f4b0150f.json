@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "20bcd03d-506d-4dfe-ac17-c0b8f4b0150f",
+  "path": "lark-approval",
+  "path_key": "lark-approval",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "well-known",
+    "ref": "https://skills.sh/site/open.feishu.cn/lark-approval",
+    "subpath": null,
+    "branch": null
+  }
+}

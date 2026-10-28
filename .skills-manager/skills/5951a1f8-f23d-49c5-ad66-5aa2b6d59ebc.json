@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "5951a1f8-f23d-49c5-ad66-5aa2b6d59ebc",
+  "path": "lark-markdown",
+  "path_key": "lark-markdown",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "well-known",
+    "ref": "https://skills.sh/site/open.feishu.cn/lark-markdown",
+    "subpath": null,
+    "branch": null
+  }
+}

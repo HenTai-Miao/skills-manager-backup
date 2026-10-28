@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "13e949c8-c6cf-4748-8b29-d66976b5b9eb",
+  "path": "safe-refactor",
+  "path_key": "safe-refactor",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "juliusbrussee/caveman/safe-refactor",
+    "subpath": "skills\\safe-refactor",
+    "branch": null
+  }
+}

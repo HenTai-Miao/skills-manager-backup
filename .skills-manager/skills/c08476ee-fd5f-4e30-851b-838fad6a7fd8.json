@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "c08476ee-fd5f-4e30-851b-838fad6a7fd8",
+  "path": "google-agents-cli-adk-code",
+  "path_key": "google-agents-cli-adk-code",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "google/agents-cli/google-agents-cli-adk-code",
+    "subpath": "skills\\google-agents-cli-adk-code",
+    "branch": null
+  }
+}

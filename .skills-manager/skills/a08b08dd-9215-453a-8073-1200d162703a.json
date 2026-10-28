@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "a08b08dd-9215-453a-8073-1200d162703a",
+  "path": "lark-sheets",
+  "path_key": "lark-sheets",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "well-known",
+    "ref": "https://skills.sh/site/open.feishu.cn/lark-sheets",
+    "subpath": null,
+    "branch": null
+  }
+}

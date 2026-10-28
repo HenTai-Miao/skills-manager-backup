@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "138c40ba-0721-4c43-9e4e-31b31a3db322",
+  "path": "lark-meeting",
+  "path_key": "lark-meeting",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "well-known",
+    "ref": "https://skills.sh/site/open.feishu.cn/lark-meeting",
+    "subpath": null,
+    "branch": null
+  }
+}

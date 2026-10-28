@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "50697aa6-e76d-406a-b74c-0b3de9fe5b41",
+  "path": "remotion-render",
+  "path_key": "remotion-render",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "101-skills/superpowers/remotion-render",
+    "subpath": "tools\\video\\remotion-render",
+    "branch": null
+  }
+}

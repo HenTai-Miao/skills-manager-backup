@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "702f7e55-bc12-4215-b0b1-8f228ecf1146",
+  "path": "verify-and-stop",
+  "path_key": "verify-and-stop",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "juliusbrussee/caveman/verify-and-stop",
+    "subpath": "skills\\verify-and-stop",
+    "branch": null
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "b2c55af1-a031-4a82-9ef5-68e669a89509",
+  "path": "infsh-cli-3",
+  "path_key": "infsh-cli-3",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "qu-skills/superpowers/infsh-cli",
+    "subpath": "tools\\infsh-cli",
+    "branch": null
+  }
+}

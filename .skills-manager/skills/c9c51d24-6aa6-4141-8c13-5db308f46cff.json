@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "c9c51d24-6aa6-4141-8c13-5db308f46cff",
+  "path": "python-executor",
+  "path_key": "python-executor",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "101-skills/superpowers/python-executor",
+    "subpath": "tools\\utilities\\python-executor",
+    "branch": null
+  }
+}

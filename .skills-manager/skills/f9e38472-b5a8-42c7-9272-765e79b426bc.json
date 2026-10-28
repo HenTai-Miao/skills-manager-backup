@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "f9e38472-b5a8-42c7-9272-765e79b426bc",
+  "path": "lark-attendance",
+  "path_key": "lark-attendance",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "well-known",
+    "ref": "https://skills.sh/site/open.feishu.cn/lark-attendance",
+    "subpath": null,
+    "branch": null
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "00e6002b-ffa5-4aab-acfa-2aee0c142dcd",
+  "path": "vercel-cli-with-tokens-2",
+  "path_key": "vercel-cli-with-tokens-2",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "vercel-labs/agent-skills/vercel-cli-with-tokens",
+    "subpath": "skills\\vercel-cli-with-tokens",
+    "branch": null
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "3d2d11fc-0c8d-4441-90bb-8b0a1fbc563d",
+  "path": "lark-vc",
+  "path_key": "lark-vc",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "well-known",
+    "ref": "https://skills.sh/site/open.feishu.cn/lark-vc",
+    "subpath": null,
+    "branch": null
+  }
+}
