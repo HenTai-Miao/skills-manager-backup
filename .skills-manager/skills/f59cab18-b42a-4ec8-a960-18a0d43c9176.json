@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "f59cab18-b42a-4ec8-a960-18a0d43c9176",
+  "path": "scientific-toolkit-skill",
+  "path_key": "scientific-toolkit-skill",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "zlanqing/codex-claude-academic-skills/scientific-toolkit-skill",
+    "subpath": "scientific-toolkit-skill",
+    "branch": null
+  }
+}

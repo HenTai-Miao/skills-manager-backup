@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "c50dfc2b-e912-40c0-820b-d15ae5813ab0",
+  "path": "writing-core",
+  "path_key": "writing-core",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "norman-bury/research-writing-skill/writing-core",
+    "subpath": "skills\\writing-core",
+    "branch": null
+  }
+}

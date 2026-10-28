@@ -1,0 +1,122 @@
+# 實驗代理人 (Experiment Agent)
+
+[![Version](https://img.shields.io/badge/version-v1.2.0-blue)](https://github.com/Imbad0202/experiment-agent/releases)
+[![License: CC BY-NC 4.0](https://img.shields.io/badge/license-CC%20BY--NC%204.0-lightgrey)](https://creativecommons.org/licenses/by-nc/4.0/)
+[![Sponsor](https://img.shields.io/badge/sponsor-Buy%20Me%20a%20Coffee-orange?logo=buy-me-a-coffee)](https://buymeacoffee.com/crucify020v)
+
+Claude Code 技能：執行、監控、解讀、驗證學術研究實驗。
+
+## v1.2.0 更新重點
+
+- `manage` 模式改由程式 `scripts/check_study_state.py` 檢查每個研究的狀態檔。程式判定為 READY，研究才能進入招募與收資料階段；倫理狀態為 READY，資料才能交付分析。程式無法執行時，agent 會改用人工套用規則並說明這一點，但不會讓研究進入收資料階段。
+- IRB 核准之後，需要重新確認的項目必須在核准之後再回答一次，研究才會是 READY。
+- 研究要進入收資料階段，現在需要 Python 3.9 以上與 PyYAML，見下方「人類研究的執行需求」。
+- 研究狀態檔的檢查比 v1.1.0 嚴格，v1.1.0 接受的檔案可能被判為 INVALID。升級後，請在接續每個研究之前，先用這支程式檢查它的狀態檔（見 CHANGELOG.md 的 Compatibility 段落）。
+
+完整內容見 [CHANGELOG.md](CHANGELOG.md)
+
+## 功能
+
+- **執行程式碼實驗** — 執行腳本（Python、R 等），即時監控 stall/crash，收集結果
+- **管理人工研究** — 規劃 protocol、檢查 IRB 倫理、追蹤資料收集進度
+- **統計解讀** — 解讀 p-value、效果量、信賴區間；檢查 11 種統計謬誤（Simpson's Paradox、存活者偏誤等）
+- **驗證重現性** — 重新執行實驗並比對結果
+
+## 為什麼需要
+
+Lu et al.（2026, *Nature*）展示了自主 AI 研究的實驗進度管理器。本技能將同樣的執行與監控能力帶入人類參與的學術工作流程——不承擔全自動化的風險。
+
+## 模式
+
+| 模式 | 功能 |
+|------|------|
+| `run` | 執行程式碼 + 監控 process |
+| `manage` | 規劃 + 追蹤人工研究 |
+| `validate` | 統計解讀 + 重現性驗證 |
+| `plan` | Socratic 對話設計實驗 |
+
+## 快速開始
+
+1. Clone 本 repo 到你的專案或 `.claude/skills/`
+2. 啟動 Claude Code session
+3. 試試：「跑我的分析：`Rscript analysis.R`」
+
+## ARS 相容性
+
+本技能可獨立使用，也可選擇性整合 [Academic Research Skills (ARS)](https://github.com/Imbad0202/academic-research-skills)：
+
+- 讀取 ARS Stage 1 輸出（RQ Brief、Methodology Blueprint）預填實驗設計
+- 產出符合 Material Passport、且明確標示 verification status 的輸出供 ARS Stage 2 使用
+- ARS 不需要任何修改——使用者手動銜接
+
+### 何時搭配 ARS 使用
+
+在 ARS pipeline 中，experiment-agent 介於 **Stage 1（研究）和 Stage 2（寫作）之間**：
+
+```
+ARS Stage 1 研究      →  取得 RQ Brief + Methodology Blueprint
+        ↓
+  [暫停 ARS pipeline]
+        ↓
+  experiment-agent     →  plan → run/manage → validate → 取得分析或驗證過的結果
+        ↓
+  [繼續 ARS pipeline]
+        ↓
+ARS Stage 2 寫作      →  用實驗結果撰寫論文
+```
+
+當你的研究需要跑實驗（程式碼或人工研究）才能開始寫作時，使用 experiment-agent。如果論文純粹基於文獻回顧或二次資料分析，不需要這個工具，直接從 ARS Stage 1 進入 Stage 2。
+
+### 如何載入
+
+**步驟 1**：Clone 本 repo 到 ARS 專案旁（或任何位置）：
+
+```bash
+cd ~/Projects
+git clone https://github.com/Imbad0202/experiment-agent.git
+```
+
+**步驟 2**：需要跑實驗時，在 experiment-agent 目錄開啟 Claude Code session：
+
+```bash
+cd ~/Projects/experiment-agent
+claude
+```
+
+**步驟 3**：將 ARS Stage 1 的相關輸出（RQ Brief、Methodology Blueprint）貼入 session。Agent 會自動偵測 ARS 標題並預填實驗計畫。
+
+**步驟 4**：實驗完成並驗證後，將輸出（含 Material Passport header 與 verification status）複製回 ARS session，繼續 Stage 2。
+
+### 人類研究的執行需求
+
+`manage` 模式用 `scripts/check_study_state.py` 檢查每個研究的狀態檔，需要 Python 3.9 以上與 PyYAML：
+
+```bash
+python3 -m pip install pyyaml
+```
+
+如果 pip 出現 `externally-managed-environment` 錯誤，請依錯誤訊息的指示，為 PATH 上的 `python3` 安裝 PyYAML。Claude Code 執行這支檢查程式前會先詢問權限，可以選擇之後不再詢問。沒有這支檢查程式時，`manage` 模式仍可規劃研究、執行倫理檢核，但不會讓研究進入收資料階段。
+
+> 也可以透過 `.claude/skills/` symlink 將本技能加入任何專案。
+
+## 安全機制
+
+- 只執行你指定的命令——從不自動生成或修改你的程式碼（唯一例外：`manage` 模式會執行本 skill 內附、只讀不寫的研究狀態檢查程式）
+- 從不自動重試 crash 的實驗
+- 從不接觸原始參與者資料
+- 統計解讀是描述性的，不代替你下結論
+- 完整清單見 SKILL.md 安全規則
+
+## 授權
+
+CC-BY-NC 4.0
+
+## 作者
+
+吳政宜 Edward Cheng-I Wu
+
+---
+
+## 變更紀錄
+
+見 [CHANGELOG.md](CHANGELOG.md)

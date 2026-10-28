@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "c78f2f67-1334-48ee-834a-1c7d736d1bc3",
+  "path": "experiment-results-planning",
+  "path_key": "experiment-results-planning",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "norman-bury/research-writing-skill/experiment-results-planning",
+    "subpath": "skills\\experiment-results-planning",
+    "branch": null
+  }
+}

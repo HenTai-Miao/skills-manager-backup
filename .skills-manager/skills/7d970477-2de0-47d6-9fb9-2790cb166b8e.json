@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "7d970477-2de0-47d6-9fb9-2790cb166b8e",
+  "path": "environment-setup",
+  "path_key": "environment-setup",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "norman-bury/research-writing-skill/environment-setup",
+    "subpath": "skills\\environment-setup",
+    "branch": null
+  }
+}

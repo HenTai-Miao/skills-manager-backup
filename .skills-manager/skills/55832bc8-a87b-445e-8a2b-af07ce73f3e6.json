@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "55832bc8-a87b-445e-8a2b-af07ce73f3e6",
+  "path": "paper-comic",
+  "path_key": "paper-comic",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "zsyggg/paper-craft-skills/paper-comic",
+    "subpath": "skills\\paper-comic",
+    "branch": null
+  }
+}

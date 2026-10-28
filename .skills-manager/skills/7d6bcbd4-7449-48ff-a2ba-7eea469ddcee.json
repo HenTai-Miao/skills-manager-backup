@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "7d6bcbd4-7449-48ff-a2ba-7eea469ddcee",
+  "path": "latex-output",
+  "path_key": "latex-output",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "norman-bury/research-writing-skill/latex-output",
+    "subpath": "skills\\latex-output",
+    "branch": null
+  }
+}

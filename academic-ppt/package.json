@@ -1,0 +1,20 @@
+{
+  "name": "academic-ppt-plugin-runtime",
+  "version": "0.2.0",
+  "private": true,
+  "description": "Runtime dependencies for the academic-ppt Codex plugin",
+  "license": "MIT",
+  "scripts": {
+    "bootstrap": "python scripts/bootstrap_runtime.py",
+    "doctor": "python scripts/doctor.py",
+    "doctor:full": "python scripts/doctor.py --require-full-validation"
+  },
+  "dependencies": {
+    "fontkit": "2.0.4",
+    "linebreak": "1.1.0",
+    "mathjax-full": "3.2.2",
+    "pptxgenjs": "4.0.1",
+    "prismjs": "1.30.0",
+    "skia-canvas": "3.0.8"
+  }
+}

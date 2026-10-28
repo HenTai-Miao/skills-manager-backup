@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "67680a73-ccac-4800-a04f-afc5325c8515",
+  "path": "evidence-driven-writing",
+  "path_key": "evidence-driven-writing",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "norman-bury/research-writing-skill/evidence-driven-writing",
+    "subpath": "skills\\evidence-driven-writing",
+    "branch": null
+  }
+}

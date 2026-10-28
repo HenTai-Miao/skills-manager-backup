@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "425b6702-35ce-4de6-bd3f-1b18d59ced7d",
+  "path": "writing-medical",
+  "path_key": "writing-medical",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "norman-bury/research-writing-skill/writing-medical",
+    "subpath": "skills\\writing-medical",
+    "branch": null
+  }
+}

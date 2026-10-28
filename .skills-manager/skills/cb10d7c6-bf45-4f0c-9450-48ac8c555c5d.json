@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "cb10d7c6-bf45-4f0c-9450-48ac8c555c5d",
+  "path": "academic-ppt",
+  "path_key": "academic-ppt",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "shalins428/academic-ppt-skill/academic-ppt",
+    "subpath": "skill\\academic-ppt",
+    "branch": null
+  }
+}

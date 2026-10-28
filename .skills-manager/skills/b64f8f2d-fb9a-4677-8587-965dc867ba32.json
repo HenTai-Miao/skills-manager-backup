@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "b64f8f2d-fb9a-4677-8587-965dc867ba32",
+  "path": "research-writing-assistant",
+  "path_key": "research-writing-assistant",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "norman-bury/research-writing-skill/research-writing-assistant",
+    "subpath": null,
+    "branch": null
+  }
+}

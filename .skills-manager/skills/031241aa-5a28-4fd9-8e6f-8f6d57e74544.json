@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "031241aa-5a28-4fd9-8e6f-8f6d57e74544",
+  "path": "prompts-collection",
+  "path_key": "prompts-collection",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "norman-bury/research-writing-skill/prompts-collection",
+    "subpath": "skills\\prompts-collection",
+    "branch": null
+  }
+}

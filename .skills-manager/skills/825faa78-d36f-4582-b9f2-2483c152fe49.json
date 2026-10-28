@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "825faa78-d36f-4582-b9f2-2483c152fe49",
+  "path": "office-academic-skill",
+  "path_key": "office-academic-skill",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "zlanqing/codex-claude-academic-skills/office-academic-skill",
+    "subpath": "office-academic-skill",
+    "branch": null
+  }
+}

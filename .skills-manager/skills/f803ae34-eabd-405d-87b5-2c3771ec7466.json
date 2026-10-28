@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "f803ae34-eabd-405d-87b5-2c3771ec7466",
+  "path": "figures-python",
+  "path_key": "figures-python",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "norman-bury/research-writing-skill/figures-python",
+    "subpath": "skills\\figures-python",
+    "branch": null
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "767ce9f8-ebbc-48f4-99c4-cb19507e0c32",
+  "path": "research-writing-skill",
+  "path_key": "research-writing-skill",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "zlanqing/codex-claude-academic-skills/research-writing-skill",
+    "subpath": "research-writing-skill",
+    "branch": null
+  }
+}

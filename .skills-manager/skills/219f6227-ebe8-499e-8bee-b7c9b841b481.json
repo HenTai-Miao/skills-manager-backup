@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "219f6227-ebe8-499e-8bee-b7c9b841b481",
+  "path": "writing-law",
+  "path_key": "writing-law",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "norman-bury/research-writing-skill/writing-law",
+    "subpath": "skills\\writing-law",
+    "branch": null
+  }
+}

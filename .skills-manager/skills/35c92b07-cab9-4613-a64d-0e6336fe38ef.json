@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "35c92b07-cab9-4613-a64d-0e6336fe38ef",
+  "path": "statistical-analysis",
+  "path_key": "statistical-analysis",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "norman-bury/research-writing-skill/statistical-analysis",
+    "subpath": "skills\\statistical-analysis",
+    "branch": null
+  }
+}

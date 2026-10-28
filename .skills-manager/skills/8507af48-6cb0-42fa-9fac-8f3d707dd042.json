@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "8507af48-6cb0-42fa-9fac-8f3d707dd042",
+  "path": "experiment-agent",
+  "path_key": "experiment-agent",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "imbad0202/experiment-agent/experiment-agent",
+    "subpath": null,
+    "branch": null
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "86ecfb89-b8ee-46e0-bb0e-8ce24afd1fb7",
+  "path": "using-research-writing",
+  "path_key": "using-research-writing",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "norman-bury/research-writing-skill/using-research-writing",
+    "subpath": "skills\\using-research-writing",
+    "branch": null
+  }
+}

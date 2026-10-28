@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "00761b97-bac5-48a0-a51f-8bc5185f1155",
+  "path": "writing-humanities",
+  "path_key": "writing-humanities",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "norman-bury/research-writing-skill/writing-humanities",
+    "subpath": "skills\\writing-humanities",
+    "branch": null
+  }
+}

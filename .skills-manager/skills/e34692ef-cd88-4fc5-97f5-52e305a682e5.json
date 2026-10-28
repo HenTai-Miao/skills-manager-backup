@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "e34692ef-cd88-4fc5-97f5-52e305a682e5",
+  "path": "figures-diagram",
+  "path_key": "figures-diagram",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "norman-bury/research-writing-skill/figures-diagram",
+    "subpath": "skills\\figures-diagram",
+    "branch": null
+  }
+}

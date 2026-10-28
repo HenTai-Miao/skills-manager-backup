@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "f4ebdcb2-0556-4668-8ebd-ae11e46c06ca",
+  "path": "paper-deck",
+  "path_key": "paper-deck",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "zsyggg/paper-craft-skills/paper-deck",
+    "subpath": "skills\\paper-deck",
+    "branch": null
+  }
+}

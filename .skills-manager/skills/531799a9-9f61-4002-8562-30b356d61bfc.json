@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "531799a9-9f61-4002-8562-30b356d61bfc",
+  "path": "peer-review",
+  "path_key": "peer-review",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "norman-bury/research-writing-skill/peer-review",
+    "subpath": "skills\\peer-review",
+    "branch": null
+  }
+}

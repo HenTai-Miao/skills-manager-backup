@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "bc25e226-807e-4ee0-8d92-ee721f15413c",
+  "path": "literature-review-2",
+  "path_key": "literature-review-2",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "norman-bury/research-writing-skill/literature-review",
+    "subpath": "skills\\literature-review",
+    "branch": null
+  }
+}

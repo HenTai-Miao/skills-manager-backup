@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "54ed45c8-dba5-4b11-adba-cb6b25a1fbc3",
+  "path": "academic-paper-reviewer",
+  "path_key": "academic-paper-reviewer",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "imbad0202/academic-research-skills/academic-paper-reviewer",
+    "subpath": "academic-paper-reviewer",
+    "branch": null
+  }
+}
