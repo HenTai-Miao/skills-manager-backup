@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "995bdc05-60cd-4b06-a2ba-4d6e8ecb774f",
+  "path": "hf-cloud-sagemaker-deployment-planner",
+  "path_key": "hf-cloud-sagemaker-deployment-planner",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "huggingface/skills/hf-cloud-sagemaker-deployment-planner",
+    "subpath": "skills/hf-cloud-sagemaker-deployment-planner",
+    "branch": null
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "7f027f35-9eb8-4e13-a6b8-a8cc02001b68",
+  "path": "train-sentence-transformers",
+  "path_key": "train-sentence-transformers",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "huggingface/skills/train-sentence-transformers",
+    "subpath": "skills/train-sentence-transformers",
+    "branch": null
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "5bc1d2d6-a608-467b-8932-0203984d487e",
+  "path": "huggingface-best",
+  "path_key": "huggingface-best",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "huggingface/skills/huggingface-best",
+    "subpath": "skills/huggingface-best",
+    "branch": null
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "ba844223-1f8a-4623-b71c-d6dc2f0a87fd",
+  "path": "huggingface-spaces",
+  "path_key": "huggingface-spaces",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "huggingface/skills/huggingface-spaces",
+    "subpath": "skills/huggingface-spaces",
+    "branch": null
+  }
+}

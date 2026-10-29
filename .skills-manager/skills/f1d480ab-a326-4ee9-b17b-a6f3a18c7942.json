@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "f1d480ab-a326-4ee9-b17b-a6f3a18c7942",
+  "path": "hf-cloud-sagemaker-iam-preflight",
+  "path_key": "hf-cloud-sagemaker-iam-preflight",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "huggingface/skills/hf-cloud-sagemaker-iam-preflight",
+    "subpath": "skills/hf-cloud-sagemaker-iam-preflight",
+    "branch": null
+  }
+}

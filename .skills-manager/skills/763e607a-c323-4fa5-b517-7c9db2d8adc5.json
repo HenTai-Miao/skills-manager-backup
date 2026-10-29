@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "763e607a-c323-4fa5-b517-7c9db2d8adc5",
+  "path": "huggingface-zerogpu",
+  "path_key": "huggingface-zerogpu",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "huggingface/skills/huggingface-zerogpu",
+    "subpath": "skills/huggingface-zerogpu",
+    "branch": null
+  }
+}

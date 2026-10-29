@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "b418be84-8a71-4fd2-a00d-c7fc3a2f4752",
+  "path": "huggingface-local-models",
+  "path_key": "huggingface-local-models",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "huggingface/skills/huggingface-local-models",
+    "subpath": "skills/huggingface-local-models",
+    "branch": null
+  }
+}

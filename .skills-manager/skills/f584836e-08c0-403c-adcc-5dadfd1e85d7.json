@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "f584836e-08c0-403c-adcc-5dadfd1e85d7",
+  "path": "hf-cloud-python-env-setup",
+  "path_key": "hf-cloud-python-env-setup",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "huggingface/skills/hf-cloud-python-env-setup",
+    "subpath": "skills/hf-cloud-python-env-setup",
+    "branch": null
+  }
+}

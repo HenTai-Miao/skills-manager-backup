@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "b0e1dab7-d3a3-4331-a7c9-1fae76bfeb58",
+  "path": "hf-cli",
+  "path_key": "hf-cli",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "huggingface/skills/hf-cli",
+    "subpath": "skills/hf-cli",
+    "branch": null
+  }
+}

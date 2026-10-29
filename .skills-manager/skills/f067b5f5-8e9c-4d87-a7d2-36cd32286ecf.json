@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "f067b5f5-8e9c-4d87-a7d2-36cd32286ecf",
+  "path": "huggingface-trackio",
+  "path_key": "huggingface-trackio",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "huggingface/skills/huggingface-trackio",
+    "subpath": "skills/huggingface-trackio",
+    "branch": null
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "a4a1eeed-c66b-4f63-ae6b-fc30221ae33f",
+  "path": "huggingface-llm-trainer",
+  "path_key": "huggingface-llm-trainer",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "huggingface/skills/huggingface-llm-trainer",
+    "subpath": "skills/huggingface-llm-trainer",
+    "branch": null
+  }
+}

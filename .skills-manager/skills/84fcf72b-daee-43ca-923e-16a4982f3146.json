@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "84fcf72b-daee-43ca-923e-16a4982f3146",
+  "path": "hf-cloud-serving-image-selection",
+  "path_key": "hf-cloud-serving-image-selection",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "huggingface/skills/hf-cloud-serving-image-selection",
+    "subpath": "skills/hf-cloud-serving-image-selection",
+    "branch": null
+  }
+}

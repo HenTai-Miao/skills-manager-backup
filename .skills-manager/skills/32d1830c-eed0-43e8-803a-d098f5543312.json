@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "32d1830c-eed0-43e8-803a-d098f5543312",
+  "path": "huggingface-community-evals",
+  "path_key": "huggingface-community-evals",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "huggingface/skills/huggingface-community-evals",
+    "subpath": "skills/huggingface-community-evals",
+    "branch": null
+  }
+}

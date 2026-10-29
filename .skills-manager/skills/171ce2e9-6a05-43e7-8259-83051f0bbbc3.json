@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "171ce2e9-6a05-43e7-8259-83051f0bbbc3",
+  "path": "cpu-kernels",
+  "path_key": "cpu-kernels",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "huggingface/kernels/cpu-kernels",
+    "subpath": "kernel-builder/skills/cpu-kernels",
+    "branch": null
+  }
+}

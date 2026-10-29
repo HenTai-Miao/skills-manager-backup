@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "8ce36592-864d-499e-9f24-362a017ca37d",
+  "path": "cuda-kernels",
+  "path_key": "cuda-kernels",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "huggingface/kernels/cuda-kernels",
+    "subpath": "kernel-builder/skills/cuda-kernels",
+    "branch": null
+  }
+}

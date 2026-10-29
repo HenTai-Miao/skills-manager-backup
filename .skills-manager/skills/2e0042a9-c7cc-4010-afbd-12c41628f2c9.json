@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "2e0042a9-c7cc-4010-afbd-12c41628f2c9",
+  "path": "huggingface-vision-trainer",
+  "path_key": "huggingface-vision-trainer",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "huggingface/skills/huggingface-vision-trainer",
+    "subpath": "skills/huggingface-vision-trainer",
+    "branch": null
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "9f3afc34-c8f2-4622-862b-b3933447ffd6",
+  "path": "hf-cloud-sagemaker-production-defaults",
+  "path_key": "hf-cloud-sagemaker-production-defaults",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "huggingface/skills/hf-cloud-sagemaker-production-defaults",
+    "subpath": "skills/hf-cloud-sagemaker-production-defaults",
+    "branch": null
+  }
+}

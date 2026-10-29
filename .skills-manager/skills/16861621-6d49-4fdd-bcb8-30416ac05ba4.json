@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "16861621-6d49-4fdd-bcb8-30416ac05ba4",
+  "path": "huggingface-paper-publisher",
+  "path_key": "huggingface-paper-publisher",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "huggingface/skills/huggingface-paper-publisher",
+    "subpath": "skills/huggingface-paper-publisher",
+    "branch": null
+  }
+}

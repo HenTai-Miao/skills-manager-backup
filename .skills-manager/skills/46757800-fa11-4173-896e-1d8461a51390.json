@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "46757800-fa11-4173-896e-1d8461a51390",
+  "path": "trl-training",
+  "path_key": "trl-training",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "huggingface/skills/trl-training",
+    "subpath": "skills/trl-training",
+    "branch": null
+  }
+}

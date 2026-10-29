@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "ffdc590c-e687-483c-9d8b-38d149313c94",
+  "path": "huggingface-tool-builder",
+  "path_key": "huggingface-tool-builder",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "huggingface/skills/huggingface-tool-builder",
+    "subpath": "skills/huggingface-tool-builder",
+    "branch": null
+  }
+}

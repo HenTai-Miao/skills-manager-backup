@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "6126c5d5-919c-4cea-947b-3dad6101bbfe",
+  "path": "hf-cloud-aws-context-discovery",
+  "path_key": "hf-cloud-aws-context-discovery",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "huggingface/skills/hf-cloud-aws-context-discovery",
+    "subpath": "skills/hf-cloud-aws-context-discovery",
+    "branch": null
+  }
+}

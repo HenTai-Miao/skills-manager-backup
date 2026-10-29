@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "fc8c989a-ab43-4614-9db9-ef1f8462d9e7",
+  "path": "rocm-kernels",
+  "path_key": "rocm-kernels",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "huggingface/kernels/rocm-kernels",
+    "subpath": "kernel-builder/skills/rocm-kernels",
+    "branch": null
+  }
+}

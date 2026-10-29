@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "cc31d4f3-970a-4700-a56b-ab435c6d822c",
+  "path": "hf-mem",
+  "path_key": "hf-mem",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "huggingface/skills/hf-mem",
+    "subpath": "skills/hf-mem",
+    "branch": null
+  }
+}

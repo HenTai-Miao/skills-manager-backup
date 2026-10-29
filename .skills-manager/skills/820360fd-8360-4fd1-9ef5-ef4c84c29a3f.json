@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "820360fd-8360-4fd1-9ef5-ef4c84c29a3f",
+  "path": "hf-mcp",
+  "path_key": "hf-mcp",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "huggingface/skills/hf-mcp",
+    "subpath": "hf-mcp/skills/hf-mcp",
+    "branch": null
+  }
+}

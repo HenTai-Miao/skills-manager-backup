@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "f73d98c8-d1bd-47bc-887a-de835dd0e1a8",
+  "path": "transformers-js",
+  "path_key": "transformers-js",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "huggingface/skills/transformers-js",
+    "subpath": "skills/transformers-js",
+    "branch": null
+  }
+}
