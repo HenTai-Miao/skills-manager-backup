@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "b0f0dd45-973a-464a-af7e-e9efade5b804",
+  "path": "add-or-fix-type-checking",
+  "path_key": "add-or-fix-type-checking",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "huggingface/transformers/add-or-fix-type-checking",
+    "subpath": ".ai/skills/add-or-fix-type-checking",
+    "branch": null
+  }
+}
