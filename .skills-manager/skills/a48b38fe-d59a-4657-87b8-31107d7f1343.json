@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "a48b38fe-d59a-4657-87b8-31107d7f1343",
+  "path": "redesign-existing-projects",
+  "path_key": "redesign-existing-projects",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "elayadesign/redesign-skill/redesign-existing-projects",
+    "subpath": "skills/redesign-existing-projects",
+    "branch": null
+  }
+}
