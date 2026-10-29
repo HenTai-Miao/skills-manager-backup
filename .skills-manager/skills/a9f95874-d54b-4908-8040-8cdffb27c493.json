@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "a9f95874-d54b-4908-8040-8cdffb27c493",
+  "path": "scientific-pkg-gget",
+  "path_key": "scientific-pkg-gget",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/affaan-m/ECC.git",
+    "subpath": "skills/scientific-pkg-gget",
+    "branch": null
+  }
+}

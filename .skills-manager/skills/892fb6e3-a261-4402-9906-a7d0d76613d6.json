@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "892fb6e3-a261-4402-9906-a7d0d76613d6",
+  "path": "token-budget-advisor-2",
+  "path_key": "token-budget-advisor-2",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/affaan-m/ECC.git",
+    "subpath": "skills/token-budget-advisor",
+    "branch": null
+  }
+}

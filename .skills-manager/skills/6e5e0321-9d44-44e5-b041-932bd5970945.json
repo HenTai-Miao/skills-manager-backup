@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "6e5e0321-9d44-44e5-b041-932bd5970945",
+  "path": "flox-environments-2",
+  "path_key": "flox-environments-2",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/affaan-m/ECC.git",
+    "subpath": "skills/flox-environments",
+    "branch": null
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "9b698da0-295e-4b01-8b24-e5921ae58d23",
+  "path": "swift-concurrency-6-2",
+  "path_key": "swift-concurrency-6-2",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/affaan-m/ECC.git",
+    "subpath": "skills/swift-concurrency-6-2",
+    "branch": null
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "62d93675-01da-4bf3-924e-1c4e3d71403c",
+  "path": "mcp-dependency-review",
+  "path_key": "mcp-dependency-review",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/affaan-m/ECC.git",
+    "subpath": "skills/mcp-dependency-review",
+    "branch": null
+  }
+}

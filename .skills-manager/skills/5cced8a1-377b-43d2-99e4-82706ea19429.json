@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "5cced8a1-377b-43d2-99e4-82706ea19429",
+  "path": "token-card",
+  "path_key": "token-card",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/affaan-m/ECC.git",
+    "subpath": "skills/token-card",
+    "branch": null
+  }
+}

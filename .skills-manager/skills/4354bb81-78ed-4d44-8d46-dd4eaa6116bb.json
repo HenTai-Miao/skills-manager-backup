@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "4354bb81-78ed-4d44-8d46-dd4eaa6116bb",
+  "path": "change-impact",
+  "path_key": "change-impact",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/affaan-m/ECC.git",
+    "subpath": "skills/change-impact",
+    "branch": null
+  }
+}

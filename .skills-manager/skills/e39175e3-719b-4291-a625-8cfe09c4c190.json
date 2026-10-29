@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "e39175e3-719b-4291-a625-8cfe09c4c190",
+  "path": "test-collaboration",
+  "path_key": "test-collaboration",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/affaan-m/ECC.git",
+    "subpath": "skills/test-collaboration",
+    "branch": null
+  }
+}

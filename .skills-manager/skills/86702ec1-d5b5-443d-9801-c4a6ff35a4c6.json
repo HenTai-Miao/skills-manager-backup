@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "86702ec1-d5b5-443d-9801-c4a6ff35a4c6",
+  "path": "osint-investigation",
+  "path_key": "osint-investigation",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/affaan-m/ECC.git",
+    "subpath": "skills/osint-investigation",
+    "branch": null
+  }
+}

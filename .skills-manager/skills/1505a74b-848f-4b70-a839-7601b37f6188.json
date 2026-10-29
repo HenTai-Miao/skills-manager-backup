@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "1505a74b-848f-4b70-a839-7601b37f6188",
+  "path": "prompt-caching-strategy",
+  "path_key": "prompt-caching-strategy",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/affaan-m/ECC.git",
+    "subpath": "skills/prompt-caching-strategy",
+    "branch": null
+  }
+}

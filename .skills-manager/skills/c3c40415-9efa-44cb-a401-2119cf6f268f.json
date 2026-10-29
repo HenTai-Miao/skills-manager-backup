@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "c3c40415-9efa-44cb-a401-2119cf6f268f",
+  "path": "repo-scan-2",
+  "path_key": "repo-scan-2",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/affaan-m/ECC.git",
+    "subpath": "skills/repo-scan",
+    "branch": null
+  }
+}

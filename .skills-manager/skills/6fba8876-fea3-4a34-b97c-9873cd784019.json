@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "6fba8876-fea3-4a34-b97c-9873cd784019",
+  "path": "context-and-decisions",
+  "path_key": "context-and-decisions",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/affaan-m/ECC.git",
+    "subpath": "skills/context-and-decisions",
+    "branch": null
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "3d9e3444-2f81-4114-8240-6515ce0dc840",
+  "path": "mybatis-patterns",
+  "path_key": "mybatis-patterns",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/affaan-m/ECC.git",
+    "subpath": "skills/mybatis-patterns",
+    "branch": null
+  }
+}

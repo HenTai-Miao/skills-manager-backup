@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "e5ddd410-cd74-4c60-9ac4-5de0da768e8d",
+  "path": "brownfield-retrospective",
+  "path_key": "brownfield-retrospective",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/affaan-m/ECC.git",
+    "subpath": "skills/brownfield-retrospective",
+    "branch": null
+  }
+}

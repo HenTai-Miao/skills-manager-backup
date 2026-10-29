@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "6ecf1ae9-9258-4ee6-a335-44b6fa2e11c1",
+  "path": "module-regression",
+  "path_key": "module-regression",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/affaan-m/ECC.git",
+    "subpath": "skills/module-regression",
+    "branch": null
+  }
+}

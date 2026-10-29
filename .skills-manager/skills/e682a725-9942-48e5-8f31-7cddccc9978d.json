@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "e682a725-9942-48e5-8f31-7cddccc9978d",
+  "path": "agent-runtime-gateway-smoke-test",
+  "path_key": "agent-runtime-gateway-smoke-test",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/affaan-m/ECC.git",
+    "subpath": "skills/agent-runtime-gateway-smoke-test",
+    "branch": null
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "af69ab49-e457-4a10-a062-eef90c81a83b",
+  "path": "i18n-sync",
+  "path_key": "i18n-sync",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/affaan-m/ECC.git",
+    "subpath": "skills/i18n-sync",
+    "branch": null
+  }
+}

@@ -7,7 +7,7 @@
   "tags": [],
   "source": {
     "type": "git",
-    "ref": "affaan-m/ecc",
+    "ref": "https://github.com/affaan-m/ECC.git",
     "subpath": "skills/swiftui-patterns",
     "branch": null
   }

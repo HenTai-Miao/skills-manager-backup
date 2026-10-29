@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "4b1810ac-c35d-4a7e-ad7f-53b9914a69fd",
+  "path": "bengali-nlp",
+  "path_key": "bengali-nlp",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/affaan-m/ECC.git",
+    "subpath": "skills/bengali-nlp",
+    "branch": null
+  }
+}
