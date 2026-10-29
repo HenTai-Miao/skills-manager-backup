@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "71caec1b-b973-45ea-b0d6-847abddcd61b",
+  "path": "tao-finetune-anomalygennext",
+  "path_key": "tao-finetune-anomalygennext",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/tao-finetune-anomalygennext",
+    "branch": "main"
+  }
+}

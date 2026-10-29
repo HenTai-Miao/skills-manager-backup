@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "b5f33a87-f5f2-4cbc-b498-8d9bb5e55405",
+  "path": "tao-train-fast-foundation-stereo",
+  "path_key": "tao-train-fast-foundation-stereo",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/tao-train-fast-foundation-stereo",
+    "branch": "main"
+  }
+}

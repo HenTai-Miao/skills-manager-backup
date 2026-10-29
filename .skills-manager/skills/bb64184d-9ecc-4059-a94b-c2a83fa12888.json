@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "bb64184d-9ecc-4059-a94b-c2a83fa12888",
+  "path": "doca-eth",
+  "path_key": "doca-eth",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/doca-eth",
+    "branch": "main"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "8b6b7a35-ca9b-4432-80b2-41c8b42fd932",
+  "path": "tao-train-single-step",
+  "path_key": "tao-train-single-step",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/tao-train-single-step",
+    "branch": "main"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "34746caf-870b-4181-98a9-06e17dd34f14",
+  "path": "hsb-app",
+  "path_key": "hsb-app",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/hsb-app",
+    "branch": "main"
+  }
+}

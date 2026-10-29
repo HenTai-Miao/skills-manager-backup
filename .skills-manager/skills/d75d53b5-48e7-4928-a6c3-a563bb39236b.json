@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "d75d53b5-48e7-4928-a6c3-a563bb39236b",
+  "path": "cuopt-numerical-optimization-api",
+  "path_key": "cuopt-numerical-optimization-api",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/cuopt-numerical-optimization-api",
+    "branch": "main"
+  }
+}

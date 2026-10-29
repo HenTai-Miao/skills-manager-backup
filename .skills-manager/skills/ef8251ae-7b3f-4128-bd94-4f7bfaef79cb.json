@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "ef8251ae-7b3f-4128-bd94-4f7bfaef79cb",
+  "path": "dynamo-troubleshoot",
+  "path_key": "dynamo-troubleshoot",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/dynamo-troubleshoot",
+    "branch": "main"
+  }
+}

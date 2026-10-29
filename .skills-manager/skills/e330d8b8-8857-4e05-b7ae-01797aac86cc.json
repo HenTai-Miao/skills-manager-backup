@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "e330d8b8-8857-4e05-b7ae-01797aac86cc",
+  "path": "jetson-generate-kb",
+  "path_key": "jetson-generate-kb",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/jetson-generate-kb",
+    "branch": "main"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "a084872d-f29e-4ee6-a539-5b9ce2b44247",
+  "path": "tao-train-nvpanoptix3d",
+  "path_key": "tao-train-nvpanoptix3d",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/tao-train-nvpanoptix3d",
+    "branch": "main"
+  }
+}

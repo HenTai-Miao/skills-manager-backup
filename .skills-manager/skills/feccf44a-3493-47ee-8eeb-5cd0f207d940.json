@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "feccf44a-3493-47ee-8eeb-5cd0f207d940",
+  "path": "jetson-inference-mem-tune",
+  "path_key": "jetson-inference-mem-tune",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/jetson-inference-mem-tune",
+    "branch": "main"
+  }
+}

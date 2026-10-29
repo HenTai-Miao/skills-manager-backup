@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "4d284810-33e7-49f8-915b-12a85ec1910a",
+  "path": "nemo-automodel-model-onboarding",
+  "path_key": "nemo-automodel-model-onboarding",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/nemo-automodel-model-onboarding",
+    "branch": "main"
+  }
+}

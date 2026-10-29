@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "700d3a95-c36a-4a1c-ad34-34c6cc1a511a",
+  "path": "tao-analyze-gaps-visual-changenet",
+  "path_key": "tao-analyze-gaps-visual-changenet",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/tao-analyze-gaps-visual-changenet",
+    "branch": "main"
+  }
+}

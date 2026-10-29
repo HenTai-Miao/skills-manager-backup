@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "aaf1842d-933d-4c75-a745-0a68c4b008a8",
+  "path": "nemotron-asr-finetune",
+  "path_key": "nemotron-asr-finetune",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/nemotron-asr-finetune",
+    "branch": "main"
+  }
+}

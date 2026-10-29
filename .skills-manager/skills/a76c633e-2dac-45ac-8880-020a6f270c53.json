@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "a76c633e-2dac-45ac-8880-020a6f270c53",
+  "path": "jetson-optimize-memory",
+  "path_key": "jetson-optimize-memory",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/jetson-optimize-memory",
+    "branch": "main"
+  }
+}

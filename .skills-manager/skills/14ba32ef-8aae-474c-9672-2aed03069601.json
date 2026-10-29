@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "14ba32ef-8aae-474c-9672-2aed03069601",
+  "path": "omniverse-realtime-viewer",
+  "path_key": "omniverse-realtime-viewer",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/omniverse-realtime-viewer",
+    "branch": "main"
+  }
+}

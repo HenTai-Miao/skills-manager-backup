@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "df9c1907-12e5-4ac8-b17a-e53f9861792f",
+  "path": "tao-train-mask2former",
+  "path_key": "tao-train-mask2former",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/tao-train-mask2former",
+    "branch": "main"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "ed844af3-9bb2-4c38-9903-2c29c970b573",
+  "path": "nv-segment-ct",
+  "path_key": "nv-segment-ct",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/nv-segment-ct",
+    "branch": "main"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "57c32083-5e0a-4304-9488-9dcb6cc5c952",
+  "path": "cdf-orchestration-preflight",
+  "path_key": "cdf-orchestration-preflight",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/cdf-orchestration-preflight",
+    "branch": "main"
+  }
+}

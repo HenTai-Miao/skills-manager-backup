@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "1c96e2b9-fcbf-4916-b784-a4a97e6f9a76",
+  "path": "jetson-video-benchmark",
+  "path_key": "jetson-video-benchmark",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/jetson-video-benchmark",
+    "branch": "main"
+  }
+}

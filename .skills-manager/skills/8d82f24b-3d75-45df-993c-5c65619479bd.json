@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "8d82f24b-3d75-45df-993c-5c65619479bd",
+  "path": "physical-ai-infrastructure-setup-and-resilient-scaling",
+  "path_key": "physical-ai-infrastructure-setup-and-resilient-scaling",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/physical-ai-infrastructure-setup-and-resilient-scaling",
+    "branch": "main"
+  }
+}

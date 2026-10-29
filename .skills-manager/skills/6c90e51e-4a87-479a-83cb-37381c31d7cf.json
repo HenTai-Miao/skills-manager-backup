@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "6c90e51e-4a87-479a-83cb-37381c31d7cf",
+  "path": "jetson-print-bsp-info",
+  "path_key": "jetson-print-bsp-info",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/jetson-print-bsp-info",
+    "branch": "main"
+  }
+}

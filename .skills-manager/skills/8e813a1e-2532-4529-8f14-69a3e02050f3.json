@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "8e813a1e-2532-4529-8f14-69a3e02050f3",
+  "path": "doca-gpunetio",
+  "path_key": "doca-gpunetio",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/doca-gpunetio",
+    "branch": "main"
+  }
+}

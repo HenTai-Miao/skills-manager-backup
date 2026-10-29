@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "8fa71898-5425-467e-bec9-3d32056af4d1",
+  "path": "nemotron-retrieval-recipes",
+  "path_key": "nemotron-retrieval-recipes",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/nemotron-retrieval-recipes",
+    "branch": "main"
+  }
+}

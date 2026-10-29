@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "ed084686-efcc-4cac-a13f-ec8c430fb4f3",
+  "path": "tao-list-capabilities",
+  "path_key": "tao-list-capabilities",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/tao-list-capabilities",
+    "branch": "main"
+  }
+}

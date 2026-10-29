@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "3a3be385-5274-404f-83b6-4f0e48dd62a2",
+  "path": "amc-run-sample-calibration",
+  "path_key": "amc-run-sample-calibration",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/amc-run-sample-calibration",
+    "branch": "main"
+  }
+}

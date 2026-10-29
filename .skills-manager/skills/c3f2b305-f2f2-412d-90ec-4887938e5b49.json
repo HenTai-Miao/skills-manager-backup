@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "c3f2b305-f2f2-412d-90ec-4887938e5b49",
+  "path": "jetson-set-target",
+  "path_key": "jetson-set-target",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/jetson-set-target",
+    "branch": "main"
+  }
+}

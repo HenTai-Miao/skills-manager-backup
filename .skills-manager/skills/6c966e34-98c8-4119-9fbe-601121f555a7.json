@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "6c966e34-98c8-4119-9fbe-601121f555a7",
+  "path": "cdf-autonomous-vehicle-dataset-generation",
+  "path_key": "cdf-autonomous-vehicle-dataset-generation",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/cdf-autonomous-vehicle-dataset-generation",
+    "branch": "main"
+  }
+}

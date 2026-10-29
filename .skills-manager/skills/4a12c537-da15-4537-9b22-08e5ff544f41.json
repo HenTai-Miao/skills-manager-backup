@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "4a12c537-da15-4537-9b22-08e5ff544f41",
+  "path": "tao-analyze-detection-kpi",
+  "path_key": "tao-analyze-detection-kpi",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/tao-analyze-detection-kpi",
+    "branch": "main"
+  }
+}

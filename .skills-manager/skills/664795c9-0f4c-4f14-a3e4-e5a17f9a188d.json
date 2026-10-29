@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "664795c9-0f4c-4f14-a3e4-e5a17f9a188d",
+  "path": "doca-firefly",
+  "path_key": "doca-firefly",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/doca-firefly",
+    "branch": "main"
+  }
+}

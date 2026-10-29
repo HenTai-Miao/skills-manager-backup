@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "5d8d56f9-2d23-4b05-8583-1e98baa0e9b1",
+  "path": "vss-build-vision-ai",
+  "path_key": "vss-build-vision-ai",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/vss-build-vision-ai",
+    "branch": "main"
+  }
+}

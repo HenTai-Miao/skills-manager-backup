@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "f86feded-b4ea-48de-81a1-e3103b736c3c",
+  "path": "nemo-relay-plugin-build",
+  "path_key": "nemo-relay-plugin-build",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/nemo-relay-plugin-build",
+    "branch": "main"
+  }
+}

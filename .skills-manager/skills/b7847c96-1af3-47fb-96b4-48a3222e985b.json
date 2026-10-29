@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "b7847c96-1af3-47fb-96b4-48a3222e985b",
+  "path": "tao-train-nvdinov2",
+  "path_key": "tao-train-nvdinov2",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/tao-train-nvdinov2",
+    "branch": "main"
+  }
+}

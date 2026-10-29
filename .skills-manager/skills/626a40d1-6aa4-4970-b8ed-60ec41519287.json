@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "626a40d1-6aa4-4970-b8ed-60ec41519287",
+  "path": "doca-devemu",
+  "path_key": "doca-devemu",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/doca-devemu",
+    "branch": "main"
+  }
+}

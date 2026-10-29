@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "45357ab4-83fb-4fe5-800e-1bc006b26fff",
+  "path": "cdf-augmentation",
+  "path_key": "cdf-augmentation",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/cdf-augmentation",
+    "branch": "main"
+  }
+}

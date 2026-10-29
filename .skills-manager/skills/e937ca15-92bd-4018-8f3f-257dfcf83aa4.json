@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "e937ca15-92bd-4018-8f3f-257dfcf83aa4",
+  "path": "jetson-headless-mode",
+  "path_key": "jetson-headless-mode",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/jetson-headless-mode",
+    "branch": "main"
+  }
+}

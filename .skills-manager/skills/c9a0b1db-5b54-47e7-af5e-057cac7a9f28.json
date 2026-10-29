@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "c9a0b1db-5b54-47e7-af5e-057cac7a9f28",
+  "path": "tilegym-improve-cutile-kernel-perf",
+  "path_key": "tilegym-improve-cutile-kernel-perf",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/tilegym-improve-cutile-kernel-perf",
+    "branch": "main"
+  }
+}

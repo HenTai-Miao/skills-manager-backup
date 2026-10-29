@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "54dd1537-7cfd-46f0-9339-9d02ed084395",
+  "path": "rtvi-cv-scaffold-vss-service",
+  "path_key": "rtvi-cv-scaffold-vss-service",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/rtvi-cv-scaffold-vss-service",
+    "branch": "main"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "c36a110f-ac55-4b6e-95d6-40339a8212b4",
+  "path": "doca-pcc-counters",
+  "path_key": "doca-pcc-counters",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/doca-pcc-counters",
+    "branch": "main"
+  }
+}

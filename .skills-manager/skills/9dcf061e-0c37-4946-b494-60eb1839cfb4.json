@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "9dcf061e-0c37-4946-b494-60eb1839cfb4",
+  "path": "deepstream-dev",
+  "path_key": "deepstream-dev",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/deepstream-dev",
+    "branch": "main"
+  }
+}

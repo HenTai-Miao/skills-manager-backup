@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "235af8ba-95e6-4f46-a149-c60e87c951da",
+  "path": "doca-compress",
+  "path_key": "doca-compress",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/doca-compress",
+    "branch": "main"
+  }
+}

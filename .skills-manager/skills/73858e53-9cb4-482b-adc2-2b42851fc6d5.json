@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "73858e53-9cb4-482b-adc2-2b42851fc6d5",
+  "path": "kermt-pretrain-scratch",
+  "path_key": "kermt-pretrain-scratch",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/bionemo-kermt-pretrain-scratch",
+    "branch": "main"
+  }
+}

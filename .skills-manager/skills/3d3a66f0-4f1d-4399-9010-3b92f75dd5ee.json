@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "3d3a66f0-4f1d-4399-9010-3b92f75dd5ee",
+  "path": "physical-ai-video-data-augmentation",
+  "path_key": "physical-ai-video-data-augmentation",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/physical-ai-video-data-augmentation",
+    "branch": "main"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "90f11bde-c9ab-448f-bc8a-21c360f598d2",
+  "path": "runai-diagnose-failed-workload",
+  "path_key": "runai-diagnose-failed-workload",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/runai-diagnose-failed-workload",
+    "branch": "main"
+  }
+}

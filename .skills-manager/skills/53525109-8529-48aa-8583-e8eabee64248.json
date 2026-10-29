@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "53525109-8529-48aa-8583-e8eabee64248",
+  "path": "tao-generate-image-embeddings",
+  "path_key": "tao-generate-image-embeddings",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/tao-generate-image-embeddings",
+    "branch": "main"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "c7e073fa-12e7-4cc9-a577-5c00cedcae89",
+  "path": "cdf-auto-labeling",
+  "path_key": "cdf-auto-labeling",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/cdf-auto-labeling",
+    "branch": "main"
+  }
+}

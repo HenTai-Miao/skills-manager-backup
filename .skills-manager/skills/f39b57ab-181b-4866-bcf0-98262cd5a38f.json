@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "f39b57ab-181b-4866-bcf0-98262cd5a38f",
+  "path": "i4h-workflow-dataset-annotate",
+  "path_key": "i4h-workflow-dataset-annotate",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/i4h-workflow-dataset-annotate",
+    "branch": "main"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "b0af91e3-eaa4-4f1c-8e7f-c0a3f7878824",
+  "path": "tao-artifacts",
+  "path_key": "tao-artifacts",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/tao-artifacts",
+    "branch": "main"
+  }
+}

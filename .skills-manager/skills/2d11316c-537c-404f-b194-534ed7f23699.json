@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "2d11316c-537c-404f-b194-534ed7f23699",
+  "path": "nemotron-policy-generator",
+  "path_key": "nemotron-policy-generator",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/nemotron-policy-generator",
+    "branch": "main"
+  }
+}

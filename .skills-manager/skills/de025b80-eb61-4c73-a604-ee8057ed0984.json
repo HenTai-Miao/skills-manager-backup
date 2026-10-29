@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "de025b80-eb61-4c73-a604-ee8057ed0984",
+  "path": "tao-prepare-anomalygennext-inputs",
+  "path_key": "tao-prepare-anomalygennext-inputs",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/tao-prepare-anomalygennext-inputs",
+    "branch": "main"
+  }
+}

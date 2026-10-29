@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "17eb7733-2261-4296-a129-b2bfc7ad74c7",
+  "path": "cudaq-importing",
+  "path_key": "cudaq-importing",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/cudaq-importing",
+    "branch": "main"
+  }
+}

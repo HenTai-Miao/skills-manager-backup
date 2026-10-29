@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "cfc723e9-bce7-48da-abab-bef149e05d4b",
+  "path": "nemo-mbridge-perf-expert-parallel-overlap",
+  "path_key": "nemo-mbridge-perf-expert-parallel-overlap",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/nemo-mbridge-perf-expert-parallel-overlap",
+    "branch": "main"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "f6dcf3e8-aa03-4997-a033-0a9b3abc5981",
+  "path": "tao-generate-anomalies",
+  "path_key": "tao-generate-anomalies",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/tao-generate-anomalies",
+    "branch": "main"
+  }
+}

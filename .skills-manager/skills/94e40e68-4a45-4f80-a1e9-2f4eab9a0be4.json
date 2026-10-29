@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "94e40e68-4a45-4f80-a1e9-2f4eab9a0be4",
+  "path": "kermt-setup",
+  "path_key": "kermt-setup",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/bionemo-kermt-setup",
+    "branch": "main"
+  }
+}

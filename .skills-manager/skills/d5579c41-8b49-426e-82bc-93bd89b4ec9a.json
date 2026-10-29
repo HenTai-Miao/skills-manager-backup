@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "d5579c41-8b49-426e-82bc-93bd89b4ec9a",
+  "path": "cdf-curation-and-retrieval",
+  "path_key": "cdf-curation-and-retrieval",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/cdf-curation-and-retrieval",
+    "branch": "main"
+  }
+}

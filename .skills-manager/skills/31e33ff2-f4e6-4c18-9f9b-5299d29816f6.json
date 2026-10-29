@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "31e33ff2-f4e6-4c18-9f9b-5299d29816f6",
+  "path": "doca-dts",
+  "path_key": "doca-dts",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/doca-dts",
+    "branch": "main"
+  }
+}

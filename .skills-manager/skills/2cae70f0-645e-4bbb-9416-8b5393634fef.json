@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "2cae70f0-645e-4bbb-9416-8b5393634fef",
+  "path": "pva-debug",
+  "path_key": "pva-debug",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/pva-debug",
+    "branch": "main"
+  }
+}

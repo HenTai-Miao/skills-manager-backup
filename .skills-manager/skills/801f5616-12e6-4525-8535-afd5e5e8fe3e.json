@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "801f5616-12e6-4525-8535-afd5e5e8fe3e",
+  "path": "nemo-mbridge-perf-activation-recompute",
+  "path_key": "nemo-mbridge-perf-activation-recompute",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/nemo-mbridge-perf-activation-recompute",
+    "branch": "main"
+  }
+}

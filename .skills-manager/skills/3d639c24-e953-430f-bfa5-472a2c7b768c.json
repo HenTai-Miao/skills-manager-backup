@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "3d639c24-e953-430f-bfa5-472a2c7b768c",
+  "path": "doca-argus",
+  "path_key": "doca-argus",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/doca-argus",
+    "branch": "main"
+  }
+}

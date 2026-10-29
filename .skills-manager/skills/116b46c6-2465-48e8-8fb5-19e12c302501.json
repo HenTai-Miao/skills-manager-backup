@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "116b46c6-2465-48e8-8fb5-19e12c302501",
+  "path": "doca-sha-offload-engine",
+  "path_key": "doca-sha-offload-engine",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/doca-sha-offload-engine",
+    "branch": "main"
+  }
+}

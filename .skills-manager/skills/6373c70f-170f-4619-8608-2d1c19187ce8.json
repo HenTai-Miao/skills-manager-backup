@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "6373c70f-170f-4619-8608-2d1c19187ce8",
+  "path": "earth2studio-data-fetch",
+  "path_key": "earth2studio-data-fetch",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/earth2studio-data-fetch",
+    "branch": "main"
+  }
+}

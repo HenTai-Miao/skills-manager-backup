@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "a7360fd1-6fde-4b2e-8bb4-ad04bb752788",
+  "path": "doca-sha",
+  "path_key": "doca-sha",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/doca-sha",
+    "branch": "main"
+  }
+}

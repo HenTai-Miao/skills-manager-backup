@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "8b8b89a1-4df4-4226-b63c-d318e0f24e4f",
+  "path": "deepstream-import-vision-model",
+  "path_key": "deepstream-import-vision-model",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/deepstream-import-vision-model",
+    "branch": "main"
+  }
+}

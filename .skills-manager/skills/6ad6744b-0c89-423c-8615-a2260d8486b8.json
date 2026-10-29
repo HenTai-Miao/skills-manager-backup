@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "6ad6744b-0c89-423c-8615-a2260d8486b8",
+  "path": "deepstream-run-mv3dt",
+  "path_key": "deepstream-run-mv3dt",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/deepstream-run-mv3dt",
+    "branch": "main"
+  }
+}

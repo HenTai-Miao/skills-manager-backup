@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "c83934a4-556f-4014-90a2-a5cc3d68c35a",
+  "path": "deepstream-sop",
+  "path_key": "deepstream-sop",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/deepstream-sop",
+    "branch": "main"
+  }
+}

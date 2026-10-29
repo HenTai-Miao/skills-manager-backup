@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "af9f6724-fa0f-43a2-a99a-3d38ac6e4463",
+  "path": "tao-run-on-brev",
+  "path_key": "tao-run-on-brev",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/tao-run-on-brev",
+    "branch": "main"
+  }
+}

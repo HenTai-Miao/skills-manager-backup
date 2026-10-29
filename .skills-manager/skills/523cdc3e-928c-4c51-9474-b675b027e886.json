@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "523cdc3e-928c-4c51-9474-b675b027e886",
+  "path": "i4h-workflow-train-rl",
+  "path_key": "i4h-workflow-train-rl",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/i4h-workflow-train-rl",
+    "branch": "main"
+  }
+}

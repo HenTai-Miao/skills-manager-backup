@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "5fc996b6-cae8-438c-891f-9d29401da2af",
+  "path": "cdf-defect-image-generation",
+  "path_key": "cdf-defect-image-generation",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/cdf-defect-image-generation",
+    "branch": "main"
+  }
+}

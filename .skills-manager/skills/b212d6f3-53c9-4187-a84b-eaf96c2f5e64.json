@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "b212d6f3-53c9-4187-a84b-eaf96c2f5e64",
+  "path": "doca-argp",
+  "path_key": "doca-argp",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/doca-argp",
+    "branch": "main"
+  }
+}

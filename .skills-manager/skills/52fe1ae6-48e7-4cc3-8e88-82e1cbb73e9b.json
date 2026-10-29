@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "52fe1ae6-48e7-4cc3-8e88-82e1cbb73e9b",
+  "path": "nemo-relay-install",
+  "path_key": "nemo-relay-install",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/nemo-relay-install",
+    "branch": "main"
+  }
+}

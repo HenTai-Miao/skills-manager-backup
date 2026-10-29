@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "2b4e36df-5650-4426-aa33-3d4a039608ad",
+  "path": "jetson-diagnostic",
+  "path_key": "jetson-diagnostic",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/jetson-diagnostic",
+    "branch": "main"
+  }
+}

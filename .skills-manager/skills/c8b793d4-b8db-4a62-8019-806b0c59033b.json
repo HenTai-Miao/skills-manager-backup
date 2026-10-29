@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "c8b793d4-b8db-4a62-8019-806b0c59033b",
+  "path": "runai-get-cluster-health-summary",
+  "path_key": "runai-get-cluster-health-summary",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/runai-get-cluster-health-summary",
+    "branch": "main"
+  }
+}

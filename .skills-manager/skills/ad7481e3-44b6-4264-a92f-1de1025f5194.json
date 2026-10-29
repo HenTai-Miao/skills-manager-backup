@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "ad7481e3-44b6-4264-a92f-1de1025f5194",
+  "path": "jetson-derive-carrier",
+  "path_key": "jetson-derive-carrier",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/jetson-derive-carrier",
+    "branch": "main"
+  }
+}

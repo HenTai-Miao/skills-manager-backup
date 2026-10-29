@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "15a59294-4b52-4507-9a6e-55e86d247bca",
+  "path": "doca-urom-svc",
+  "path_key": "doca-urom-svc",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/doca-urom-svc",
+    "branch": "main"
+  }
+}

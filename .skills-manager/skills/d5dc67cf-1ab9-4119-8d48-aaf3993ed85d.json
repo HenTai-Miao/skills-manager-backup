@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "d5dc67cf-1ab9-4119-8d48-aaf3993ed85d",
+  "path": "nv-generate-mr",
+  "path_key": "nv-generate-mr",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/nv-generate-mr",
+    "branch": "main"
+  }
+}

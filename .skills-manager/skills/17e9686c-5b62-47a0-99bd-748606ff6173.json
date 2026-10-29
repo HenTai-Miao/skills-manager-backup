@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "17e9686c-5b62-47a0-99bd-748606ff6173",
+  "path": "genomics-workflow-acceleration",
+  "path_key": "genomics-workflow-acceleration",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/bionemo-genomics-workflow-acceleration",
+    "branch": "main"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "e5f472dc-e7c2-46e4-9a49-868c83dfc8ff",
+  "path": "cdf-orchestration-write-dag",
+  "path_key": "cdf-orchestration-write-dag",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/cdf-orchestration-write-dag",
+    "branch": "main"
+  }
+}

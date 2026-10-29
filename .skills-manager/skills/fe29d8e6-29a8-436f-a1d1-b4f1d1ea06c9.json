@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "fe29d8e6-29a8-436f-a1d1-b4f1d1ea06c9",
+  "path": "nemo-relay-instrument-typed-wrappers",
+  "path_key": "nemo-relay-instrument-typed-wrappers",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/nemo-relay-instrument-typed-wrappers",
+    "branch": "main"
+  }
+}

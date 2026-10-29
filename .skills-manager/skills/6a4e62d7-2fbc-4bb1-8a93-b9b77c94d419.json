@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "6a4e62d7-2fbc-4bb1-8a93-b9b77c94d419",
+  "path": "jetson-llm-serve",
+  "path_key": "jetson-llm-serve",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/jetson-llm-serve",
+    "branch": "main"
+  }
+}

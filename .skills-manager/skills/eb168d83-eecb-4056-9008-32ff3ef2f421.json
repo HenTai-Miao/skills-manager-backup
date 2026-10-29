@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "eb168d83-eecb-4056-9008-32ff3ef2f421",
+  "path": "tao-train-pose-classification",
+  "path_key": "tao-train-pose-classification",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/tao-train-pose-classification",
+    "branch": "main"
+  }
+}

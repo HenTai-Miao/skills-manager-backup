@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "eefae67e-7be5-4020-b98f-9dca3dd47849",
+  "path": "ethos-explore",
+  "path_key": "ethos-explore",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/ethos-explore",
+    "branch": "main"
+  }
+}

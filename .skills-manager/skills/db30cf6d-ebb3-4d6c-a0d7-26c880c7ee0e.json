@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "db30cf6d-ebb3-4d6c-a0d7-26c880c7ee0e",
+  "path": "tao-train-segformer",
+  "path_key": "tao-train-segformer",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/tao-train-segformer",
+    "branch": "main"
+  }
+}

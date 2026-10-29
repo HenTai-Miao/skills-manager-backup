@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "804e478a-9cf7-4cbb-b188-290a7ebba439",
+  "path": "doca-dma",
+  "path_key": "doca-dma",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/doca-dma",
+    "branch": "main"
+  }
+}

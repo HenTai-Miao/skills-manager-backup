@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "81b26bf6-df15-4a16-a196-9d2c67c77403",
+  "path": "amc-run-video-calibration",
+  "path_key": "amc-run-video-calibration",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/amc-run-video-calibration",
+    "branch": "main"
+  }
+}

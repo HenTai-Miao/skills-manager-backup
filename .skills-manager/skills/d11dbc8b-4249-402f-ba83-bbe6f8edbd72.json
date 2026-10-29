@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "d11dbc8b-4249-402f-ba83-bbe6f8edbd72",
+  "path": "tao-launch-workflow",
+  "path_key": "tao-launch-workflow",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/tao-launch-workflow",
+    "branch": "main"
+  }
+}

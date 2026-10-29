@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "4e0a2553-ad41-456d-8e31-29d9f4414c79",
+  "path": "deepstream-generate-pipeline",
+  "path_key": "deepstream-generate-pipeline",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/deepstream-generate-pipeline",
+    "branch": "main"
+  }
+}

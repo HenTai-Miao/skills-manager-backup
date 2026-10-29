@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "775e5252-0642-473e-8c76-521c6a1b62ed",
+  "path": "tao-train-ocdnet",
+  "path_key": "tao-train-ocdnet",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/tao-train-ocdnet",
+    "branch": "main"
+  }
+}

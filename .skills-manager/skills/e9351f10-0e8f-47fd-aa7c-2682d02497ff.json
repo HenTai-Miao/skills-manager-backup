@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "e9351f10-0e8f-47fd-aa7c-2682d02497ff",
+  "path": "nvshmem-troubleshoot-and-report-bugs",
+  "path_key": "nvshmem-troubleshoot-and-report-bugs",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/nvshmem-troubleshoot-and-report-bugs",
+    "branch": "main"
+  }
+}

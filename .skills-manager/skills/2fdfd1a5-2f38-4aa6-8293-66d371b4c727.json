@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "2fdfd1a5-2f38-4aa6-8293-66d371b4c727",
+  "path": "nemotron-customize",
+  "path_key": "nemotron-customize",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/nemotron-customize",
+    "branch": "main"
+  }
+}

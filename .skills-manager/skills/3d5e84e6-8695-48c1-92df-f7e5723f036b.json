@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "3d5e84e6-8695-48c1-92df-f7e5723f036b",
+  "path": "ambient-healthcare-agent-with-nemotron-voice-agent",
+  "path_key": "ambient-healthcare-agent-with-nemotron-voice-agent",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/ambient-healthcare-agent-with-nemotron-voice-agent",
+    "branch": "main"
+  }
+}

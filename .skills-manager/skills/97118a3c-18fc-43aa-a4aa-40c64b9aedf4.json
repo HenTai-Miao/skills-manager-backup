@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "97118a3c-18fc-43aa-a4aa-40c64b9aedf4",
+  "path": "jetson-video-recipe",
+  "path_key": "jetson-video-recipe",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/jetson-video-recipe",
+    "branch": "main"
+  }
+}

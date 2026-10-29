@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "d437c11c-aa55-455d-a3e1-01ecce1ecfde",
+  "path": "nvidia-ontology-management",
+  "path_key": "nvidia-ontology-management",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/nvidia-ontology-management",
+    "branch": "main"
+  }
+}

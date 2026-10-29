@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "b7792959-2f01-4810-ba66-287f18448a16",
+  "path": "nemo-mbridge-perf-sequence-packing",
+  "path_key": "nemo-mbridge-perf-sequence-packing",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/nemo-mbridge-perf-sequence-packing",
+    "branch": "main"
+  }
+}

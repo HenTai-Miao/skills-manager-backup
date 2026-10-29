@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "83c06cb7-1851-4300-a885-94a628e51972",
+  "path": "tao-run-on-docker",
+  "path_key": "tao-run-on-docker",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/tao-run-on-docker",
+    "branch": "main"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "d0bdccb5-ee44-4fd0-b9d2-9d497402ef04",
+  "path": "holoscan-install-source",
+  "path_key": "holoscan-install-source",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/holoscan-install-source",
+    "branch": "main"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "bc719e78-d9c5-4d59-9033-81e2a4528ca8",
+  "path": "earth2studio-discover",
+  "path_key": "earth2studio-discover",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/earth2studio-discover",
+    "branch": "main"
+  }
+}

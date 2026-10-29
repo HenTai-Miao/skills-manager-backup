@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "51a05bb6-0e06-4f06-b139-c8c8d0f45044",
+  "path": "tao-finetune-clip",
+  "path_key": "tao-finetune-clip",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/tao-finetune-clip",
+    "branch": "main"
+  }
+}

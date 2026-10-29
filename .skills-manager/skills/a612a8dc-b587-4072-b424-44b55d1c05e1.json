@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "a612a8dc-b587-4072-b424-44b55d1c05e1",
+  "path": "tao-train-mask-auto-label",
+  "path_key": "tao-train-mask-auto-label",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/tao-train-mask-auto-label",
+    "branch": "main"
+  }
+}

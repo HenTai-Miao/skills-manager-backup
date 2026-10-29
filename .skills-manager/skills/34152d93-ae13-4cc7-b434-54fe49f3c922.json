@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "34152d93-ae13-4cc7-b434-54fe49f3c922",
+  "path": "kermt-finetune",
+  "path_key": "kermt-finetune",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/bionemo-kermt-finetune",
+    "branch": "main"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "1be55763-563a-4bb8-8f6a-32035021b3df",
+  "path": "physical-ai-defect-image-generation",
+  "path_key": "physical-ai-defect-image-generation",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/physical-ai-defect-image-generation",
+    "branch": "main"
+  }
+}

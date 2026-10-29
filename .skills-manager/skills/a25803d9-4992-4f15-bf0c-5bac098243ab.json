@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "a25803d9-4992-4f15-bf0c-5bac098243ab",
+  "path": "tilegym-cutile-autotuning",
+  "path_key": "tilegym-cutile-autotuning",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/tilegym-cutile-autotuning",
+    "branch": "main"
+  }
+}

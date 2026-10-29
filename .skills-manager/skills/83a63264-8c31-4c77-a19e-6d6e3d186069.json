@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "83a63264-8c31-4c77-a19e-6d6e3d186069",
+  "path": "nvflare-diagnose-job",
+  "path_key": "nvflare-diagnose-job",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/nvflare-diagnose-job",
+    "branch": "main"
+  }
+}

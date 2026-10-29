@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "25a2bbbe-7338-4f0a-ad65-8b38c2d32084",
+  "path": "tilegym-adding-cutile-kernel",
+  "path_key": "tilegym-adding-cutile-kernel",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/tilegym-adding-cutile-kernel",
+    "branch": "main"
+  }
+}

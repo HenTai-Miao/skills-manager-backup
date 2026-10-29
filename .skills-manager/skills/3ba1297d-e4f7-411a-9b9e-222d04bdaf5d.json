@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "3ba1297d-e4f7-411a-9b9e-222d04bdaf5d",
+  "path": "tao-finetune-cosmos-reason",
+  "path_key": "tao-finetune-cosmos-reason",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/tao-finetune-cosmos-reason",
+    "branch": "main"
+  }
+}

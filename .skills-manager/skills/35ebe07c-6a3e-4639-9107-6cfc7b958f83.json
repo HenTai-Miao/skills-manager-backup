@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "35ebe07c-6a3e-4639-9107-6cfc7b958f83",
+  "path": "nvidia-ontology-setup",
+  "path_key": "nvidia-ontology-setup",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/nvidia-ontology-setup",
+    "branch": "main"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "a324259f-055a-469a-8885-97871e88c29a",
+  "path": "tao-finetune-cosmos-embed",
+  "path_key": "tao-finetune-cosmos-embed",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/tao-finetune-cosmos-embed",
+    "branch": "main"
+  }
+}

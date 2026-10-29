@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "ea39c74d-03a3-4776-bd5f-aed6bd56a885",
+  "path": "digital-health-clinical-asr-eval",
+  "path_key": "digital-health-clinical-asr-eval",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/digital-health-clinical-asr-eval",
+    "branch": "main"
+  }
+}

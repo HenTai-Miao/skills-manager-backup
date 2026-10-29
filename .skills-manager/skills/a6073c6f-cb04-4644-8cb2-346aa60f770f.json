@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "a6073c6f-cb04-4644-8cb2-346aa60f770f",
+  "path": "dicom-series-preflight",
+  "path_key": "dicom-series-preflight",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/dicom-series-preflight",
+    "branch": "main"
+  }
+}

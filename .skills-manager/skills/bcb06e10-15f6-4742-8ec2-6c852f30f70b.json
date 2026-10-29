@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "bcb06e10-15f6-4742-8ec2-6c852f30f70b",
+  "path": "doca-debug",
+  "path_key": "doca-debug",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/doca-debug",
+    "branch": "main"
+  }
+}

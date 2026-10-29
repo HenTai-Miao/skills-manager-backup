@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "e7ee632e-2a2a-4d7e-9ac3-ed5e13ec242f",
+  "path": "doca-comch",
+  "path_key": "doca-comch",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/doca-comch",
+    "branch": "main"
+  }
+}

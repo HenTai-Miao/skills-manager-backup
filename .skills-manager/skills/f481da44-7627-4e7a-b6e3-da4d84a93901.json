@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "f481da44-7627-4e7a-b6e3-da4d84a93901",
+  "path": "nemo-relay-instrument-calls",
+  "path_key": "nemo-relay-instrument-calls",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/nemo-relay-instrument-calls",
+    "branch": "main"
+  }
+}

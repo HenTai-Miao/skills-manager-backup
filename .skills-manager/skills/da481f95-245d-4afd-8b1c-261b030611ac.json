@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "da481f95-245d-4afd-8b1c-261b030611ac",
+  "path": "earth2studio-create-prognostic",
+  "path_key": "earth2studio-create-prognostic",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/earth2studio-create-prognostic",
+    "branch": "main"
+  }
+}

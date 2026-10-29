@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "081e5bd7-fff4-4364-ab4c-17096ec2173f",
+  "path": "i4h-workflow-setup",
+  "path_key": "i4h-workflow-setup",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/i4h-workflow-setup",
+    "branch": "main"
+  }
+}

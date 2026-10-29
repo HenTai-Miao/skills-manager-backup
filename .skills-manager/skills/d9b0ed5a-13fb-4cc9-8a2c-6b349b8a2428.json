@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "d9b0ed5a-13fb-4cc9-8a2c-6b349b8a2428",
+  "path": "i4h-workflow-dataset-replay",
+  "path_key": "i4h-workflow-dataset-replay",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/i4h-workflow-dataset-replay",
+    "branch": "main"
+  }
+}

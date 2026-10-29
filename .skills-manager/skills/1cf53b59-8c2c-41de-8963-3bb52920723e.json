@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "1cf53b59-8c2c-41de-8963-3bb52920723e",
+  "path": "nemo-mbridge-perf-cpu-offloading",
+  "path_key": "nemo-mbridge-perf-cpu-offloading",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/nemo-mbridge-perf-cpu-offloading",
+    "branch": "main"
+  }
+}

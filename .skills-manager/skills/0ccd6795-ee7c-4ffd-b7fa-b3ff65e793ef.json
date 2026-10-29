@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "0ccd6795-ee7c-4ffd-b7fa-b3ff65e793ef",
+  "path": "holoscan-module-lifecycle",
+  "path_key": "holoscan-module-lifecycle",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/holoscan-module-lifecycle",
+    "branch": "main"
+  }
+}

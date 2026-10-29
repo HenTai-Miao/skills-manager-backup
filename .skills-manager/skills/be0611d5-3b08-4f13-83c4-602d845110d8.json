@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "be0611d5-3b08-4f13-83c4-602d845110d8",
+  "path": "nemotron-voice-agent-builder",
+  "path_key": "nemotron-voice-agent-builder",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/nemotron-voice-agent-builder",
+    "branch": "main"
+  }
+}

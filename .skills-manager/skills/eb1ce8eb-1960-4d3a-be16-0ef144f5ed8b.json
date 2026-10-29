@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "eb1ce8eb-1960-4d3a-be16-0ef144f5ed8b",
+  "path": "cuopt-server-api-python",
+  "path_key": "cuopt-server-api-python",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/cuopt-server-api-python",
+    "branch": "main"
+  }
+}

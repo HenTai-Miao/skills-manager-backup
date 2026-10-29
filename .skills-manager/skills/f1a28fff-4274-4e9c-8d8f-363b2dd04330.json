@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "f1a28fff-4274-4e9c-8d8f-363b2dd04330",
+  "path": "jetson-customize-usb",
+  "path_key": "jetson-customize-usb",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/jetson-customize-usb",
+    "branch": "main"
+  }
+}

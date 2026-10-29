@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "c3bbafd8-a705-4522-a7e7-a92c61f41e15",
+  "path": "i4h-workflow-validate",
+  "path_key": "i4h-workflow-validate",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/i4h-workflow-validate",
+    "branch": "main"
+  }
+}

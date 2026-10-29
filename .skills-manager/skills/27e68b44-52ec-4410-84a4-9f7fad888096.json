@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "27e68b44-52ec-4410-84a4-9f7fad888096",
+  "path": "kermt-continue-pretrain",
+  "path_key": "kermt-continue-pretrain",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/bionemo-kermt-continue-pretrain",
+    "branch": "main"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "37e49614-2e9c-4d67-9ea7-be215444a6d7",
+  "path": "tao-setup-nvidia-gpu-host",
+  "path_key": "tao-setup-nvidia-gpu-host",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/tao-setup-nvidia-gpu-host",
+    "branch": "main"
+  }
+}

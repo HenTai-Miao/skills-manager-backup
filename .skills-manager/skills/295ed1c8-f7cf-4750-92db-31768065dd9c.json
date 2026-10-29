@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "295ed1c8-f7cf-4750-92db-31768065dd9c",
+  "path": "warp-debug-gradients",
+  "path_key": "warp-debug-gradients",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/warp-debug-gradients",
+    "branch": "main"
+  }
+}

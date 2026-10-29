@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "e8fc1e21-8562-4010-9ad4-c509c953bc5e",
+  "path": "tao-run-deft-od-aoi",
+  "path_key": "tao-run-deft-od-aoi",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/tao-run-deft-od-aoi",
+    "branch": "main"
+  }
+}

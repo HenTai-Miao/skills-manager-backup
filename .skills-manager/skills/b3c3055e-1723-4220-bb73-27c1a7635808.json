@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "b3c3055e-1723-4220-bb73-27c1a7635808",
+  "path": "runai-get-utilization-overview",
+  "path_key": "runai-get-utilization-overview",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/runai-get-utilization-overview",
+    "branch": "main"
+  }
+}

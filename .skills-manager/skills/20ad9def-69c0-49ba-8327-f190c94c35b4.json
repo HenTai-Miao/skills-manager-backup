@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "20ad9def-69c0-49ba-8327-f190c94c35b4",
+  "path": "nvflare-orient",
+  "path_key": "nvflare-orient",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/nvflare-orient",
+    "branch": "main"
+  }
+}

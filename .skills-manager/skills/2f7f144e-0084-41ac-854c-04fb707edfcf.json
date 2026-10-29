@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "2f7f144e-0084-41ac-854c-04fb707edfcf",
+  "path": "nv-segment-ctmr",
+  "path_key": "nv-segment-ctmr",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/nv-segment-ctmr",
+    "branch": "main"
+  }
+}

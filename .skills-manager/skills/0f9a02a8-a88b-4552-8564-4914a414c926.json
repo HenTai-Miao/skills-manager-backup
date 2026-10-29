@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "0f9a02a8-a88b-4552-8564-4914a414c926",
+  "path": "rtx-remix-modding",
+  "path_key": "rtx-remix-modding",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/rtx-remix-modding",
+    "branch": "main"
+  }
+}

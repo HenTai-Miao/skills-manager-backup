@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "c06278e6-71cf-4f53-8287-64aa07d3c0ef",
+  "path": "doca-aes-gcm",
+  "path_key": "doca-aes-gcm",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/doca-aes-gcm",
+    "branch": "main"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "0539523d-6fc3-4af1-ae96-8da38e55aa7d",
+  "path": "nvshmem-install",
+  "path_key": "nvshmem-install",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/nvshmem-install",
+    "branch": "main"
+  }
+}

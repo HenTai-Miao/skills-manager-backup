@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "a3c00140-946c-4e9d-a60a-7c452c9f7b70",
+  "path": "nv-generate-ct-rflow",
+  "path_key": "nv-generate-ct-rflow",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/nv-generate-ct-rflow",
+    "branch": "main"
+  }
+}

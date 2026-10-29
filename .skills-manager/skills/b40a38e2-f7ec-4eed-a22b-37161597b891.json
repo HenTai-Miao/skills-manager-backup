@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "b40a38e2-f7ec-4eed-a22b-37161597b891",
+  "path": "hsb-flash",
+  "path_key": "hsb-flash",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/hsb-flash",
+    "branch": "main"
+  }
+}

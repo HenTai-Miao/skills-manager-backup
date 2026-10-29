@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "bcf906c1-4ac6-424d-9428-5b21ccd07088",
+  "path": "tao-route-visual-changenet-samples",
+  "path_key": "tao-route-visual-changenet-samples",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/tao-route-visual-changenet-samples",
+    "branch": "main"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "18a3f2c1-62f8-44ba-9d08-7600fd1eecc5",
+  "path": "doca-comm-channel-admin",
+  "path_key": "doca-comm-channel-admin",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/doca-comm-channel-admin",
+    "branch": "main"
+  }
+}

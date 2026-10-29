@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "e5871d1e-42a7-4c0f-9f8f-da8f71b31025",
+  "path": "i4h-workflow-dataset-teleop",
+  "path_key": "i4h-workflow-dataset-teleop",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/i4h-workflow-dataset-teleop",
+    "branch": "main"
+  }
+}

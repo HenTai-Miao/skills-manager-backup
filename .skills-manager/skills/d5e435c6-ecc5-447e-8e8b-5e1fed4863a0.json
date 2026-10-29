@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "d5e435c6-ecc5-447e-8e8b-5e1fed4863a0",
+  "path": "tao-run-deft-object-detection",
+  "path_key": "tao-run-deft-object-detection",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/tao-run-deft-object-detection",
+    "branch": "main"
+  }
+}

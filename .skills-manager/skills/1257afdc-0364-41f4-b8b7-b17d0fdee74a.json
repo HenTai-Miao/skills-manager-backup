@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "1257afdc-0364-41f4-b8b7-b17d0fdee74a",
+  "path": "tao-run-automl-deft-pipeline",
+  "path_key": "tao-run-automl-deft-pipeline",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/tao-run-automl-deft-pipeline",
+    "branch": "main"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "62d04249-8611-4320-812f-0736d4670e5e",
+  "path": "rtvi-cv-customize-model",
+  "path_key": "rtvi-cv-customize-model",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/rtvi-cv-customize-model",
+    "branch": "main"
+  }
+}

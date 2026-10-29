@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "29db9689-fb94-45aa-9cc3-0d38c7b545bd",
+  "path": "tao-run-deft-pas",
+  "path_key": "tao-run-deft-pas",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/tao-run-deft-pas",
+    "branch": "main"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "e5255e7c-b693-40bd-ad59-c8079fbfa4ad",
+  "path": "tao-train-oneformer",
+  "path_key": "tao-train-oneformer",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/tao-train-oneformer",
+    "branch": "main"
+  }
+}

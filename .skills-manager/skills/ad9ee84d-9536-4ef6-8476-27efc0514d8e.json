@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "ad9ee84d-9536-4ef6-8476-27efc0514d8e",
+  "path": "ethos-orchestrate",
+  "path_key": "ethos-orchestrate",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/ethos-orchestrate",
+    "branch": "main"
+  }
+}

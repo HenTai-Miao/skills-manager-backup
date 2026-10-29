@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "3ebdc600-67e2-427a-a164-067ddc5cfd59",
+  "path": "rfd4-proteina-nim",
+  "path_key": "rfd4-proteina-nim",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/bionemo-rfd4-proteina-nim",
+    "branch": "main"
+  }
+}

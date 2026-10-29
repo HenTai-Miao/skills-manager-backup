@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "438dc3c1-9118-4942-b0e4-578fe78ff1aa",
+  "path": "nemo-rl-docs",
+  "path_key": "nemo-rl-docs",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/nemo-rl-docs",
+    "branch": "main"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "735bdee7-54be-48e8-b9be-dd8812818947",
+  "path": "tao-run-deft-cr-its-mining",
+  "path_key": "tao-run-deft-cr-its-mining",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/tao-run-deft-cr-its-mining",
+    "branch": "main"
+  }
+}

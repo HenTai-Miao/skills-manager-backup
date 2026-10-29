@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "6802e40e-0441-40cf-b3de-fb82679c24a9",
+  "path": "cuopt-routing-api-python",
+  "path_key": "cuopt-routing-api-python",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/cuopt-routing-api-python",
+    "branch": "main"
+  }
+}

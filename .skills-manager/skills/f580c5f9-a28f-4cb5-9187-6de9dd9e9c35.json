@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "f580c5f9-a28f-4cb5-9187-6de9dd9e9c35",
+  "path": "jetson-build-source",
+  "path_key": "jetson-build-source",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/jetson-build-source",
+    "branch": "main"
+  }
+}

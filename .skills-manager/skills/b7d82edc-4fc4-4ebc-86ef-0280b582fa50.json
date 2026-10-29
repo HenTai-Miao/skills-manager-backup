@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "b7d82edc-4fc4-4ebc-86ef-0280b582fa50",
+  "path": "tilegym-monkey-patch-kernels-to-transformers",
+  "path_key": "tilegym-monkey-patch-kernels-to-transformers",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/tilegym-monkey-patch-kernels-to-transformers",
+    "branch": "main"
+  }
+}

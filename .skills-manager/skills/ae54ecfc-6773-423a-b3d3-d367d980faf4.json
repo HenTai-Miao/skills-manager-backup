@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "ae54ecfc-6773-423a-b3d3-d367d980faf4",
+  "path": "msa-structure-prediction-pipeline",
+  "path_key": "msa-structure-prediction-pipeline",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/bionemo-msa-structure-prediction-pipeline",
+    "branch": "main"
+  }
+}

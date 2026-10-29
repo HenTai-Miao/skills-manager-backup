@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "c4e07239-a383-488c-a7ea-16cdc0b67097",
+  "path": "tao-run-dinov3-ssl-deft",
+  "path_key": "tao-run-dinov3-ssl-deft",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/tao-run-dinov3-ssl-deft",
+    "branch": "main"
+  }
+}

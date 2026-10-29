@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "127d7d31-4c4d-464f-8109-e858445cb388",
+  "path": "doca-programming-guide",
+  "path_key": "doca-programming-guide",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/doca-programming-guide",
+    "branch": "main"
+  }
+}

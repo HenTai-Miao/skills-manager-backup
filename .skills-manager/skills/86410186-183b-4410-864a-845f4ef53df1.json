@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "86410186-183b-4410-864a-845f4ef53df1",
+  "path": "g-assist-mcp-skill",
+  "path_key": "g-assist-mcp-skill",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/g-assist-mcp-skill",
+    "branch": "main"
+  }
+}

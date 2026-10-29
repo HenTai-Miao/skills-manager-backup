@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "bdcec79c-6376-4c5e-aa94-7eb7d57e2fd0",
+  "path": "molmim-nim",
+  "path_key": "molmim-nim",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/bionemo-molmim-nim",
+    "branch": "main"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "d07f05e0-ba05-45c9-b2fd-1b60c764ef1d",
+  "path": "foundationpose-setup",
+  "path_key": "foundationpose-setup",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/foundationpose-setup",
+    "branch": "main"
+  }
+}

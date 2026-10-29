@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "76c065c5-9038-4522-a04b-3987b82d80b0",
+  "path": "tao-analyze-changenet-rca",
+  "path_key": "tao-analyze-changenet-rca",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/tao-analyze-changenet-rca",
+    "branch": "main"
+  }
+}

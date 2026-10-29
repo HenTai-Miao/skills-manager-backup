@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "7895415f-9e34-4c93-9c8c-569c559b83a2",
+  "path": "tao-convert-dataset-format",
+  "path_key": "tao-convert-dataset-format",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/tao-convert-dataset-format",
+    "branch": "main"
+  }
+}

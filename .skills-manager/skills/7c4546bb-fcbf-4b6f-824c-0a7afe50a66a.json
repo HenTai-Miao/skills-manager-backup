@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "7c4546bb-fcbf-4b6f-824c-0a7afe50a66a",
+  "path": "nemotron-speech",
+  "path_key": "nemotron-speech",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/nemotron-speech",
+    "branch": "main"
+  }
+}

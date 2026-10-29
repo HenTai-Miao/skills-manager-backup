@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "c7087b8b-5d67-4b10-90b1-851ee375bd4c",
+  "path": "holoscan-install-conda",
+  "path_key": "holoscan-install-conda",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/holoscan-install-conda",
+    "branch": "main"
+  }
+}

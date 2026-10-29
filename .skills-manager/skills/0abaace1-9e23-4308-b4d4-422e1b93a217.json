@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "0abaace1-9e23-4308-b4d4-422e1b93a217",
+  "path": "jetson-customize-pinmux",
+  "path_key": "jetson-customize-pinmux",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/jetson-customize-pinmux",
+    "branch": "main"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "7a282477-7e64-4a50-b75f-ad2da1ffe7ec",
+  "path": "mcore-run-on-slurm",
+  "path_key": "mcore-run-on-slurm",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/mcore-run-on-slurm",
+    "branch": "main"
+  }
+}

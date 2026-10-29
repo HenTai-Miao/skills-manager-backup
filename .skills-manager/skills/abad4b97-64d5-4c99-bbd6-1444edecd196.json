@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "abad4b97-64d5-4c99-bbd6-1444edecd196",
+  "path": "nvshmem-get-started",
+  "path_key": "nvshmem-get-started",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/nvshmem-get-started",
+    "branch": "main"
+  }
+}

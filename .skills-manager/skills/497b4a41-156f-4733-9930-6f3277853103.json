@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "497b4a41-156f-4733-9930-6f3277853103",
+  "path": "jetson-customize-mgbe",
+  "path_key": "jetson-customize-mgbe",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/jetson-customize-mgbe",
+    "branch": "main"
+  }
+}

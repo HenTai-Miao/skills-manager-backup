@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "a5d24d09-0886-4b87-8c36-8286c4fe22cb",
+  "path": "nvidia-skill-finder",
+  "path_key": "nvidia-skill-finder",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/nvidia-skill-finder",
+    "branch": "main"
+  }
+}

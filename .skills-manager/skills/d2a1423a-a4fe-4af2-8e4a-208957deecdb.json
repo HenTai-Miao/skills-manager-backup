@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "d2a1423a-a4fe-4af2-8e4a-208957deecdb",
+  "path": "dicom-series-to-volume",
+  "path_key": "dicom-series-to-volume",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/dicom-series-to-volume",
+    "branch": "main"
+  }
+}

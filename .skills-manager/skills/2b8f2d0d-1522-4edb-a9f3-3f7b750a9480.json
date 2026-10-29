@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "2b8f2d0d-1522-4edb-a9f3-3f7b750a9480",
+  "path": "nemo-fabric-integrate",
+  "path_key": "nemo-fabric-integrate",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/nemo-fabric-integrate",
+    "branch": "main"
+  }
+}

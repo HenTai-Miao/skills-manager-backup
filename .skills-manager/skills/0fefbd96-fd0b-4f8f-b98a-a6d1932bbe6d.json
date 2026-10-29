@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "0fefbd96-fd0b-4f8f-b98a-a6d1932bbe6d",
+  "path": "cdf-simulation",
+  "path_key": "cdf-simulation",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/cdf-simulation",
+    "branch": "main"
+  }
+}

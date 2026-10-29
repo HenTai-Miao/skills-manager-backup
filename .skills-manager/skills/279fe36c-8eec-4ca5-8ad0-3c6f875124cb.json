@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "279fe36c-8eec-4ca5-8ad0-3c6f875124cb",
+  "path": "tao-train-action-recognition",
+  "path_key": "tao-train-action-recognition",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/tao-train-action-recognition",
+    "branch": "main"
+  }
+}

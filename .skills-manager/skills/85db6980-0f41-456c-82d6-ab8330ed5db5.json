@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "85db6980-0f41-456c-82d6-ab8330ed5db5",
+  "path": "nvidia-app",
+  "path_key": "nvidia-app",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/nvidia-app",
+    "branch": "main"
+  }
+}

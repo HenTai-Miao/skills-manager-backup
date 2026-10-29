@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "83e71deb-2920-441f-9f78-84d6d45ce77c",
+  "path": "nv-generate-mr-brain",
+  "path_key": "nv-generate-mr-brain",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/nv-generate-mr-brain",
+    "branch": "main"
+  }
+}

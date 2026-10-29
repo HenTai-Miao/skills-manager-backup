@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "69aa651f-b4ce-42b9-8dc2-e58e6395244b",
+  "path": "doca-pcc",
+  "path_key": "doca-pcc",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/doca-pcc",
+    "branch": "main"
+  }
+}

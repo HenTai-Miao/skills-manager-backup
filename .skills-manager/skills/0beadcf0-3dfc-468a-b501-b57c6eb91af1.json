@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "0beadcf0-3dfc-468a-b501-b57c6eb91af1",
+  "path": "nvshmem-configure-nic-pe-mapping",
+  "path_key": "nvshmem-configure-nic-pe-mapping",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/nvshmem-configure-nic-pe-mapping",
+    "branch": "main"
+  }
+}

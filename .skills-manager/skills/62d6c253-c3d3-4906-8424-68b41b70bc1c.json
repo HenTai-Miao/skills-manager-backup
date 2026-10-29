@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "62d6c253-c3d3-4906-8424-68b41b70bc1c",
+  "path": "physical-ai-physics-selection",
+  "path_key": "physical-ai-physics-selection",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/physical-ai-physics-selection",
+    "branch": "main"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "04b91809-7a93-4b0b-8d8a-fe79c28ec6c5",
+  "path": "runai-get-workload-health-summary",
+  "path_key": "runai-get-workload-health-summary",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/runai-get-workload-health-summary",
+    "branch": "main"
+  }
+}

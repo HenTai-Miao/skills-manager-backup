@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "a3888921-1a15-41cd-98e5-cd661f5f43cc",
+  "path": "warp-eval",
+  "path_key": "warp-eval",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/warp-eval",
+    "branch": "main"
+  }
+}

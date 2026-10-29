@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "abc7ec0d-0943-420e-b24a-13550a6956d2",
+  "path": "digital-health-clinical-asr-setup",
+  "path_key": "digital-health-clinical-asr-setup",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/digital-health-clinical-asr-setup",
+    "branch": "main"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "94e40e0d-151a-41c6-909c-34557aac9410",
+  "path": "nvflare-autofl-report",
+  "path_key": "nvflare-autofl-report",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/nvflare-autofl-report",
+    "branch": "main"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "e757aa92-2902-43f2-ad2c-23b406cc5c24",
+  "path": "tao-setup",
+  "path_key": "tao-setup",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/tao-setup",
+    "branch": "main"
+  }
+}

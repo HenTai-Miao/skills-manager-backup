@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "495c49b6-01c8-4888-92a8-da0ee29f7b39",
+  "path": "nemo-mbridge-perf-cuda-graphs",
+  "path_key": "nemo-mbridge-perf-cuda-graphs",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/nemo-mbridge-perf-cuda-graphs",
+    "branch": "main"
+  }
+}

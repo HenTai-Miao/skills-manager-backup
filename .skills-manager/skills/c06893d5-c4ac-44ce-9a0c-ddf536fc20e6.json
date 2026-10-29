@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "c06893d5-c4ac-44ce-9a0c-ddf536fc20e6",
+  "path": "tao-validate-recipe-transfer",
+  "path_key": "tao-validate-recipe-transfer",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/tao-validate-recipe-transfer",
+    "branch": "main"
+  }
+}

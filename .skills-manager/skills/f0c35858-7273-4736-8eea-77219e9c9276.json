@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "f0c35858-7273-4736-8eea-77219e9c9276",
+  "path": "nvshmem-collect-performance-data",
+  "path_key": "nvshmem-collect-performance-data",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/nvshmem-collect-performance-data",
+    "branch": "main"
+  }
+}

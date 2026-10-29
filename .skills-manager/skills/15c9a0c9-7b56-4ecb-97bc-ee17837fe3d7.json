@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "15c9a0c9-7b56-4ecb-97bc-ee17837fe3d7",
+  "path": "dynamo-recipe-runner",
+  "path_key": "dynamo-recipe-runner",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/dynamo-recipe-runner",
+    "branch": "main"
+  }
+}

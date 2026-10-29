@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "fe20ab84-52d6-4515-9cf7-71280d1247f1",
+  "path": "jetson-video-capability",
+  "path_key": "jetson-video-capability",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/jetson-video-capability",
+    "branch": "main"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "b586ac77-4a40-45dd-beb7-6156bfd67aa3",
+  "path": "doca-public-knowledge-map",
+  "path_key": "doca-public-knowledge-map",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/doca-public-knowledge-map",
+    "branch": "main"
+  }
+}

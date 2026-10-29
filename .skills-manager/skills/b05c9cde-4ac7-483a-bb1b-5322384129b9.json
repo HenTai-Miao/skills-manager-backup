@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "b05c9cde-4ac7-483a-bb1b-5322384129b9",
+  "path": "tao-train-pointpillars",
+  "path_key": "tao-train-pointpillars",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/tao-train-pointpillars",
+    "branch": "main"
+  }
+}

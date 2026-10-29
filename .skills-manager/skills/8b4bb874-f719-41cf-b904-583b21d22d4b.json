@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "8b4bb874-f719-41cf-b904-583b21d22d4b",
+  "path": "tao-generate-referring-expressions",
+  "path_key": "tao-generate-referring-expressions",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/tao-generate-referring-expressions",
+    "branch": "main"
+  }
+}

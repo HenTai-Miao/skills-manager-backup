@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "e7357a83-8a20-4df3-8c6d-853c80798867",
+  "path": "nemo-automodel-distributed-training",
+  "path_key": "nemo-automodel-distributed-training",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/nemo-automodel-distributed-training",
+    "branch": "main"
+  }
+}

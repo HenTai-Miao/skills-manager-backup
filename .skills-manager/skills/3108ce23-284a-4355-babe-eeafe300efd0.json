@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "3108ce23-284a-4355-babe-eeafe300efd0",
+  "path": "physicsnemo-shard-tensor",
+  "path_key": "physicsnemo-shard-tensor",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/physicsnemo-shard-tensor",
+    "branch": "main"
+  }
+}

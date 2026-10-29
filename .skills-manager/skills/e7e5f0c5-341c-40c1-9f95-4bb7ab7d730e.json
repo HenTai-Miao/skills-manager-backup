@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "e7e5f0c5-341c-40c1-9f95-4bb7ab7d730e",
+  "path": "runai-audit-assigned-quota",
+  "path_key": "runai-audit-assigned-quota",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/runai-audit-assigned-quota",
+    "branch": "main"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "e1abacac-7bcd-49b3-ba86-edcb9ae5229a",
+  "path": "tao-train-optical-inspection",
+  "path_key": "tao-train-optical-inspection",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/tao-train-optical-inspection",
+    "branch": "main"
+  }
+}

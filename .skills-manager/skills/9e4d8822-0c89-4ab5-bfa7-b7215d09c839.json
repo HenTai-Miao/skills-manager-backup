@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "9e4d8822-0c89-4ab5-bfa7-b7215d09c839",
+  "path": "omniverse-usd-performance-tuning",
+  "path_key": "omniverse-usd-performance-tuning",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/omniverse-usd-performance-tuning",
+    "branch": "main"
+  }
+}

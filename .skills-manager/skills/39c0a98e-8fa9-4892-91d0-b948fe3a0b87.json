@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "39c0a98e-8fa9-4892-91d0-b948fe3a0b87",
+  "path": "jetson-download-bsp",
+  "path_key": "jetson-download-bsp",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/jetson-download-bsp",
+    "branch": "main"
+  }
+}

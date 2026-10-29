@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "96b9e48c-641c-4743-921e-e9ba4c1c69ad",
+  "path": "tao-train-visual-changenet",
+  "path_key": "tao-train-visual-changenet",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/tao-train-visual-changenet",
+    "branch": "main"
+  }
+}

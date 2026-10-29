@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "c2450e6f-cae2-4a0b-a269-9c6593fd96b7",
+  "path": "nemo-mbridge-resiliency",
+  "path_key": "nemo-mbridge-resiliency",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/nemo-mbridge-resiliency",
+    "branch": "main"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "8df8a1e2-27a9-44bd-932e-724981584e2d",
+  "path": "rag-blueprint",
+  "path_key": "rag-blueprint",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/rag-blueprint",
+    "branch": "main"
+  }
+}

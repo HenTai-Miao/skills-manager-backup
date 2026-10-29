@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "b307345f-371f-4cd5-92eb-82a41e84f143",
+  "path": "cdf-image-attribute-augmentation",
+  "path_key": "cdf-image-attribute-augmentation",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/cdf-image-attribute-augmentation",
+    "branch": "main"
+  }
+}

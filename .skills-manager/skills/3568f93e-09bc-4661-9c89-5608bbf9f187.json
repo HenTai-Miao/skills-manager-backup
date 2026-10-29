@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "3568f93e-09bc-4661-9c89-5608bbf9f187",
+  "path": "nvflare-convert-pytorch",
+  "path_key": "nvflare-convert-pytorch",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/nvflare-convert-pytorch",
+    "branch": "main"
+  }
+}

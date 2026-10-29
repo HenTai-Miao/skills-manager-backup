@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "925e7f2c-5087-406e-9782-98ce876e9403",
+  "path": "dynamo-router-starter",
+  "path_key": "dynamo-router-starter",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/dynamo-router-starter",
+    "branch": "main"
+  }
+}

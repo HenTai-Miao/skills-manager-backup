@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "10757cc0-56a5-4bd8-a8a6-64259ed80198",
+  "path": "nemo-retriever",
+  "path_key": "nemo-retriever",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/nemo-retriever",
+    "branch": "main"
+  }
+}

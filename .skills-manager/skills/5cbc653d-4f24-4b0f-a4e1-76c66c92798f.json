@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "5cbc653d-4f24-4b0f-a4e1-76c66c92798f",
+  "path": "doca-rmax",
+  "path_key": "doca-rmax",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/doca-rmax",
+    "branch": "main"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "e2264c30-855c-41b5-845d-d0cc43d15181",
+  "path": "data-designer",
+  "path_key": "data-designer",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/data-designer",
+    "branch": "main"
+  }
+}

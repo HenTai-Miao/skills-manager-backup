@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "52429508-91a8-4a1e-8a9f-a08296fc146c",
+  "path": "tao-run-inference-service",
+  "path_key": "tao-run-inference-service",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/tao-run-inference-service",
+    "branch": "main"
+  }
+}

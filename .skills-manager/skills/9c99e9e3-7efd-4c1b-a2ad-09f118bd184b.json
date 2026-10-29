@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "9c99e9e3-7efd-4c1b-a2ad-09f118bd184b",
+  "path": "omniverse-cad-to-simready",
+  "path_key": "omniverse-cad-to-simready",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/omniverse-cad-to-simready",
+    "branch": "main"
+  }
+}

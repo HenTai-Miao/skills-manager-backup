@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "5a59196c-2c42-49f7-85e2-28a5eb935bc5",
+  "path": "tao-train-reid",
+  "path_key": "tao-train-reid",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/tao-train-reid",
+    "branch": "main"
+  }
+}

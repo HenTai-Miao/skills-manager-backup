@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "5ba1085c-5343-4767-a10e-f36b6a7b572f",
+  "path": "mcore-split-pr",
+  "path_key": "mcore-split-pr",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/mcore-split-pr",
+    "branch": "main"
+  }
+}

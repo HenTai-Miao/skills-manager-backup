@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "68e40833-cbfc-4103-9784-da99c913c3fa",
+  "path": "cuopt-developer",
+  "path_key": "cuopt-developer",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/cuopt-developer",
+    "branch": "main"
+  }
+}

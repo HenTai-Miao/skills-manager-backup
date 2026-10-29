@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "d9258283-ae8a-425a-8cb7-596550a85606",
+  "path": "doca-spcx-cc",
+  "path_key": "doca-spcx-cc",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/doca-spcx-cc",
+    "branch": "main"
+  }
+}

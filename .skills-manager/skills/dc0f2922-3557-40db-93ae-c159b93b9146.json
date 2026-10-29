@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "dc0f2922-3557-40db-93ae-c159b93b9146",
+  "path": "cdf-event-video-generation",
+  "path_key": "cdf-event-video-generation",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/cdf-event-video-generation",
+    "branch": "main"
+  }
+}

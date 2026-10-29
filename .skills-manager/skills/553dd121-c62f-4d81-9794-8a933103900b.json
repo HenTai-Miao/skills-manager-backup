@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "553dd121-c62f-4d81-9794-8a933103900b",
+  "path": "tao-run-on-slurm",
+  "path_key": "tao-run-on-slurm",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/tao-run-on-slurm",
+    "branch": "main"
+  }
+}

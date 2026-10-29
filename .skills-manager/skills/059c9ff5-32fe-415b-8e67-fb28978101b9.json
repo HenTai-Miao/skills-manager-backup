@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "059c9ff5-32fe-415b-8e67-fb28978101b9",
+  "path": "tilegym-converting-cutile-to-triton",
+  "path_key": "tilegym-converting-cutile-to-triton",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/tilegym-converting-cutile-to-triton",
+    "branch": "main"
+  }
+}

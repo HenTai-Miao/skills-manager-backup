@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "98f4a043-1736-4c06-9cab-f030d4e3cb4d",
+  "path": "i4h-workflow-finetune",
+  "path_key": "i4h-workflow-finetune",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/i4h-workflow-finetune",
+    "branch": "main"
+  }
+}

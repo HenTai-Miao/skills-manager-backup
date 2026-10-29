@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "13094d88-4bd4-4516-a664-8fd64e2cf025",
+  "path": "tao-train-mask-auto-encoder",
+  "path_key": "tao-train-mask-auto-encoder",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/tao-train-mask-auto-encoder",
+    "branch": "main"
+  }
+}

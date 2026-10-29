@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "69a9cbd5-d668-4e80-887b-6c6d2ef3894e",
+  "path": "tao-train-grounding-dino",
+  "path_key": "tao-train-grounding-dino",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/tao-train-grounding-dino",
+    "branch": "main"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "7ee4a37d-f100-4537-816a-1e4988f1c9bd",
+  "path": "mcore-linting-and-formatting",
+  "path_key": "mcore-linting-and-formatting",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/mcore-linting-and-formatting",
+    "branch": "main"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "f1d3af7f-ca69-4bb7-8811-d868954170cd",
+  "path": "cuopt-install",
+  "path_key": "cuopt-install",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/cuopt-install",
+    "branch": "main"
+  }
+}

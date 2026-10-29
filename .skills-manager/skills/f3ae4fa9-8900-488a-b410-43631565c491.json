@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "f3ae4fa9-8900-488a-b410-43631565c491",
+  "path": "jetson-customize-camera",
+  "path_key": "jetson-customize-camera",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/jetson-customize-camera",
+    "branch": "main"
+  }
+}

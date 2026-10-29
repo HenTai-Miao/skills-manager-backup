@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "d3c2d337-00a5-4a08-a704-872b3c4a0ab1",
+  "path": "jetson-customize-fan",
+  "path_key": "jetson-customize-fan",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/jetson-customize-fan",
+    "branch": "main"
+  }
+}

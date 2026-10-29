@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "744c630a-a6a7-484b-a8b2-64849de1ba1f",
+  "path": "genmol-nim",
+  "path_key": "genmol-nim",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/bionemo-genmol-nim",
+    "branch": "main"
+  }
+}

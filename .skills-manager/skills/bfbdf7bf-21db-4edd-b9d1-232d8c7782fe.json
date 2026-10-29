@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "bfbdf7bf-21db-4edd-b9d1-232d8c7782fe",
+  "path": "compute-sanitizer-diagnose-cuda-bugs",
+  "path_key": "compute-sanitizer-diagnose-cuda-bugs",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/compute-sanitizer-diagnose-cuda-bugs",
+    "branch": "main"
+  }
+}

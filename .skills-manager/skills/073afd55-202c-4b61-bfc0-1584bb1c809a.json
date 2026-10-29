@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "073afd55-202c-4b61-bfc0-1584bb1c809a",
+  "path": "openfold2-nim",
+  "path_key": "openfold2-nim",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/bionemo-openfold2-nim",
+    "branch": "main"
+  }
+}

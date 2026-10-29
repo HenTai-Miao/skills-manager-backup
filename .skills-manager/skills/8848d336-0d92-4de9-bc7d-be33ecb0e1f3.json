@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "8848d336-0d92-4de9-bc7d-be33ecb0e1f3",
+  "path": "cuopt-multi-objective-exploration",
+  "path_key": "cuopt-multi-objective-exploration",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/cuopt-multi-objective-exploration",
+    "branch": "main"
+  }
+}

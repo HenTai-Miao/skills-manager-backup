@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "af24103a-1881-4bf2-9794-26d5ea27065d",
+  "path": "jetson-customize-nvpmodel",
+  "path_key": "jetson-customize-nvpmodel",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/jetson-customize-nvpmodel",
+    "branch": "main"
+  }
+}

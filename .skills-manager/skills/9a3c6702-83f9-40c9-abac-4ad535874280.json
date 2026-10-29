@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "9a3c6702-83f9-40c9-abac-4ad535874280",
+  "path": "accelerated-computing-cudf",
+  "path_key": "accelerated-computing-cudf",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/accelerated-computing-cudf",
+    "branch": "main"
+  }
+}

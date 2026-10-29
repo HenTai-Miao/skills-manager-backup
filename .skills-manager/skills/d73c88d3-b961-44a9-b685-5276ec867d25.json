@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "d73c88d3-b961-44a9-b685-5276ec867d25",
+  "path": "nvshmem-tune-performance",
+  "path_key": "nvshmem-tune-performance",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/nvshmem-tune-performance",
+    "branch": "main"
+  }
+}

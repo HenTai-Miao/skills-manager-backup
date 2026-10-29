@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "a2e35d6e-8548-43b8-8b3d-cbfae3bb1bf8",
+  "path": "nemo-relay-plugin-observability",
+  "path_key": "nemo-relay-plugin-observability",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/nemo-relay-plugin-observability",
+    "branch": "main"
+  }
+}

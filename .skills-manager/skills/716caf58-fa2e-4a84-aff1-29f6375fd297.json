@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "716caf58-fa2e-4a84-aff1-29f6375fd297",
+  "path": "tao-mine-aoi-images",
+  "path_key": "tao-mine-aoi-images",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/tao-mine-aoi-images",
+    "branch": "main"
+  }
+}

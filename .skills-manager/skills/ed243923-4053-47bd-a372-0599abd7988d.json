@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "ed243923-4053-47bd-a372-0599abd7988d",
+  "path": "tao-analyze-gaps-od-map",
+  "path_key": "tao-analyze-gaps-od-map",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/tao-analyze-gaps-od-map",
+    "branch": "main"
+  }
+}

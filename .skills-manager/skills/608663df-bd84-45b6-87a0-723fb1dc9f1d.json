@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "608663df-bd84-45b6-87a0-723fb1dc9f1d",
+  "path": "i4h-workflow-dataset-mimic",
+  "path_key": "i4h-workflow-dataset-mimic",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/i4h-workflow-dataset-mimic",
+    "branch": "main"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "802be4ed-3b29-468b-8d5b-7904580ff4ce",
+  "path": "nvflare-fed-stats",
+  "path_key": "nvflare-fed-stats",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/nvflare-fed-stats",
+    "branch": "main"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "cf87dacd-a9dc-480a-b0fd-a5e284eef8ae",
+  "path": "msa-search-nim",
+  "path_key": "msa-search-nim",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/bionemo-msa-search-nim",
+    "branch": "main"
+  }
+}

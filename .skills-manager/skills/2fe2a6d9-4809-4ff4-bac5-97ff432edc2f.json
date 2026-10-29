@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "2fe2a6d9-4809-4ff4-bac5-97ff432edc2f",
+  "path": "jetson-promote-image",
+  "path_key": "jetson-promote-image",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/jetson-promote-image",
+    "branch": "main"
+  }
+}

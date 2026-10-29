@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "115dca87-498e-45d6-834c-fcb5ddd5282f",
+  "path": "cudaq-guide",
+  "path_key": "cudaq-guide",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/cudaq-guide",
+    "branch": "main"
+  }
+}

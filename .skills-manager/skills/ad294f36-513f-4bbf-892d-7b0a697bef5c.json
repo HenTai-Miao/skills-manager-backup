@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "ad294f36-513f-4bbf-892d-7b0a697bef5c",
+  "path": "ovnewton-usage",
+  "path_key": "ovnewton-usage",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/ovnewton-usage",
+    "branch": "main"
+  }
+}

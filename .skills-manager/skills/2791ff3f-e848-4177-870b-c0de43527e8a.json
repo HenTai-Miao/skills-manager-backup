@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "2791ff3f-e848-4177-870b-c0de43527e8a",
+  "path": "diffdock-nim",
+  "path_key": "diffdock-nim",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/bionemo-diffdock-nim",
+    "branch": "main"
+  }
+}

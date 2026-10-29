@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "e431858d-4bfb-4e76-a47f-1e87f0f42e87",
+  "path": "complexa-target",
+  "path_key": "complexa-target",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/bionemo-complexa-target",
+    "branch": "main"
+  }
+}

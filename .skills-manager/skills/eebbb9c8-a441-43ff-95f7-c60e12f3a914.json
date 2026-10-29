@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "eebbb9c8-a441-43ff-95f7-c60e12f3a914",
+  "path": "nemo-mbridge-recipe-recommender",
+  "path_key": "nemo-mbridge-recipe-recommender",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/nemo-mbridge-recipe-recommender",
+    "branch": "main"
+  }
+}

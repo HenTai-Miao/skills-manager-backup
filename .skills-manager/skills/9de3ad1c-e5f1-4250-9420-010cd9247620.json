@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "9de3ad1c-e5f1-4250-9420-010cd9247620",
+  "path": "tao-generate-video-reasoning-annotations",
+  "path_key": "tao-generate-video-reasoning-annotations",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/tao-generate-video-reasoning-annotations",
+    "branch": "main"
+  }
+}

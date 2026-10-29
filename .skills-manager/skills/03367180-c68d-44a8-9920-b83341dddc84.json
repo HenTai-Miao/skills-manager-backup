@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "03367180-c68d-44a8-9920-b83341dddc84",
+  "path": "doca-mgmt",
+  "path_key": "doca-mgmt",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/doca-mgmt",
+    "branch": "main"
+  }
+}

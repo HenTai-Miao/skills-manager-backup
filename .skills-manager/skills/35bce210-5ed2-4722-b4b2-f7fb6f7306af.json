@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "35bce210-5ed2-4722-b4b2-f7fb6f7306af",
+  "path": "isaac-mission-control-showcase",
+  "path_key": "isaac-mission-control-showcase",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/isaac-mission-control-showcase",
+    "branch": "main"
+  }
+}

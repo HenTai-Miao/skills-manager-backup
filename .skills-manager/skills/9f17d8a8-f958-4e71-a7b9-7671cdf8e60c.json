@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "9f17d8a8-f958-4e71-a7b9-7671cdf8e60c",
+  "path": "nemo-mbridge-perf-memory-tuning",
+  "path_key": "nemo-mbridge-perf-memory-tuning",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/nemo-mbridge-perf-memory-tuning",
+    "branch": "main"
+  }
+}

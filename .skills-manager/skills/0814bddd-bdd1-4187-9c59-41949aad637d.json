@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "0814bddd-bdd1-4187-9c59-41949aad637d",
+  "path": "jetson-validate-image",
+  "path_key": "jetson-validate-image",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/jetson-validate-image",
+    "branch": "main"
+  }
+}

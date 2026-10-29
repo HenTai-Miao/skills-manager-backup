@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "7cbaffb6-549c-4ed2-8e44-4d8d29386248",
+  "path": "nemo-mbridge-perf-moe-comm-overlap",
+  "path_key": "nemo-mbridge-perf-moe-comm-overlap",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/nemo-mbridge-perf-moe-comm-overlap",
+    "branch": "main"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "c723107c-bca6-44ca-ad43-8c1516106a38",
+  "path": "nvidia-ontology-query",
+  "path_key": "nvidia-ontology-query",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/nvidia-ontology-query",
+    "branch": "main"
+  }
+}

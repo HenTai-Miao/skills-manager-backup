@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "0e3ba5f2-4c60-4aa2-801c-621dfb5d1c97",
+  "path": "portfolio-optimization",
+  "path_key": "portfolio-optimization",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/portfolio-optimization",
+    "branch": "main"
+  }
+}

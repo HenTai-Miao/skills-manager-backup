@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "521b01ec-a7a1-4c1d-8e32-b6e313fced1e",
+  "path": "tao-train-bevfusion",
+  "path_key": "tao-train-bevfusion",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/tao-train-bevfusion",
+    "branch": "main"
+  }
+}

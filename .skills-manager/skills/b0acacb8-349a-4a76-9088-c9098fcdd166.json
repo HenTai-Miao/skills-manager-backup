@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "b0acacb8-349a-4a76-9088-c9098fcdd166",
+  "path": "medtech-model-evidence-export",
+  "path_key": "medtech-model-evidence-export",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/medtech-model-evidence-export",
+    "branch": "main"
+  }
+}

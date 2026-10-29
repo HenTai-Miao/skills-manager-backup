@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "6baffc52-cddc-45f3-a417-907cb1cd117e",
+  "path": "doca-rdma",
+  "path_key": "doca-rdma",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/doca-rdma",
+    "branch": "main"
+  }
+}

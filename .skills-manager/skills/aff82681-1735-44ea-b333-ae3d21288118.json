@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "aff82681-1735-44ea-b333-ae3d21288118",
+  "path": "complexa-evaluate-pdbs",
+  "path_key": "complexa-evaluate-pdbs",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/bionemo-complexa-evaluate-pdbs",
+    "branch": "main"
+  }
+}

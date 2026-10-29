@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "b5ec89c6-87ff-480c-aa16-37b4bd20314a",
+  "path": "omniverse-content-services",
+  "path_key": "omniverse-content-services",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/omniverse-content-services",
+    "branch": "main"
+  }
+}

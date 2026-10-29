@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "52a3b23f-84b3-4bfe-9435-43ea59d5357b",
+  "path": "hsb-ip-create-top",
+  "path_key": "hsb-ip-create-top",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/hsb-ip-create-top",
+    "branch": "main"
+  }
+}

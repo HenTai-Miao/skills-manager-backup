@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "db905202-797d-4a73-a6eb-43be5dee2e15",
+  "path": "pva-spec",
+  "path_key": "pva-spec",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/pva-spec",
+    "branch": "main"
+  }
+}

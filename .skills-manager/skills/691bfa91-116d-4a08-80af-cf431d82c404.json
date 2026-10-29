@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "691bfa91-116d-4a08-80af-cf431d82c404",
+  "path": "codonfm-finetune",
+  "path_key": "codonfm-finetune",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/bionemo-codonfm-finetune",
+    "branch": "main"
+  }
+}

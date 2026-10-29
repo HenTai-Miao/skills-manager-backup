@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "a6bef15a-c785-403c-8569-0a09e905a3d2",
+  "path": "nvflare-convert-huggingface",
+  "path_key": "nvflare-convert-huggingface",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/nvflare-convert-huggingface",
+    "branch": "main"
+  }
+}

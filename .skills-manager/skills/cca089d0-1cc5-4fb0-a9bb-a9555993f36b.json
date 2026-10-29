@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "cca089d0-1cc5-4fb0-a9bb-a9555993f36b",
+  "path": "kermt-embed",
+  "path_key": "kermt-embed",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/bionemo-kermt-embed",
+    "branch": "main"
+  }
+}

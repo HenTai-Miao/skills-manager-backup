@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "1552cfd4-bd6d-4f94-ad86-0900cda61d60",
+  "path": "physical-ai-neural-reconstruction",
+  "path_key": "physical-ai-neural-reconstruction",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/physical-ai-neural-reconstruction",
+    "branch": "main"
+  }
+}

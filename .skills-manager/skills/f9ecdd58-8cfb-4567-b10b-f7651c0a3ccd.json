@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "f9ecdd58-8cfb-4567-b10b-f7651c0a3ccd",
+  "path": "earth2studio-create-diagnostic",
+  "path_key": "earth2studio-create-diagnostic",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/earth2studio-create-diagnostic",
+    "branch": "main"
+  }
+}

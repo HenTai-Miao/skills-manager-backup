@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "1d4f6a02-11c8-49d9-9ca7-373ae7e3aaa9",
+  "path": "earth2studio-install",
+  "path_key": "earth2studio-install",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/earth2studio-install",
+    "branch": "main"
+  }
+}

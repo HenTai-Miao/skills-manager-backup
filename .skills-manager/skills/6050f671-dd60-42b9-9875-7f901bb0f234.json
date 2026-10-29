@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "6050f671-dd60-42b9-9875-7f901bb0f234",
+  "path": "cdf-anomalygen",
+  "path_key": "cdf-anomalygen",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/cdf-anomalygen",
+    "branch": "main"
+  }
+}

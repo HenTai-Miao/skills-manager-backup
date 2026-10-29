@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "240546b5-d16e-4227-8080-22e0ea69df8f",
+  "path": "tao-run-automl",
+  "path_key": "tao-run-automl",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/tao-run-automl",
+    "branch": "main"
+  }
+}

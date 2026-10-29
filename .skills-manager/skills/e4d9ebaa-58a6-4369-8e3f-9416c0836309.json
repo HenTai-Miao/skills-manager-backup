@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "e4d9ebaa-58a6-4369-8e3f-9416c0836309",
+  "path": "jetson-customize-clocks",
+  "path_key": "jetson-customize-clocks",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/jetson-customize-clocks",
+    "branch": "main"
+  }
+}

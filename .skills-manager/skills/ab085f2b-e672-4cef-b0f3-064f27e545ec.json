@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "ab085f2b-e672-4cef-b0f3-064f27e545ec",
+  "path": "nemo-mbridge-perf-moe-dispatcher-selection",
+  "path_key": "nemo-mbridge-perf-moe-dispatcher-selection",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/nemo-mbridge-perf-moe-dispatcher-selection",
+    "branch": "main"
+  }
+}

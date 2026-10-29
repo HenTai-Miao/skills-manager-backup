@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "ad560fbe-e7a0-4acd-a050-92279cd54f28",
+  "path": "tao-run-deft-aoi-cosmos3",
+  "path_key": "tao-run-deft-aoi-cosmos3",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/tao-run-deft-aoi-cosmos3",
+    "branch": "main"
+  }
+}

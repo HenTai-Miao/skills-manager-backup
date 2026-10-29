@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "92691f77-8771-48d8-af0d-544069d8b781",
+  "path": "parabricks",
+  "path_key": "parabricks",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/bionemo-parabricks",
+    "branch": "main"
+  }
+}

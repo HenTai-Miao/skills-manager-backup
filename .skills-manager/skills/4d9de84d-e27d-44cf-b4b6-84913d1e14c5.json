@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "4d9de84d-e27d-44cf-b4b6-84913d1e14c5",
+  "path": "nemo-mbridge-perf-megatron-fsdp",
+  "path_key": "nemo-mbridge-perf-megatron-fsdp",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/nemo-mbridge-perf-megatron-fsdp",
+    "branch": "main"
+  }
+}

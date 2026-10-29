@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "8b0641d1-851c-4030-b716-f1cc6e933f88",
+  "path": "jetson-link-docs",
+  "path_key": "jetson-link-docs",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/jetson-link-docs",
+    "branch": "main"
+  }
+}

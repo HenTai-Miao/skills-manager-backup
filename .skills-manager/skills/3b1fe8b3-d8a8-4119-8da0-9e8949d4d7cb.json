@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "3b1fe8b3-d8a8-4119-8da0-9e8949d4d7cb",
+  "path": "nemo-relay-migrate-from-flow",
+  "path_key": "nemo-relay-migrate-from-flow",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/nemo-relay-migrate-from-flow",
+    "branch": "main"
+  }
+}

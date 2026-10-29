@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "c50db4b3-28b0-4069-a15d-80f93674bf04",
+  "path": "nemo-mbridge-multi-node-slurm",
+  "path_key": "nemo-mbridge-multi-node-slurm",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/nemo-mbridge-multi-node-slurm",
+    "branch": "main"
+  }
+}

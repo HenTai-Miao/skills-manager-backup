@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "55176940-3f24-472f-a278-54d9cfbe1d1d",
+  "path": "doca-telemetry-exporter",
+  "path_key": "doca-telemetry-exporter",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/doca-telemetry-exporter",
+    "branch": "main"
+  }
+}

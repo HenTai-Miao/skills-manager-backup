@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "c6b2959d-1f3c-400a-b980-4d52f577ad29",
+  "path": "hsb-setup",
+  "path_key": "hsb-setup",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/hsb-setup",
+    "branch": "main"
+  }
+}

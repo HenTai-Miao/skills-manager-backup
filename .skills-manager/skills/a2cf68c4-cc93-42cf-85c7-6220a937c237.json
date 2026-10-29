@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "a2cf68c4-cc93-42cf-85c7-6220a937c237",
+  "path": "skill-card-generator",
+  "path_key": "skill-card-generator",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/skill-card-generator",
+    "branch": "main"
+  }
+}

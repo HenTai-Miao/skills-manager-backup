@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "7f1fdd63-c785-4d3f-a5b1-0410481242dc",
+  "path": "tilegym-cutile-python",
+  "path_key": "tilegym-cutile-python",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/tilegym-cutile-python",
+    "branch": "main"
+  }
+}

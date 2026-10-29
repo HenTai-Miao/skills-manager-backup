@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "29e0a9e7-f0f4-4d75-84af-15775bb923fb",
+  "path": "nemo-relay-debug-runtime-integration",
+  "path_key": "nemo-relay-debug-runtime-integration",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/nemo-relay-debug-runtime-integration",
+    "branch": "main"
+  }
+}

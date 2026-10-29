@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "23cdf7d6-13cf-4506-abd7-91944d06ea77",
+  "path": "nemo-relay-plugin-adaptive-tuning",
+  "path_key": "nemo-relay-plugin-adaptive-tuning",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/nemo-relay-plugin-adaptive-tuning",
+    "branch": "main"
+  }
+}

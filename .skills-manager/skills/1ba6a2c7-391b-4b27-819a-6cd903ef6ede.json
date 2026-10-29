@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "1ba6a2c7-391b-4b27-819a-6cd903ef6ede",
+  "path": "deepstream-profile-pipeline",
+  "path_key": "deepstream-profile-pipeline",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/deepstream-profile-pipeline",
+    "branch": "main"
+  }
+}

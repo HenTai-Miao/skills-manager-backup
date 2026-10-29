@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "b036d8d9-39d8-479e-9932-349f39703344",
+  "path": "tao-train-sparse4d",
+  "path_key": "tao-train-sparse4d",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/tao-train-sparse4d",
+    "branch": "main"
+  }
+}

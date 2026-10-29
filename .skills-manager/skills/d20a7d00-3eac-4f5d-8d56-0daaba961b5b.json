@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "d20a7d00-3eac-4f5d-8d56-0daaba961b5b",
+  "path": "doca-container-deployment",
+  "path_key": "doca-container-deployment",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/doca-container-deployment",
+    "branch": "main"
+  }
+}

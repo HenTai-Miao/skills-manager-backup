@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "5fc4b83c-f674-4dd8-8f3f-0dd29f975eaf",
+  "path": "jetson-speculative-decoding",
+  "path_key": "jetson-speculative-decoding",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/jetson-speculative-decoding",
+    "branch": "main"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "c24756c9-c804-4e57-98fa-bc4f3d136423",
+  "path": "doca-setup",
+  "path_key": "doca-setup",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/doca-setup",
+    "branch": "main"
+  }
+}

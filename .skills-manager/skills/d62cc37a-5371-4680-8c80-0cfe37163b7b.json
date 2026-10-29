@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "d62cc37a-5371-4680-8c80-0cfe37163b7b",
+  "path": "jetson-memory-audit",
+  "path_key": "jetson-memory-audit",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/jetson-memory-audit",
+    "branch": "main"
+  }
+}

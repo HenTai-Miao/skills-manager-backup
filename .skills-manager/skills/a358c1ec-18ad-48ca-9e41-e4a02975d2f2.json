@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "a358c1ec-18ad-48ca-9e41-e4a02975d2f2",
+  "path": "drug-discovery-pipeline",
+  "path_key": "drug-discovery-pipeline",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/bionemo-drug-discovery-pipeline",
+    "branch": "main"
+  }
+}

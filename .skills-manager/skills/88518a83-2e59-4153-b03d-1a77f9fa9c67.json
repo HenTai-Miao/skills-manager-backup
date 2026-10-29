@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "88518a83-2e59-4153-b03d-1a77f9fa9c67",
+  "path": "nemo-mbridge-perf-moe-optimization-workflow",
+  "path_key": "nemo-mbridge-perf-moe-optimization-workflow",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/nemo-mbridge-perf-moe-optimization-workflow",
+    "branch": "main"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "90728661-f7d2-4887-8b6c-ac6025bb9d46",
+  "path": "nemo-rl-brev-etiquette",
+  "path_key": "nemo-rl-brev-etiquette",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/nemo-rl-brev-etiquette",
+    "branch": "main"
+  }
+}

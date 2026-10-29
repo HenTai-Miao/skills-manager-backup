@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "5cf8d9a8-61fa-45d2-ae80-1f909d5bc7c9",
+  "path": "tao-train-centerpose",
+  "path_key": "tao-train-centerpose",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/tao-train-centerpose",
+    "branch": "main"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "b8487327-566c-406a-9405-4753498113e8",
+  "path": "nemo-mbridge-perf-moe-vlm-training",
+  "path_key": "nemo-mbridge-perf-moe-vlm-training",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/nemo-mbridge-perf-moe-vlm-training",
+    "branch": "main"
+  }
+}

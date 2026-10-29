@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "c04ca9ba-aea5-41a3-9b77-c708a370733e",
+  "path": "doca-perftest",
+  "path_key": "doca-perftest",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/doca-perftest",
+    "branch": "main"
+  }
+}

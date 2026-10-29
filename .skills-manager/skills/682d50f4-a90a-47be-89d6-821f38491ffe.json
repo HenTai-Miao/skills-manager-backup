@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "682d50f4-a90a-47be-89d6-821f38491ffe",
+  "path": "tao-train-codetr",
+  "path_key": "tao-train-codetr",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/tao-train-codetr",
+    "branch": "main"
+  }
+}

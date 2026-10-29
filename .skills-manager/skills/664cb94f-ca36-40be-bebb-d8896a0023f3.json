@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "664cb94f-ca36-40be-bebb-d8896a0023f3",
+  "path": "doca-flow",
+  "path_key": "doca-flow",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/doca-flow",
+    "branch": "main"
+  }
+}

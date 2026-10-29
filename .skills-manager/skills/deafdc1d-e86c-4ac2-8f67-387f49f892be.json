@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "deafdc1d-e86c-4ac2-8f67-387f49f892be",
+  "path": "jetson-print-device-info",
+  "path_key": "jetson-print-device-info",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/jetson-print-device-info",
+    "branch": "main"
+  }
+}

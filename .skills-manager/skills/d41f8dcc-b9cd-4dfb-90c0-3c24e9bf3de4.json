@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "d41f8dcc-b9cd-4dfb-90c0-3c24e9bf3de4",
+  "path": "nv-reason-ct",
+  "path_key": "nv-reason-ct",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/nv-reason-ct",
+    "branch": "main"
+  }
+}

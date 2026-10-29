@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "eefb2de8-a395-43c7-a423-3039879320b1",
+  "path": "hsb-ip-def",
+  "path_key": "hsb-ip-def",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/hsb-ip-def",
+    "branch": "main"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "1d78ac7e-164e-4034-b0e2-2776c0d45305",
+  "path": "jetson-flash-image",
+  "path_key": "jetson-flash-image",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/jetson-flash-image",
+    "branch": "main"
+  }
+}

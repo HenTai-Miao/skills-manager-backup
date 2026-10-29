@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "91da636f-742e-44fa-8741-936031db92c3",
+  "path": "nemo-mbridge-perf-tp-dp-comm-overlap",
+  "path_key": "nemo-mbridge-perf-tp-dp-comm-overlap",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/nemo-mbridge-perf-tp-dp-comm-overlap",
+    "branch": "main"
+  }
+}

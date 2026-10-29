@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "b4c3ea86-4aa9-4434-aa23-6d05eddc7c41",
+  "path": "earth2studio-create-datasource",
+  "path_key": "earth2studio-create-datasource",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/earth2studio-create-datasource",
+    "branch": "main"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "7767d292-d52c-43b1-88cd-9d04dfccdb0d",
+  "path": "rfdiffusion-nim",
+  "path_key": "rfdiffusion-nim",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/bionemo-rfdiffusion-nim",
+    "branch": "main"
+  }
+}

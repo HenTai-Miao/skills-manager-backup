@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "3b1c7069-20a6-4fee-b56e-2b278f8f93ed",
+  "path": "nvflare-shared",
+  "path_key": "nvflare-shared",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/nvflare-shared",
+    "branch": "main"
+  }
+}

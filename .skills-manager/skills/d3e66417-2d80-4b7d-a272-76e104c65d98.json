@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "d3e66417-2d80-4b7d-a272-76e104c65d98",
+  "path": "doca-sta",
+  "path_key": "doca-sta",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/doca-sta",
+    "branch": "main"
+  }
+}

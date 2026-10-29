@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "d1343aa1-fdec-4df3-b976-fe17ab2f4ef9",
+  "path": "doca-telemetry-traceback-application",
+  "path_key": "doca-telemetry-traceback-application",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/doca-telemetry-traceback-application",
+    "branch": "main"
+  }
+}

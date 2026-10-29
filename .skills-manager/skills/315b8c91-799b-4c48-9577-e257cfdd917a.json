@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "315b8c91-799b-4c48-9577-e257cfdd917a",
+  "path": "nemo-relay-get-started",
+  "path_key": "nemo-relay-get-started",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/nemo-relay-get-started",
+    "branch": "main"
+  }
+}

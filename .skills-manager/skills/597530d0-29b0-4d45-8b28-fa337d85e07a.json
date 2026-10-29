@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "597530d0-29b0-4d45-8b28-fa337d85e07a",
+  "path": "tao-finetune-kumo-forecast",
+  "path_key": "tao-finetune-kumo-forecast",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/tao-finetune-kumo-forecast",
+    "branch": "main"
+  }
+}

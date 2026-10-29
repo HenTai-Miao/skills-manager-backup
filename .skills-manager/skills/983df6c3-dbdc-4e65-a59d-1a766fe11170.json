@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "983df6c3-dbdc-4e65-a59d-1a766fe11170",
+  "path": "jetson-llm-benchmark",
+  "path_key": "jetson-llm-benchmark",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/jetson-llm-benchmark",
+    "branch": "main"
+  }
+}

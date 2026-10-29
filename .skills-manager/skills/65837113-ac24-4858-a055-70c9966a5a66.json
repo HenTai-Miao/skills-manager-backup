@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "65837113-ac24-4858-a055-70c9966a5a66",
+  "path": "nemo-retriever-mcp",
+  "path_key": "nemo-retriever-mcp",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/nemo-retriever-mcp",
+    "branch": "main"
+  }
+}

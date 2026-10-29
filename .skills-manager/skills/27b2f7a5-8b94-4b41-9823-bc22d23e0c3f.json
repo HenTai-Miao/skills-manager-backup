@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "27b2f7a5-8b94-4b41-9823-bc22d23e0c3f",
+  "path": "tao-finetune-huggingface-model",
+  "path_key": "tao-finetune-huggingface-model",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/tao-finetune-huggingface-model",
+    "branch": "main"
+  }
+}

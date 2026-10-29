@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "a6405b45-ea22-4795-a417-59836bd371ac",
+  "path": "jetson-video-setup",
+  "path_key": "jetson-video-setup",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/jetson-video-setup",
+    "branch": "main"
+  }
+}

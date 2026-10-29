@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "19685e21-6ec5-4837-99c5-a9aaf1ef38ca",
+  "path": "holoscan-install-wheel",
+  "path_key": "holoscan-install-wheel",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/holoscan-install-wheel",
+    "branch": "main"
+  }
+}

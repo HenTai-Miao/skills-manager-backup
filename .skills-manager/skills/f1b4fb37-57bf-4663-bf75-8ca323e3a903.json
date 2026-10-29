@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "f1b4fb37-57bf-4663-bf75-8ca323e3a903",
+  "path": "nemo-mbridge-perf-moe-long-context",
+  "path_key": "nemo-mbridge-perf-moe-long-context",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/nemo-mbridge-perf-moe-long-context",
+    "branch": "main"
+  }
+}

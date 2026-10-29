@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "f740426c-68ae-42e4-84ff-c13a1822c3ec",
+  "path": "rag-perf",
+  "path_key": "rag-perf",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/rag-perf",
+    "branch": "main"
+  }
+}

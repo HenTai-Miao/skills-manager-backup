@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "6ed08196-d279-4293-8949-5fa07a4815d7",
+  "path": "nemo-automodel-recipe-development",
+  "path_key": "nemo-automodel-recipe-development",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/nemo-automodel-recipe-development",
+    "branch": "main"
+  }
+}

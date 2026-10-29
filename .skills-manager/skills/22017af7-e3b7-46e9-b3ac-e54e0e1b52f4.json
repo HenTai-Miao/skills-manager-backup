@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "22017af7-e3b7-46e9-b3ac-e54e0e1b52f4",
+  "path": "nvidia-broadcast",
+  "path_key": "nvidia-broadcast",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/nvidia-broadcast",
+    "branch": "main"
+  }
+}

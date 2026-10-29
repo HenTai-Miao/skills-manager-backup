@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "45afe22a-f65d-4929-9028-b74fa166c01c",
+  "path": "tao-train-dinov3",
+  "path_key": "tao-train-dinov3",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/tao-train-dinov3",
+    "branch": "main"
+  }
+}

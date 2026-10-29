@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "c8c18f1f-37bb-4bea-ac5b-042c19661d0d",
+  "path": "codonfm-setup",
+  "path_key": "codonfm-setup",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/bionemo-codonfm-setup",
+    "branch": "main"
+  }
+}

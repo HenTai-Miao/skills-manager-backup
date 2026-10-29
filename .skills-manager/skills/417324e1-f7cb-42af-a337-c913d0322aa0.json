@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "417324e1-f7cb-42af-a337-c913d0322aa0",
+  "path": "proteinmpnn-nim",
+  "path_key": "proteinmpnn-nim",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/bionemo-proteinmpnn-nim",
+    "branch": "main"
+  }
+}

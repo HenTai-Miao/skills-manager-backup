@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "0642677c-7375-47a2-9494-3e92082b2d97",
+  "path": "isaac-humanoid-cloud-control",
+  "path_key": "isaac-humanoid-cloud-control",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/isaac-humanoid-cloud-control",
+    "branch": "main"
+  }
+}

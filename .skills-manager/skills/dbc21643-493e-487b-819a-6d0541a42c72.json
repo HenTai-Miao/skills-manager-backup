@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "dbc21643-493e-487b-819a-6d0541a42c72",
+  "path": "tao-train-deformable-detr",
+  "path_key": "tao-train-deformable-detr",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/tao-train-deformable-detr",
+    "branch": "main"
+  }
+}

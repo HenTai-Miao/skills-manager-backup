@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "16ea8175-85bb-4dc5-b48b-9fb4fb42aa07",
+  "path": "dicom-metadata-extract",
+  "path_key": "dicom-metadata-extract",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/dicom-metadata-extract",
+    "branch": "main"
+  }
+}

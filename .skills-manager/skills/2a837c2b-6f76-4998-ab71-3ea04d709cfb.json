@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "2a837c2b-6f76-4998-ab71-3ea04d709cfb",
+  "path": "ethos-write",
+  "path_key": "ethos-write",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/ethos-write",
+    "branch": "main"
+  }
+}

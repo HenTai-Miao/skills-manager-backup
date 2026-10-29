@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "6cac1bd7-3953-4243-ab5b-6d478088f73e",
+  "path": "jetson-customize-pcie",
+  "path_key": "jetson-customize-pcie",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/jetson-customize-pcie",
+    "branch": "main"
+  }
+}

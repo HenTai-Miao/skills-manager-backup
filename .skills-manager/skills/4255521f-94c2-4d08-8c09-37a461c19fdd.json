@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "4255521f-94c2-4d08-8c09-37a461c19fdd",
+  "path": "tao-train-rtdetr",
+  "path_key": "tao-train-rtdetr",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/tao-train-rtdetr",
+    "branch": "main"
+  }
+}

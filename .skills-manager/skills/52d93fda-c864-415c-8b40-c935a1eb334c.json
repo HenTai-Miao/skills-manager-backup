@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "52d93fda-c864-415c-8b40-c935a1eb334c",
+  "path": "doca-bench",
+  "path_key": "doca-bench",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/doca-bench",
+    "branch": "main"
+  }
+}

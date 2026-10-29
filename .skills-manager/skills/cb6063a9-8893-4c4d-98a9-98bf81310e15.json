@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "cb6063a9-8893-4c4d-98a9-98bf81310e15",
+  "path": "holoscan-app-debug-build-run",
+  "path_key": "holoscan-app-debug-build-run",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/holoscan-app-debug-build-run",
+    "branch": "main"
+  }
+}

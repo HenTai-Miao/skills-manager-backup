@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "7fa601cb-9168-4410-b43d-aec7a8e65ee8",
+  "path": "tao-mine-nearest-neighbors",
+  "path_key": "tao-mine-nearest-neighbors",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/tao-mine-nearest-neighbors",
+    "branch": "main"
+  }
+}

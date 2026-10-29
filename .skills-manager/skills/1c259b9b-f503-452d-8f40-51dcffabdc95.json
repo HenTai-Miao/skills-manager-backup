@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "1c259b9b-f503-452d-8f40-51dcffabdc95",
+  "path": "tao-finetune-kumo-anomaly",
+  "path_key": "tao-finetune-kumo-anomaly",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/tao-finetune-kumo-anomaly",
+    "branch": "main"
+  }
+}

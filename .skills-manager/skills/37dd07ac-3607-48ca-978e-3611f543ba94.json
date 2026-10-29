@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "37dd07ac-3607-48ca-978e-3611f543ba94",
+  "path": "i4h-workflow-scene-edit",
+  "path_key": "i4h-workflow-scene-edit",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/i4h-workflow-scene-edit",
+    "branch": "main"
+  }
+}

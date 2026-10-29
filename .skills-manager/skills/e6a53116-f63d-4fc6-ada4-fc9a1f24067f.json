@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "e6a53116-f63d-4fc6-ada4-fc9a1f24067f",
+  "path": "codonfm-score",
+  "path_key": "codonfm-score",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/bionemo-codonfm-score",
+    "branch": "main"
+  }
+}

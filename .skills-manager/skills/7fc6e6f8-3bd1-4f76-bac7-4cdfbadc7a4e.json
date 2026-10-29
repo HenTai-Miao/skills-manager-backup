@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "7fc6e6f8-3bd1-4f76-bac7-4cdfbadc7a4e",
+  "path": "tao-mine-od-images",
+  "path_key": "tao-mine-od-images",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/tao-mine-od-images",
+    "branch": "main"
+  }
+}

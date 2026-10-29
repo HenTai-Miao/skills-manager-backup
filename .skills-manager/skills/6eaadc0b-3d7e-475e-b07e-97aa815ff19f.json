@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "6eaadc0b-3d7e-475e-b07e-97aa815ff19f",
+  "path": "tao-train-metric-learning-recognition",
+  "path_key": "tao-train-metric-learning-recognition",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/tao-train-metric-learning-recognition",
+    "branch": "main"
+  }
+}

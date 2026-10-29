@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "e45c52a7-f3c3-4943-b5b7-05be08aaaa66",
+  "path": "nemo-fabric-build-adapter",
+  "path_key": "nemo-fabric-build-adapter",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/nemo-fabric-build-adapter",
+    "branch": "main"
+  }
+}

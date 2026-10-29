@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "4e9bd2d6-8639-41d4-9f64-9598823cf5ee",
+  "path": "cdf-video-data-augmentation",
+  "path_key": "cdf-video-data-augmentation",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/cdf-video-data-augmentation",
+    "branch": "main"
+  }
+}

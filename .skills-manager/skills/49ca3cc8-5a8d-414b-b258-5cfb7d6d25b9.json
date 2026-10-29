@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "49ca3cc8-5a8d-414b-b258-5cfb7d6d25b9",
+  "path": "jetson-customize-uphy",
+  "path_key": "jetson-customize-uphy",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/jetson-customize-uphy",
+    "branch": "main"
+  }
+}

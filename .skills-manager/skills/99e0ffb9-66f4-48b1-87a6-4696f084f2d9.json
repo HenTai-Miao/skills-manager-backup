@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "99e0ffb9-66f4-48b1-87a6-4696f084f2d9",
+  "path": "nv-generate-vae-finetune",
+  "path_key": "nv-generate-vae-finetune",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/nv-generate-vae-finetune",
+    "branch": "main"
+  }
+}

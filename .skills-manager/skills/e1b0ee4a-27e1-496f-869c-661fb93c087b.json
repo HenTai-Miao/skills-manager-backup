@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "e1b0ee4a-27e1-496f-869c-661fb93c087b",
+  "path": "tao-validate-dataset-format",
+  "path_key": "tao-validate-dataset-format",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/tao-validate-dataset-format",
+    "branch": "main"
+  }
+}

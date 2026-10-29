@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "92d5c557-b42f-4882-ac88-a83ec79ecb9f",
+  "path": "nemo-mbridge-perf-moe-hardware-configs",
+  "path_key": "nemo-mbridge-perf-moe-hardware-configs",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/nemo-mbridge-perf-moe-hardware-configs",
+    "branch": "main"
+  }
+}

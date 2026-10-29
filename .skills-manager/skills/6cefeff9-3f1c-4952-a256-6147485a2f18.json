@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "6cefeff9-3f1c-4952-a256-6147485a2f18",
+  "path": "doca-hardware-safety",
+  "path_key": "doca-hardware-safety",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/doca-hardware-safety",
+    "branch": "main"
+  }
+}

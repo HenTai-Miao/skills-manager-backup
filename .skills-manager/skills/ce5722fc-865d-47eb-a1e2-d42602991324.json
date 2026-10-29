@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "ce5722fc-865d-47eb-a1e2-d42602991324",
+  "path": "earth2studio-deterministic-forecast",
+  "path_key": "earth2studio-deterministic-forecast",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/earth2studio-deterministic-forecast",
+    "branch": "main"
+  }
+}

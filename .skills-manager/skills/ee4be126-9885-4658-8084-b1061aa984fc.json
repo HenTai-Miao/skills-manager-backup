@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "ee4be126-9885-4658-8084-b1061aa984fc",
+  "path": "nemo-rl-auto-research",
+  "path_key": "nemo-rl-auto-research",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/nemo-rl-auto-research",
+    "branch": "main"
+  }
+}

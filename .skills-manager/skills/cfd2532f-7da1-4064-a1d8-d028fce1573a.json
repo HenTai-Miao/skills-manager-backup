@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "cfd2532f-7da1-4064-a1d8-d028fce1573a",
+  "path": "warp-compile-time-optimizer",
+  "path_key": "warp-compile-time-optimizer",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/warp-compile-time-optimizer",
+    "branch": "main"
+  }
+}

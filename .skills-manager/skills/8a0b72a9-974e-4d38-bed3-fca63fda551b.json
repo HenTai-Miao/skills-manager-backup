@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "8a0b72a9-974e-4d38-bed3-fca63fda551b",
+  "path": "doca-erasure-coding",
+  "path_key": "doca-erasure-coding",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/doca-erasure-coding",
+    "branch": "main"
+  }
+}

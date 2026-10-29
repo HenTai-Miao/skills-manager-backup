@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "d8446ac7-6d9b-4f51-8ea2-a4b43bc02872",
+  "path": "tao-analyze-gaps-vlm-bcq",
+  "path_key": "tao-analyze-gaps-vlm-bcq",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/tao-analyze-gaps-vlm-bcq",
+    "branch": "main"
+  }
+}

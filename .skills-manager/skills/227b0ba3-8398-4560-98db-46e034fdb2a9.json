@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "227b0ba3-8398-4560-98db-46e034fdb2a9",
+  "path": "doca-structured-tools-contract",
+  "path_key": "doca-structured-tools-contract",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/doca-structured-tools-contract",
+    "branch": "main"
+  }
+}

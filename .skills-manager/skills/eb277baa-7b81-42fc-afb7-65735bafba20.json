@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "eb277baa-7b81-42fc-afb7-65735bafba20",
+  "path": "pva-doctor",
+  "path_key": "pva-doctor",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/pva-doctor",
+    "branch": "main"
+  }
+}

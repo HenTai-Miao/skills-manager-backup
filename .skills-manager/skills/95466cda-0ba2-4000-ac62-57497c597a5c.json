@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "95466cda-0ba2-4000-ac62-57497c597a5c",
+  "path": "kermt-add-cmim-pretrain",
+  "path_key": "kermt-add-cmim-pretrain",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/bionemo-kermt-add-cmim-pretrain",
+    "branch": "main"
+  }
+}

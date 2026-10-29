@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "b0853929-3c67-4fbb-90e1-2c911c23f4a9",
+  "path": "doca-bf4-deployment",
+  "path_key": "doca-bf4-deployment",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/doca-bf4-deployment",
+    "branch": "main"
+  }
+}

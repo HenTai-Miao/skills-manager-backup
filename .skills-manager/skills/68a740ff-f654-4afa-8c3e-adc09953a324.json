@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "68a740ff-f654-4afa-8c3e-adc09953a324",
+  "path": "nemo-rl-session-memory",
+  "path_key": "nemo-rl-session-memory",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/nemo-rl-session-memory",
+    "branch": "main"
+  }
+}

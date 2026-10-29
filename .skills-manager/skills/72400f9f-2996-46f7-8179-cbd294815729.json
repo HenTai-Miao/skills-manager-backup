@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "72400f9f-2996-46f7-8179-cbd294815729",
+  "path": "doca-dpa",
+  "path_key": "doca-dpa",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/doca-dpa",
+    "branch": "main"
+  }
+}

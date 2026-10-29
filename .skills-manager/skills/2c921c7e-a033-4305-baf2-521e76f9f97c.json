@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "2c921c7e-a033-4305-baf2-521e76f9f97c",
+  "path": "doca-socket-relay",
+  "path_key": "doca-socket-relay",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/NVIDIA/skills/tree/main/skills",
+    "subpath": "skills/doca-socket-relay",
+    "branch": "main"
+  }
+}
