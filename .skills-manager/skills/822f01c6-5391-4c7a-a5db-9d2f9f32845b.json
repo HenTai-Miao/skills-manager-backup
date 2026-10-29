@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "822f01c6-5391-4c7a-a5db-9d2f9f32845b",
+  "path": "pulling-updates-from-skills-repository",
+  "path_key": "pulling-updates-from-skills-repository",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "obra/superpowers-skills/pulling-updates-from-skills-repository",
+    "subpath": "skills/meta/pulling-updates-from-skills-repository",
+    "branch": null
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "eba9a4e5-43fc-4526-aa36-1a68769da189",
+  "path": "meta-pattern-recognition",
+  "path_key": "meta-pattern-recognition",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "obra/superpowers-skills/meta-pattern-recognition",
+    "subpath": "skills/problem-solving/meta-pattern-recognition",
+    "branch": null
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "0ae076f0-bda7-4bda-baf3-6adb1ee53c5a",
+  "path": "developing-claude-code-plugins",
+  "path_key": "developing-claude-code-plugins",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "obra/superpowers-developing-for-claude-code/developing-claude-code-plugins",
+    "subpath": "skills/developing-claude-code-plugins",
+    "branch": null
+  }
+}

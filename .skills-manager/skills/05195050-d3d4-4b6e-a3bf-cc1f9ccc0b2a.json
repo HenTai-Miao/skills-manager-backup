@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "05195050-d3d4-4b6e-a3bf-cc1f9ccc0b2a",
+  "path": "inversion-exercise",
+  "path_key": "inversion-exercise",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "obra/superpowers-skills/inversion-exercise",
+    "subpath": "skills/problem-solving/inversion-exercise",
+    "branch": null
+  }
+}

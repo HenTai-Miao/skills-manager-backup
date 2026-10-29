@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "57dbc80e-a271-4896-89b5-ac4b90b473cd",
+  "path": "preserving-productive-tensions",
+  "path_key": "preserving-productive-tensions",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "obra/superpowers-skills/preserving-productive-tensions",
+    "subpath": "skills/architecture/preserving-productive-tensions",
+    "branch": null
+  }
+}

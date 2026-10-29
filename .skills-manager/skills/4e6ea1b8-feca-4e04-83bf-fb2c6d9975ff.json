@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "4e6ea1b8-feca-4e04-83bf-fb2c6d9975ff",
+  "path": "finding-duplicate-functions",
+  "path_key": "finding-duplicate-functions",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "obra/superpowers-lab/finding-duplicate-functions",
+    "subpath": "skills/finding-duplicate-functions",
+    "branch": null
+  }
+}

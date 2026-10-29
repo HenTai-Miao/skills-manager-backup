@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "4a074d6b-68b3-4e62-9744-2cc5f7bd8bf8",
+  "path": "remembering-conversations",
+  "path_key": "remembering-conversations",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "obra/superpowers-skills/remembering-conversations",
+    "subpath": "skills/collaboration/remembering-conversations",
+    "branch": null
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "96b6a4ab-386c-4bdd-9fb3-afeb60fa97b2",
+  "path": "testing-skills-with-subagents",
+  "path_key": "testing-skills-with-subagents",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "obra/superpowers-skills/testing-skills-with-subagents",
+    "subpath": "skills/meta/testing-skills-with-subagents",
+    "branch": null
+  }
+}

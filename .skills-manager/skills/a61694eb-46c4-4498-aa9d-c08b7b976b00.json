@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "a61694eb-46c4-4498-aa9d-c08b7b976b00",
+  "path": "working-with-claude-code",
+  "path_key": "working-with-claude-code",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "obra/superpowers-developing-for-claude-code/working-with-claude-code",
+    "subpath": "skills/working-with-claude-code",
+    "branch": null
+  }
+}

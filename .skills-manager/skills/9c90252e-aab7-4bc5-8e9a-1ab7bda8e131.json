@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "9c90252e-aab7-4bc5-8e9a-1ab7bda8e131",
+  "path": "sharing-skills",
+  "path_key": "sharing-skills",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "obra/superpowers-skills/sharing-skills",
+    "subpath": "skills/meta/sharing-skills",
+    "branch": null
+  }
+}

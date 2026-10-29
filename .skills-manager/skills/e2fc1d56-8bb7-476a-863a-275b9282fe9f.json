@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "e2fc1d56-8bb7-476a-863a-275b9282fe9f",
+  "path": "using-tmux-for-interactive-commands",
+  "path_key": "using-tmux-for-interactive-commands",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "obra/superpowers-lab/using-tmux-for-interactive-commands",
+    "subpath": "skills/using-tmux-for-interactive-commands",
+    "branch": null
+  }
+}

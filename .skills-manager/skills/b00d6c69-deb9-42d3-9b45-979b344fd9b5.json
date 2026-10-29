@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "b00d6c69-deb9-42d3-9b45-979b344fd9b5",
+  "path": "windows-vm",
+  "path_key": "windows-vm",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "obra/superpowers-lab/windows-vm",
+    "subpath": "skills/windows-vm",
+    "branch": null
+  }
+}

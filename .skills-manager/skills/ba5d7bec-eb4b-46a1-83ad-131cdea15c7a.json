@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "ba5d7bec-eb4b-46a1-83ad-131cdea15c7a",
+  "path": "hallmark",
+  "path_key": "hallmark",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "nutlope/hallmark/hallmark",
+    "subpath": "skills/hallmark",
+    "branch": null
+  }
+}

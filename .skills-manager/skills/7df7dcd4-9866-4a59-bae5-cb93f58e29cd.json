@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "7df7dcd4-9866-4a59-bae5-cb93f58e29cd",
+  "path": "mcp-cli",
+  "path_key": "mcp-cli",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "obra/superpowers-lab/mcp-cli",
+    "subpath": "skills/mcp-cli",
+    "branch": null
+  }
+}
